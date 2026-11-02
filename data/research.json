@@ -1,0 +1,2896 @@
+{
+  "edit": "Notes that are not a live strike row: diplomacy, state keyword boxes, method, and closed-market books. Country and company fair values for open November markets live on each strike in markets.json.",
+  "stamps": {
+    "rallies": "8:50 AM WITA, Mon 2 Nov 2026",
+    "weekly": "1:12 PM WITA, Mon 2 Nov 2026"
+  },
+  "novemberRules": "Rules: anything Trump says in public or posts on Truth Social / X counts (quotes in news reports too); plurals and possessives count; either side of a slash counts; executive orders don't. Hit rate = months said (Kalshi past results) · rallies said (our 7 transcripts).",
+  "standardCountryTemplate": [
+    "Afghanistan / Afghan",
+    "Australia / Australian",
+    "Canada / Canadian",
+    "Congo / Congolese",
+    "Cuba / Cuban",
+    "France / French",
+    "Germany / German",
+    "Japan / Japanese",
+    "Mexico / Mexican",
+    "Saudi Arabia / Saudi Arabian",
+    "Somalia / Somali",
+    "South Korea / South Korean",
+    "United Kingdom / British"
+  ],
+  "yellowWeekTo9Nov": [
+    "Ranked Choice / Ranked-Choice",
+    "Finland / Finnish",
+    "GDP",
+    "Robot / Robotic / Robotics",
+    "Mortgage",
+    "Tomahawk",
+    "Ethanol",
+    "Diesel",
+    "Refinery",
+    "Houthi",
+    "Quantum"
+  ],
+  "rallyOddStrikes": [
+    "Affordable / Affordability",
+    "Brazil",
+    "Cattle",
+    "Corn",
+    "Elon / Musk",
+    "Ethanol",
+    "Grass",
+    "Insurance",
+    "SI / Super Intelligence",
+    "Terrorist / Terrorism",
+    "Farm / Farmer",
+    "Aircraft / Aviation",
+    "Diesel",
+    "Water",
+    "Boeing",
+    "NATO"
+  ],
+  "kalshiLifetimeHitRate": {
+    "Save America Act": "25/25",
+    "Transgender": "17/17",
+    "Nuclear (3+ times)": "11/12",
+    "Steel": "6/6",
+    "Canada / Canadian": "5/5",
+    "Farm / Farmer": "3/3",
+    "China / Chinese": "16/19",
+    "ICE": "14/18",
+    "Iran (5+ times)": "18/25",
+    "Made in America / American Made": "17/25",
+    "Hormuz": "15/25",
+    "Supreme Court": "15/23",
+    "Kamala": "14/22",
+    "Russia / Ukraine": "13/25",
+    "America First": "13/25",
+    "Gulf of America": "12/22",
+    "Tariff (3+ times)": "8/9",
+    "Fraud (3+ times)": "6/20",
+    "Blockade": "7/20",
+    "AI / Artificial Intelligence": "6/25",
+    "Israel / Israeli": "6/22",
+    "Small Business": "3/6",
+    "Electricity": "3/9",
+    "Data Center": "3/22",
+    "Deport / Deported / Deportation": "3/25",
+    "Ethanol": "1/3",
+    "Elon / Musk": "2/7",
+    "Windmill": "2/9",
+    "Fentanyl": "2/25",
+    "Diesel": "1/2",
+    "Boeing": "1/2",
+    "Cattle": "1/1",
+    "NATO": "1/2",
+    "Water": "1/2",
+    "Aircraft / Aviation": "1/1",
+    "Social Security (5+ times)": "1/9",
+    "Veteran": "1/7",
+    "Space Force": "1/9",
+    "Palestine / Palestinian": "1/16",
+    "Ceasefire": "1/25",
+    "Corn": "0/2",
+    "Insurance": "0/3",
+    "Greenland": "0/4",
+    "Trump Account": "0/19",
+    "Peace in the Middle East": "0/21",
+    "Crypto / Bitcoin": "0/25",
+    "Event does not qualify": "0/25"
+  },
+  "diplomacy": [
+    {
+      "when": "28–29 Oct (done)",
+      "item": "Two Trump–Erdoğan calls: Hormuz, Houthis, Ukraine",
+      "status": "done; follow-up likely",
+      "feeds": "Turkey 92, Yemen 72",
+      "strikes": [
+        "Turkey / Turkish",
+        "Yemen / Yemeni"
+      ]
+    },
+    {
+      "when": "30–31 Oct (done)",
+      "item": "G20 foreign ministers, Atlanta; South Africa not invited, Poland a guest",
+      "status": "done, no consensus",
+      "feeds": "South Africa 25, Poland 88",
+      "strikes": [
+        "South Africa / South African",
+        "Poland / Polish"
+      ]
+    },
+    {
+      "when": "31 Oct (done)",
+      "item": "Iran delegation in Doha; Qatar and Pakistan mediating; Trump–Netanyahu call",
+      "status": "ongoing, no direct-talk deal",
+      "feeds": "Qatar 98, Bahrain 48, Kuwait 50",
+      "strikes": [
+        "Qatar / Qatari",
+        "Bahrain / Bahraini",
+        "Kuwait / Kuwaiti"
+      ]
+    },
+    {
+      "when": "Wed 4 Nov",
+      "item": "Midterm results remarks; US may confirm Abu Dhabi talks; Iran strikes could restart after 3 Nov",
+      "status": "expected",
+      "feeds": "Kuwait, Bahrain, Yemen (only if strikes)",
+      "strikes": [
+        "Kuwait / Kuwaiti",
+        "Bahrain / Bahraini",
+        "Yemen / Yemeni"
+      ]
+    },
+    {
+      "when": "~6–10 Nov",
+      "item": "US–Russia–Ukraine talks in Abu Dhabi (Zelensky's dates)",
+      "status": "not confirmed, expert level",
+      "feeds": "UAE 72",
+      "strikes": [
+        "UAE / United Arab Emirates"
+      ]
+    },
+    {
+      "when": "9–20 Nov",
+      "item": "COP31, Antalya (Trump not going)",
+      "status": "set",
+      "feeds": "Turkey",
+      "strikes": [
+        "Turkey / Turkish"
+      ]
+    },
+    {
+      "when": "12 Nov",
+      "item": "European Political Community summit, Dublin (no US)",
+      "status": "set",
+      "feeds": "Ireland 85",
+      "strikes": [
+        "Ireland / Irish"
+      ]
+    },
+    {
+      "when": "16–17 Nov",
+      "item": "ASEAN, Manila",
+      "status": "Trump trip",
+      "feeds": "Japan, South Korea, Australia",
+      "strikes": [
+        "Japan / Japanese",
+        "South Korea / South Korean",
+        "Australia / Australian"
+      ]
+    },
+    {
+      "when": "18–19 Nov",
+      "item": "APEC Shenzhen + Xi meeting",
+      "status": "Xi confirmed; Kim not confirmed",
+      "feeds": "Taiwan 97, North Korea 85, Japan, South Korea, Australia",
+      "strikes": [
+        "Taiwan / Taiwanese",
+        "North Korea / North Korean",
+        "Japan / Japanese",
+        "South Korea / South Korean",
+        "Australia / Australian"
+      ]
+    },
+    {
+      "when": "Nov (no date)",
+      "item": "No foreign-leader White House visit found; Milei Miami mention; possible Belgium visit floated",
+      "status": "unconfirmed",
+      "feeds": "Argentina 92, Belgium 22",
+      "strikes": [
+        "Argentina / Argentinian",
+        "Belgium / Belgian"
+      ]
+    },
+    {
+      "when": "14–15 Dec",
+      "item": "G20 leaders, Miami",
+      "status": "after the November window",
+      "feeds": "South Africa (December story)",
+      "strikes": [
+        "South Africa / South African"
+      ]
+    }
+  ],
+  "diplomacyNote": "Speech check: Chillicothe, Daytona and Rock Hill all said Mexico, Canada, France and Somalia. Daytona added Afghanistan, Australia, UK, Japan, South Korea, Saudi and Cuba. The 31 Oct tele-rallies were almost country-free (France and Saudi in Michigan, Saudi in New York).",
+  "keywords": [
+    {
+      "state": "South Carolina",
+      "code": "SC",
+      "upcoming": false,
+      "groups": [
+        {
+          "group": "Candidates",
+          "line": "Senate: Darline Graham (R, appointed after brother Lindsey Graham died 11 Jul) vs Annie Andrews (D), NYT/Siena 48–48 · Governor: Alan Wilson (R) vs Jermaine Johnson (D) · SC-5 (Rock Hill, open): Wes Climer (R) vs Mallory Dittmer (D)",
+          "items": [
+            {
+              "text": "Senate: Darline Graham (R, appointed after brother Lindsey Graham died 11 Jul) vs Annie Andrews (D), NYT/Siena 48–48",
+              "strikes": []
+            },
+            {
+              "text": "Governor: Alan Wilson (R) vs Jermaine Johnson (D)",
+              "strikes": []
+            },
+            {
+              "text": "SC-5 (Rock Hill, open): Wes Climer (R) vs Mallory Dittmer (D)",
+              "strikes": []
+            }
+          ]
+        },
+        {
+          "group": "Industry",
+          "line": "BMW Spartanburg auto plant, tariff exposure [live strike \"Tariff (3+ times)\": Likely YES (90%)] · Nucor steel mills [live strike \"Steel\": Likely YES (90%)] · Catawba Nuclear Station (York County, beside Rock Hill) [live strike \"Nuclear (3+ times)\": Likely YES (90%)] · Duke Energy power rates · Data-center build-out [live strike \"Data Center\": Likely NO (12%)] · Boeing 787 plant and Port of Charleston · Peaches, tobacco, poultry",
+          "items": [
+            {
+              "text": "BMW Spartanburg auto plant, tariff exposure",
+              "strikes": [
+                "Tariff (3+ times)"
+              ]
+            },
+            {
+              "text": "Nucor steel mills",
+              "strikes": [
+                "Steel"
+              ]
+            },
+            {
+              "text": "Catawba Nuclear Station (York County, beside Rock Hill)",
+              "strikes": [
+                "Nuclear (3+ times)"
+              ]
+            },
+            {
+              "text": "Duke Energy power rates",
+              "strikes": [
+                "Electricity"
+              ]
+            },
+            {
+              "text": "Data-center build-out",
+              "strikes": [
+                "Data Center"
+              ]
+            },
+            {
+              "text": "Boeing 787 plant and Port of Charleston",
+              "strikes": []
+            },
+            {
+              "text": "Peaches, tobacco, poultry",
+              "strikes": []
+            }
+          ]
+        },
+        {
+          "group": "Local hooks",
+          "line": "Fort Jackson (largest Army basic-training post) [live strike \"Veteran\": Likely NO (15%)] · Shaw AFB, Parris Island · Hurricane Helene 2024 (Upstate) · Charlotte suburb, on the NC line",
+          "items": [
+            {
+              "text": "Fort Jackson (largest Army basic-training post)",
+              "strikes": [
+                "Veteran"
+              ]
+            },
+            {
+              "text": "Shaw AFB, Parris Island",
+              "strikes": []
+            },
+            {
+              "text": "Hurricane Helene 2024 (Upstate)",
+              "strikes": [
+                "Hurricane",
+                "FEMA"
+              ]
+            },
+            {
+              "text": "Charlotte suburb, on the NC line",
+              "strikes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Florida",
+      "code": "FL",
+      "upcoming": false,
+      "groups": [
+        {
+          "group": "Candidates",
+          "line": "Senate (special): Ashley Moody (R) vs Angie Nixon (D) · Governor: Byron Donalds (R) vs David Jolly (D) · FL-6 (Daytona): Randy Fine (R) vs Eric Yonce (D)",
+          "items": [
+            {
+              "text": "Senate (special): Ashley Moody (R) vs Angie Nixon (D)",
+              "strikes": []
+            },
+            {
+              "text": "Governor: Byron Donalds (R) vs David Jolly (D)",
+              "strikes": []
+            },
+            {
+              "text": "FL-6 (Daytona): Randy Fine (R) vs Eric Yonce (D)",
+              "strikes": []
+            }
+          ]
+        },
+        {
+          "group": "Industry",
+          "line": "Tourism · Property-insurance crisis [live strike \"Insurance\": Likely NO (12%)] · Space industry and Port Canaveral · Citrus, cattle · Gas prices and cost of living (Volusia GOP)",
+          "items": [
+            {
+              "text": "Tourism",
+              "strikes": []
+            },
+            {
+              "text": "Property-insurance crisis",
+              "strikes": [
+                "Insurance"
+              ]
+            },
+            {
+              "text": "Space industry and Port Canaveral",
+              "strikes": []
+            },
+            {
+              "text": "Citrus, cattle",
+              "strikes": []
+            },
+            {
+              "text": "Gas prices and cost of living (Volusia GOP)",
+              "strikes": [
+                "Affordable / Affordability"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Local hooks",
+          "line": "Cape Canaveral SFS, Kennedy Space Center, Patrick SFB (about 75 mi south) · Gulf of America (state's west coast) · Hurricanes Ian 2022 and Milton 2024 flooded Volusia; coastal flood warning 29 Oct · Kansas and Iowa stops scrapped; may be the last in-person rally · NASCAR, Daytona 500, Bike Week · Embry-Riddle aviation · Cuban and Venezuelan voters",
+          "items": [
+            {
+              "text": "Cape Canaveral SFS, Kennedy Space Center, Patrick SFB (about 75 mi south)",
+              "strikes": [
+                "Space Force"
+              ]
+            },
+            {
+              "text": "Gulf of America (state's west coast)",
+              "strikes": [
+                "Gulf of America"
+              ]
+            },
+            {
+              "text": "Hurricanes Ian 2022 and Milton 2024 flooded Volusia; coastal flood warning 29 Oct",
+              "strikes": []
+            },
+            {
+              "text": "Kansas and Iowa stops scrapped; may be the last in-person rally",
+              "strikes": []
+            },
+            {
+              "text": "NASCAR, Daytona 500, Bike Week",
+              "strikes": []
+            },
+            {
+              "text": "Embry-Riddle aviation",
+              "strikes": []
+            },
+            {
+              "text": "Cuban and Venezuelan voters",
+              "strikes": [
+                "Communist / Socialist 5+ times"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Iowa",
+      "code": "IA",
+      "upcoming": false,
+      "groups": [
+        {
+          "group": "Candidates",
+          "line": "Senate (open): Ashley Hinson (R) vs Josh Turek (D) · Governor (open): Zach Lahn (R) vs Rob Sand (D) · IA-2 (Dubuque, open): Joe Mitchell (R) vs Lindsay James (D)",
+          "items": [
+            {
+              "text": "Senate (open): Ashley Hinson (R) vs Josh Turek (D)",
+              "strikes": []
+            },
+            {
+              "text": "Governor (open): Zach Lahn (R) vs Rob Sand (D)",
+              "strikes": []
+            },
+            {
+              "text": "IA-2 (Dubuque, open): Joe Mitchell (R) vs Lindsay James (D)",
+              "strikes": []
+            }
+          ]
+        },
+        {
+          "group": "Industry",
+          "line": "Corn [live strike \"Corn\": Lean NO (40%)] · Ethanol [live strike \"Ethanol\": Likely NO (6%)] · Soybeans, China tariff exposure [live strike \"China / Chinese\": Likely YES (93%)] · Cattle and hogs [live strike \"Cattle\": Lean NO (30%)] · John Deere Dubuque Works (machinery, steel costs) [live strike \"Steel\": Likely YES (90%)] · Wind power [live strike \"Windmill\": Likely NO (12%)] · Data centers [live strike \"Data Center\": Likely NO (12%)]",
+          "items": [
+            {
+              "text": "Corn",
+              "strikes": [
+                "Corn"
+              ]
+            },
+            {
+              "text": "Ethanol",
+              "strikes": [
+                "Ethanol"
+              ]
+            },
+            {
+              "text": "Soybeans, China tariff exposure",
+              "strikes": [
+                "China / Chinese"
+              ]
+            },
+            {
+              "text": "Cattle and hogs",
+              "strikes": [
+                "Cattle"
+              ]
+            },
+            {
+              "text": "John Deere Dubuque Works (machinery, steel costs)",
+              "strikes": [
+                "Steel"
+              ]
+            },
+            {
+              "text": "Wind power",
+              "strikes": [
+                "Windmill"
+              ]
+            },
+            {
+              "text": "Data centers",
+              "strikes": [
+                "Data Center"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Local hooks",
+          "line": "Mississippi River city on the Illinois and Wisconsin lines · Floodwall, 2008 Iowa floods · Riverboat casinos · No major military base · Rally back on: Five Flags Center, Dubuque; Trump speaks 2 PM CT Sun 1 Nov [live strike \"Event does not qualify\": Likely NO (1%)] · Street closures around Five Flags from Sat; doors 10:30 AM CT (KTIV)",
+          "items": [
+            {
+              "text": "Mississippi River city on the Illinois and Wisconsin lines",
+              "strikes": []
+            },
+            {
+              "text": "Floodwall, 2008 Iowa floods",
+              "strikes": []
+            },
+            {
+              "text": "Riverboat casinos",
+              "strikes": []
+            },
+            {
+              "text": "No major military base",
+              "strikes": []
+            },
+            {
+              "text": "Rally back on: Five Flags Center, Dubuque; Trump speaks 2 PM CT Sun 1 Nov",
+              "strikes": [
+                "Event does not qualify"
+              ]
+            },
+            {
+              "text": "Street closures around Five Flags from Sat; doors 10:30 AM CT (KTIV)",
+              "strikes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Kansas",
+      "code": "KS",
+      "upcoming": true,
+      "groups": [
+        {
+          "group": "Candidates",
+          "line": "Senate: Sen. Roger Marshall (R) vs Adam Hamilton (D, Methodist minister), polls a toss-up; Trump's second Kansas visit in two weeks · Governor: Ty Masterson (R) vs Cindy Holscher (D); 'Jesus could be transgender' ad running [live strike \"Transgender\": Likely YES (98%)] · At Park City (19 Oct) he hit Hamilton on church LGBTQ fights and 'eat less beef' [live strike \"Transgender\": Likely YES (98%)]",
+          "items": [
+            {
+              "text": "Senate: Sen. Roger Marshall (R) vs Adam Hamilton (D, Methodist minister), polls a toss-up; Trump's second Kansas visit in two weeks",
+              "strikes": []
+            },
+            {
+              "text": "Governor: Ty Masterson (R) vs Cindy Holscher (D); 'Jesus could be transgender' ad running",
+              "strikes": [
+                "Transgender"
+              ]
+            },
+            {
+              "text": "At Park City (19 Oct) he hit Hamilton on church LGBTQ fights and 'eat less beef'",
+              "strikes": [
+                "Transgender",
+                "Cattle"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Industry",
+          "line": "Wheat, sorghum, soybeans; China soybean buying [live strike \"Farm / Farmer\": Likely YES (95%)] · Cattle and beef packing (Dodge City, Garden City) [live strike \"Cattle\": Lean NO (30%)] · Corn and ethanol plants [live strike \"Corn\": Lean NO (40%)] · Wichita aviation: Spirit AeroSystems/Boeing, Textron, Bombardier Learjet [live strike \"Aircraft / Aviation\": Toss-up (50%)] · Farm diesel costs (Iowa tonight: red-dye diesel tax-free) [live strike \"Diesel\": Likely YES (90%)] · Ogallala aquifer water [live strike \"Water\": Lean NO (30%)] · Wind farms [live strike \"Windmill\": Likely NO (12%)]",
+          "items": [
+            {
+              "text": "Wheat, sorghum, soybeans; China soybean buying",
+              "strikes": [
+                "Farm / Farmer",
+                "China / Chinese"
+              ]
+            },
+            {
+              "text": "Cattle and beef packing (Dodge City, Garden City)",
+              "strikes": [
+                "Cattle"
+              ]
+            },
+            {
+              "text": "Corn and ethanol plants",
+              "strikes": [
+                "Corn",
+                "Ethanol"
+              ]
+            },
+            {
+              "text": "Wichita aviation: Spirit AeroSystems/Boeing, Textron, Bombardier Learjet",
+              "strikes": [
+                "Aircraft / Aviation",
+                "Boeing",
+                "Bombardier"
+              ]
+            },
+            {
+              "text": "Farm diesel costs (Iowa tonight: red-dye diesel tax-free)",
+              "strikes": [
+                "Diesel"
+              ]
+            },
+            {
+              "text": "Ogallala aquifer water",
+              "strikes": [
+                "Water"
+              ]
+            },
+            {
+              "text": "Wind farms",
+              "strikes": [
+                "Windmill"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Local hooks",
+          "line": "Hangar 509, Salina Regional Airport (former Schilling AFB); Trump about 7 PM CST Sun 1 Nov = 9:00 AM WITA Mon 2 Nov, confirmed by KWCH and the RNC page [live strike \"Event does not qualify\": Likely NO (1%)] · Fort Riley and McConnell AFB nearby [live strike \"Veteran\": Likely NO (15%)] · Iowa tonight (5:40–7:45 AM WITA): Greenland 'infinite deal', $5,000 per adult pledge, Somalia rant, El-Sayed attack, Hinson weight joke, no Hormuz, no ethanol [live strike \"Hormuz\": Lean NO (35%)]",
+          "items": [
+            {
+              "text": "Hangar 509, Salina Regional Airport (former Schilling AFB); Trump about 7 PM CST Sun 1 Nov = 9:00 AM WITA Mon 2 Nov, confirmed by KWCH and the RNC page",
+              "strikes": [
+                "Event does not qualify",
+                "Veteran"
+              ]
+            },
+            {
+              "text": "Fort Riley and McConnell AFB nearby",
+              "strikes": [
+                "Veteran"
+              ]
+            },
+            {
+              "text": "Iowa tonight (5:40–7:45 AM WITA): Greenland 'infinite deal', $5,000 per adult pledge, Somalia rant, El-Sayed attack, Hinson weight joke, no Hormuz, no ethanol",
+              "strikes": [
+                "Hormuz",
+                "Ethanol",
+                "Ilhan / Omar"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordNote": "Yellow on the Markets page uses the same flags as the notes: rally words outside the every-rally template, November countries outside the standard list, and new strikes on the week to 9 Nov.",
+  "comingEvents": [
+    {
+      "when": "Sun 1 Nov, 12:00 PM WITA",
+      "event": "November say, countries and companies markets open",
+      "words": "See the November tabs"
+    },
+    {
+      "when": "Mon 2 Nov, 4–5 AM WITA",
+      "event": "Iowa rally, Five Flags Center, Trump at 2–3 PM CT Sun",
+      "words": "ethanol, farmers",
+      "url": "https://kalshi.com/markets/kxtrumpmention/kxtrumpmention-26nov01"
+    },
+    {
+      "when": "Mon 2 Nov, 9:00 AM WITA",
+      "event": "Kansas rally, Hangar 509, Trump at 7 PM CT Sun",
+      "words": "farmers, veterans, Eisenhower",
+      "url": "https://kalshi.com/markets/kxtrumpmentionb/kxtrumpmentionb-26nov01"
+    },
+    {
+      "when": "Wed 4 Nov",
+      "event": "Election-results remarks (expected)",
+      "words": "landslide, rigged, mandate"
+    },
+    {
+      "when": "18–19 Nov",
+      "event": "APEC, Shenzhen, plus the Xi meeting",
+      "words": "Xi, China, tariffs, nuclear, Kim"
+    }
+  ],
+  "freshHooks": [
+    "Salina still on: KWCH and the RNC page say program 5:30 PM, Trump about 7 PM CST Sun 1 Nov (9:00 AM WITA Mon 2 Nov), Hangar 509. Clocks went back on Sunday, so 7 PM CST is 01:00 UTC.",
+    "Iowa tonight is the template for Kansas: Greenland 'infinite' deal, $5,000 per adult if Republicans hold both chambers, '1929-style depression' warning, red-dye diesel tax-free for farmers, Maduro capture, Somalia 'ruined Minnesota', El-Sayed 'jihadist' and Haley Stevens praise, Hinson weight joke, protesters 'paid by Soros… $250'. No Hormuz, no ethanol, no Turek transgender riff.",
+    "Kansas hooks: Marshall vs Hamilton (toss-up polls; at Park City he hit Hamilton on church LGBTQ fights and 'eat less beef'); governor Masterson vs Holscher with the 'Jesus could be transgender' ad; Wichita aviation (Spirit/Boeing, Textron, Bombardier Learjet).",
+    "Last 12 hours of news: Haley Stevens endorsed Mike Rogers in Michigan; a judge tossed the administration's Alaska Senate certification suit and Dan Sullivan said he'd accept the result; Sen. Chris Murphy hospitalized after a stroke.",
+    "10:00 AM WITA Sun check: both rallies still on. Dubuque, Five Flags: the RNC page now lists remarks at 3 PM CT (5 AM WITA Mon; KTIV said 2 PM). Salina, Hangar 509: program 5:30 PM CT, Trump about 7 PM CT (9 AM WITA Mon). US clocks go back on Sun 1 Nov, so CT is UTC−6. Event does not qualify is 4/3 (Iowa) and 9/7 (Kansas). Polymarket still has no Iowa or Kansas market.",
+    "31 Oct (US): 109 Truth Social posts, mostly endorsements, plus six tele-rallies (PA, OH, NY, MI, FL). Key post: LA attorney Essayli 'caught… 20,000' illegal votes, 'Election Fraud', '2020 Rigged and Stolen Election', 'Supreme Court… NO STANDING'. That supports Fraud and Supreme Court. He also posted a 'Reuters (One of the Worst!) Reporter' clip. 30 Oct: Iran will 'end very soon… they want to talk'.",
+    "Overnight moves: Iowa Gulf of America 38→56, Kamala 38→55, Nuclear 80→90, Ethanol 84→73. Kansas Cattle 65→36, Corn 54→24, Kamala 50→67, Small Business 47→62, Hormuz 71→84, Russia/Ukraine 45→53, Insurance 29→14. Why they moved (deep check, 10:15 AM WITA): traders repriced to Kalshi's own settled record (Hit rate now shows 'Kalshi Y/N'). Gulf 12/22 and said at Sioux City IA (22 Oct), so fair 55 and no longer a NO spot. Kamala 14/22, said at both Sioux City and Park City KS, missed the last 2; Harris hit Trump on 31 Oct ('too big to rig'), so fair 58. Corn 0/2 even at Iowa and Nebraska, Cattle only ever at Park City KS (0/8 in recent transcripts), Ethanol 1/3 (Iowa only). Small Business 3/6 but missed at Iowa and skipped at Daytona. Hormuz said in the 31 Oct NY tele-rally. Nothing on Factbase since 30 Oct has Kamala, Gulf, Corn, Cattle or Ethanol. 30 Oct KC radio interview: farmers, ranchers, China $28B, Boeing 757 cash riff, voter fraud.",
+    "Daytona (30 Oct, about 8:00–9:30 PM ET): 'I thought this was going to be my last one… they called me in Iowa and they called me in Kansas.' Core riffs were Iran and nuclear, Alaska voter fraud, 'communist' Angie Nixon, 'low IQ' Nixon and Jolly, and a long Democrat video montage (Abolish ICE, trans clips), which counts only if he says the words himself.",
+    "Daytona skips: Kamala (second straight miss), Gulf of America (even in Florida), Small Business, Veteran, Insurance, windmills and electricity, Russia–Ukraine and Supreme Court. Fairs for those are cut for Iowa and Kansas.",
+    "Polymarket South Carolina Job 20+ settled NO (about 18 in my captions), so the SC event is fully resolved.",
+    "Tarmac gaggle at Joint Base Andrews (29 Oct, PBS, TheWrap): 'Tomorrow, I'm doing Florida… if something else comes up.' Kansas and Iowa were briefly scrapped for tele-rallies, but both were put back on 30 Oct as in-person rallies for Sun 1 Nov US. To the Reuters reporter: 'You are disgusting… You look like hell.' That supports Hell, so Polymarket Hell 15+ fair goes to 60.",
+    "White House Halloween (29 Oct, pool reports, PBS): candy handout only, no remarks.",
+    "Communist/Socialist 5+ fair raised to 30 for a Florida crowd (Rock Hill said it about 4 times).",
+    "Rock Hill themes (Post and Courier, Herald, 29 Oct): '49.2 percent more people show up', 3.4% GDP, Octapharma and Re:Build investments ('you build here, you don't pay tariffs'), 'voter fraud at the highest level' on Alaska, the Ilhan Omar riff, the Andrews windmill attack, and the Roy Cooper hurricane aside.",
+    "Truth Social, 29 Oct (49 posts, SuperTrumpTracker): GDP 'BOOMING at 3.4 PERCENT', Kentucky and Pennsylvania early-vote posts, endorsements ('Dumocrats', 'Transgender Mutilization'), and 'BIGGEST CROWDS' with Darline Graham.",
+    "FOX Carolina interview (29 Oct): 'when we make sure that Iran has no nuclear weapon… oil prices will come plummeting'; no tax on tips, overtime and Social Security.",
+    "Factbase (30 Oct, 8:50 AM WITA): a 29 Oct Air Force One gaggle and endorsement vlogs are posted. There is no Rock Hill transcript yet.",
+    "Hit-rate fixes, checked quote by quote: AI 1/7 (only Pendleton 'artificial intelligence'); Elon/Musk 2/7 (Pendleton and Youngstown; the 'Elon Poll' line settled NO at Rock Hill); Terrorist 2/7 (Corpus and Youngstown); Grass 1/7 (Pendleton 'the new grass'); Deport 2/7 (Corpus and Lubbock; Chillicothe and Youngstown were audience chants); Two Percent 4/7 (Chillicothe, Corpus, Lubbock and Rock Hill '49.2%').",
+    "Polymarket South Carolina is fully settled: Job 20+ settled NO (about 18 in my captions). SI, Transgender 7+, Million/Billion/Trillion 30+ and Biden/Obama/Kamala 15+ settled NO. Hell 15+ (about 23), America First and Hormuz/Blockade are settled YES.",
+    "Factbase transcript (posted 28 Oct), Trump's segments only (Husted and Ramaswamy removed). It fixed my speech-to-text undercounts: Fraud 3, Hormuz 2 (spelled 'Hormone Strait'), Save America Act 1, Job 11, Transgender 4, Million/Billion/Trillion 28."
+  ],
+  "method": {
+    "rallies": [
+      "Prices: public books at the rally stamp. YES leans use the YES ask. NO leans use the bid (NO ask = 100 − bid).",
+      "Fair value: half the prior call, half a weighted hit rate over the last eight rallies: Daytona ×3, Rock Hill ×2, Chillicothe, Lubbock, Corpus Christi, Fort Myers, Pendleton and Youngstown ×1, each move capped at 15 points. Then fresh-hook and same-state adjustments. Strikes whose hit rate was corrected (AI, Elon/Musk, Terrorist, Grass, Deport, Two Percent) were reset to the corrected rate.",
+      "Chillicothe evidence: Factbase transcript posted 28 Oct, Trump's segments only (Husted and Ramaswamy removed). It fixed speech-to-text undercounts: Fraud 3, Hormuz 2 (spelled Hormone Strait), Save America Act 1, Job 11, Transgender 4, Million/Billion/Trillion 28.",
+      "Likely YES 78%+, Lean YES 56%+, Toss-up 46–55%, Lean NO 22–45%, Likely NO under 22%. Not financial advice."
+    ],
+    "weekly": [
+      "Prices at the weekly stamp. YES leans use the YES ask. NO leans use the bid. Spreads of 40 or more are skipped.",
+      "Hit rate base: recent = Chillicothe, Corpus Christi, Lubbock. Rallies = those plus Corinth, Fort Myers, Pendleton, Youngstown (7 transcripts; Chillicothe from speech-to-text), then Daytona counted in the /8 figure. This week = any rally from 26 Oct. Rock Hill = said in the LiveNOW captions of the 29 Oct speech. Gaggles = the two 28 Oct Air Force One gaggles.",
+      "Kalshi weekly counts Truth Social posts. Polymarket say counts spoken words only. Insult and nickname markets count name mentions, not insults.",
+      "Calls are a fair value. Not financial advice."
+    ]
+  },
+  "weeklyBestSpotNote": "Update ",
+  "weeklyOlderNote": "",
+  "weeklyWindowNote": "Iowa (about 4–5 AM WITA Mon 2 Nov) and Kansas (about 9:00 AM WITA Mon 2 Nov) both land before the weekly close (11 PM WITA Mon 2 Nov) and the Polymarket say/post close (12:59 PM WITA Mon 2 Nov). Weekly fairs add the chance the word is said at least once across 2 rallies, from per-rally hit rates out of 8 (Daytona included). October monthly, countries, companies and the insults market close before those rallies and are not boosted.",
+  "rockHillNotes": [
+    "Rock Hill words on these markets: 'crazy Bernie' (nicknames, 100/99), 'radical left' lunatic (Polymarket weekly, settled YES), 'six seven times as many' (Polymarket Six Seven was still open at 90/13), plus Canada, China, Omar, Diesel, Dividend, Golden Age and Front Row Joe.",
+    "Not said at Rock Hill: Autopen, Ethanol, Houthi, Mortgage, Refinery, Third Term, Tomahawk, Uranium, Zohran, Ranked Choice, Chevron, Exxon, Australia, UAE, Kuwait and Panama (LiveNOW captions, about 14,600 words).",
+    "Vivek and Epstein finalized YES (the Epstein YES spot at 18%, 1:05 PM WITA Wed, won). Ceasefire and Mortgage were at 100/99, not finalized yet, in that note.",
+    "The Autopen NO spot from the prior update was closed out by the market (gap -1 at 8:55 PM WITA Fri).",
+    "Companies: Honda finalized YES.",
+    "No South Carolina strike was a best spot at the 4:05 PM update.",
+    "Polymarket South Carolina Job 20+ settled NO (about 18 in the captions), so that event is fully resolved.",
+    "Two Percent rule (Polymarket clarification): '49.2%' counts. He said it at Rock Hill, so Two Percent is 4/7 rallies in that note."
+  ],
+  "rallySpotRules": "YES needs fair 56%+ and fair minus ask of 12+. NO needs fair 45% or less and bid minus fair of 12+. Spreads of 40+ and toss-ups are skipped.",
+  "hooksGlossary": {
+    "H": {
+      "C": "Fresh: 28 Oct gaggle, Xi meeting on nuclear disarmament 'scheduled already'; still 0 at Chillicothe.",
+      "D": "Fresh: skipped it at Chillicothe despite the local data-center hub fight.",
+      "F": "Fresh: 28 Oct gaggle 'that's a fraud… a fraud to the public', plus five Truth Social posts on 28 Oct calling the Alaska Dan Sullivan ballot story 'ELECTION FRAUD'. Factbase confirms he said fraud 3 times at Chillicothe.",
+      "H": "Fresh: Iran briefing 28 Oct (Rubio, Witkoff); Hormuz settled YES at Chillicothe.",
+      "I": "Fresh: Volusia GOP names the Iran war as a Daytona topic; Rubio and Witkoff briefed him 28 Oct.",
+      "N": "Fresh: 28 Oct gaggle, Xi nuclear-disarmament meeting 'maybe the single most important'.",
+      "R": "Fresh: 28 Oct gaggle, 'a lot of progress with Russia-Ukraine… a meeting set up very soon', but 0 at Chillicothe.",
+      "B": "Fresh: asked about Flavio Bolsonaro at both 28 Oct gaggles ('That's Brazil… I stayed out').",
+      "A": "Fresh: Volusia GOP says he will talk cost of living and gas prices (Observer, 26 Oct).",
+      "G": "Florida fit: Fort Myers said it about 8 times.",
+      "E": "Same-state fit: said at Sioux City IA (22 Oct), 0/6 other recent rallies; Hinson's issue.",
+      "K": "Iowa farm hook; Sioux City missed corn by name.",
+      "Q": "Rally confirmed on schedule."
+    },
+    "HB": {
+      "C": "Fresh: Xi meeting scheduled (28 Oct gaggle).",
+      "D": "Fresh: skipped despite the Ohio hub fight.",
+      "F": "Fresh: Alaska 'ELECTION FRAUD' posts (28 Oct) + 'that's a fraud' gaggle; 3x at Chillicothe (Factbase).",
+      "H": "Fresh: Iran briefing 28 Oct.",
+      "I": "Fresh: Iran war is a named Daytona topic.",
+      "N": "Fresh: Xi disarmament talks.",
+      "R": "Fresh: 'meeting set up very soon' (28 Oct gaggle).",
+      "B": "Fresh: Bolsonaro questions 28 Oct.",
+      "A": "Fresh: local GOP says cost of living.",
+      "G": "Florida: Fort Myers said it about 8 times.",
+      "E": "Hit at Sioux City IA (22 Oct).",
+      "K": "Iowa farm hook.",
+      "Q": "Rally confirmed."
+    },
+    "HB2": {
+      "Y": "On: Five Flags Center, Dubuque. KTIV says Trump speaks 2 PM CT, the RNC page now says remarks at 3 PM CT Sun 1 Nov (4–5 AM WITA Mon).",
+      "KQ": "Salina Regional Airport, Hangar 509; Trump speaks 7 PM CT Sun 1 Nov (9:00 AM WITA Mon), after Dubuque.",
+      "KF": "Kansas farm crowd; farm estate-tax and diesel riffs (Rock Hill: 'family farms').",
+      "KC": "Kansas is a beef, wheat, sorghum and soybean state; China buys its crops.",
+      "KA": "Daytona: 'build aircraft engines in Okaloosa County'; Wichita is the 'Air Capital' and he speaks in a hangar.",
+      "KW": "Kansas is a top wind-power state; Rock Hill windmill attack.",
+      "KV": "0/8 rallies, missed at Daytona too.",
+      "KS": "Missed at Daytona; the Rock Hill estate-tax line ('family farms and small businesses') is the farm-state hook.",
+      "KK": "Missed at Rock Hill and at Daytona (Kalshi 1¢), now 5/8; he hits local Democrats (Nixon, Jolly) instead.",
+      "F": "Rock Hill: 'voter fraud at the highest level' (Alaska ballots), 3x.",
+      "H": "Hit at Rock Hill ('the Trump Strait' rename riff).",
+      "I": "Only 4x at Rock Hill (short of 5); Volusia GOP lists the Iran war as a topic.",
+      "N": "Only ~2x at Rock Hill (short of 3).",
+      "C": "Said at Rock Hill (investment brag).",
+      "R": "Skipped at Rock Hill and Chillicothe.",
+      "D": "Skipped at Rock Hill and Chillicothe.",
+      "B": "Not at Rock Hill.",
+      "A": "Volusia GOP: cost of living and gas prices. Not said at Rock Hill.",
+      "Q": "Daytona still on: Ocean Center, 7 PM ET Fri (WESH, FOX 35, 29 Oct).",
+      "X": "Dubuque rally was cancelled 29 Oct, then put back on 30 Oct as an in-person rally at Five Flags Center (KWWL, RNC). Kalshi rules: only a cancellation would make 'Event does not qualify' YES.",
+      "KT": "7/8 rallies, but at Daytona it was only in the Democrat video montage he played, which doesn't count.",
+      "GG": "Missed even in Florida at Daytona.",
+      "KI": "Missed in Florida despite its property-insurance crisis; 1/8 rallies.",
+      "DF": "About 7 at Daytona ('voter fraud at the highest level', Alaska); 4/8 rallies at 3+.",
+      "DN": "Daytona: Iran about 11 times, nuclear about 8; the Iran war riff is core.",
+      "PA": "Alaska ballot-fraud riff: Factbase has it at every rally since Corinth (1–2x each), plus the KC radio interview and NY tele-rally. Kalshi 2/2.",
+      "PC": "Said 7+ at all 8 recent rallies (Daytona 12, Chillicothe 8).",
+      "PD": "US clocks go back on rally day (Sun 1 Nov); he has pushed to end the switch. Never said in the last 8 rallies.",
+      "PE": "Either word counts. Electricity is Kalshi 3/9 (SC, Chillicothe, Lubbock); chips are a CHIPS/AI riff.",
+      "PH": "Either word counts. Kalshi Hormuz was YES at Daytona, SC and Chillicothe (7 of last 8); also said in the 31 Oct NY tele-rally.",
+      "PI": "Dubuque sits on the Illinois border. Never said in the last 8 rallies; a Pritzker or Chicago riff would hit it.",
+      "PM": "Venezuela 'one-day war' riff: said at 6 of the last 8 rallies and in the 31 Oct tele-rallies. Kalshi 2/2.",
+      "PT": "Uncle John Trump at MIT riff: Chillicothe and Lubbock only.",
+      "PF": "5+ needed. Daytona only 3 and Youngstown 2; others 5+. Kalshi 3+ is 8/9.",
+      "PX": "32+ needed. Factbase max is 30 (Corinth); Daytona and Rock Hill 21, Chillicothe 15. 0 of the last 6 rallies reached 32.",
+      "PG": "7+ needed. Factbase: Daytona 5, Rock Hill 5, Chillicothe 4; only Lubbock, Corpus and Corinth hit exactly 7.",
+      "PL": "15+ needed. Rock Hill 23 but Daytona 7, and his voice is 'at 49.2%'.",
+      "PN": "He canceled this rally then put it back on (29–30 Oct); could joke about it. Never said in the last 8.",
+      "PB": "Canadian jet maker (Learjet plant in Wichita). Never said at recent rallies.",
+      "PW": "Day after Halloween and his Mar-a-Lago party; said once (Rock Hill).",
+      "PJ": "15+ needed. Rock Hill 18, Chillicothe 17, Daytona only 10.",
+      "PO": "25+ combined needed. Rock Hill 28, Chillicothe 29, Daytona 23.",
+      "PV": "Not said at any of the last 8 rallies.",
+      "PP": "Said at Daytona (2) and Lubbock.",
+      "PK": "Kansas aerospace hook (Wichita); Lubbock only. Kalshi Kansas Boeing settled 1/2.",
+      "PTI": "Sioux City 8 (Turek attack); standard speech 4–5. Iowa tele-rally 15 Oct: 1 (Bohannan).",
+      "PTK": "Park City 12 (Hamilton and Holscher attacks); standard speech 4–5. Masterson vs Holscher still live (vote 3 Nov); pro-Masterson ad on 'Jesus could be transgender' running."
+    },
+    "HB3": {
+      "Hormuz / Blockade": "Iowa tonight had no Hormuz or blockade (Kalshi IA Hormuz 0/1); Kalshi KS Hormuz only 41/55. Polymarket 60 bid is far too high.",
+      "Hormuz": "Missed in Iowa tonight; Iran riff stayed on nukes and the war.",
+      "Diesel": "New standard line in Iowa: red-dye diesel tax-free for farmers and truckers.",
+      "Transgender 7+ times": "Iowa only ~4 (no Turek riff). Park City KS had 12 with Hamilton/Holscher attacks, so Kansas can run hotter, but Iowa says the base speech is ~4.",
+      "Transgender": "Said at every Kalshi rally (17/17); Masterson vs Holscher governor race and Hamilton's church views.",
+      "Cattle": "Hamilton 'eat less beef' attack was at Park City; Iowa skipped cattle.",
+      "Russia / Ukraine": "Said in Iowa tonight; Abu Dhabi talks this week.",
+      "Fraud (3+ times)": "Iowa ~2 from Trump (pending at 14/23).",
+      "Corn": "Said in Iowa; Kansas grows corn too, but the farm riff is usually 'farmers'.",
+      "Kamala": "Said in Iowa ('2024 election versus Kamala Harris').",
+      "Ilhan / Omar": "Said in Iowa (Somalia riff, 'ruined Minnesota').",
+      "Maduro": "Iowa: 'captured and brought to justice… Maduro'.",
+      "Aircraft / Aviation": "Salina is an airport hangar; Wichita aviation (Spirit, Textron) is the Kansas industry hook.",
+      "Boeing": "Spirit AeroSystems/Boeing Wichita hook; not said in Iowa."
+    },
+    "CX": {
+      "ai": "Superintelligence (SI) riff; sometimes hits.",
+      "si": "Superintelligence riff; sometimes hits.",
+      "america": "Candidate endorsement roll-call; near-certain.",
+      "blockade": "Strongest military riff (Iran naval blockade).",
+      "canada": "Trade 'ripping us off' tariff riff.",
+      "china": "Trade and Xi riffs; missed at Chillicothe.",
+      "data": "AI and power-bill riff; skipped in Ohio.",
+      "deport": "Border riff, but often says 'illegal aliens' instead.",
+      "fentanyl": "Border and drugs riff; rare lately.",
+      "electricity": "Energy-prices riff.",
+      "fraud": "Election-integrity riff (voter fraud, Alaska ballots).",
+      "gulf": "Rename brag; near the location, or a mood riff.",
+      "hormuz": "Iran war riff (strait, oil).",
+      "iran": "Core war riff; many uses every rally.",
+      "kamala": "Attacks tying opponents to Biden and Kamala.",
+      "biden": "Opponent attacks; count depends on length.",
+      "obama": "Opponent attacks; count depends on length.",
+      "made": "Car-loan tax riff, but sometimes in variations that don't count.",
+      "nuclear": "Iran 'never have a nuclear weapon' line.",
+      "save": "Voter-ID and election riff.",
+      "steel": "Tariff and industry brag; strong in Rust Belt states.",
+      "tariff": "'My favorite word' riff.",
+      "social": "No-tax list line; usually once.",
+      "ass": "Ad-lib (Vivek intro at Chillicothe).",
+      "hell": "Ad-lib; count depends on length.",
+      "million": "Border numbers and investment figures.",
+      "transgender": "Schools and sports line; usually 1–2.",
+      "job": "Economy brag; count depends on length.",
+      "russia": "Peace-deal brag; skipped at Chillicothe.",
+      "supreme": "Tariff court case riff.",
+      "ethanol": "Farm and biofuel riff in farm states.",
+      "kamala_": ""
+    },
+    "IAC2": {
+      "Farm / Farmer": "IA ~20x",
+      "Save America Act": "IA yes",
+      "Nuclear (3+ times)": "IA yes",
+      "Ilhan / Omar": "IA yes",
+      "China / Chinese": "IA yes",
+      "Cattle": "IA no",
+      "Tariff (3+ times)": "IA yes",
+      "Diesel": "IA 3x (red-dye diesel)",
+      "Data Center": "IA no",
+      "Ethanol": "IA no",
+      "Kamala": "IA yes",
+      "Iran (5+ times)": "IA yes",
+      "Russia / Ukraine": "IA yes",
+      "ICE": "IA yes",
+      "Supreme Court": "IA no",
+      "Maduro": "IA yes",
+      "Hormuz": "IA no",
+      "Steel": "IA yes",
+      "Corn": "IA yes",
+      "Transgender": "IA ~4x",
+      "Fraud (3+ times)": "IA ~2x (pending)",
+      "Small Business": "IA yes",
+      "Made in America / American Made": "IA yes",
+      "Social Security (5+ times)": "IA ~3x",
+      "Tax 32+ times": "IA ~25x, NO",
+      "Hell 15+ times": "IA YES (15+)",
+      "Transgender 7+ times": "IA ~4x, NO",
+      "Ass": "IA yes",
+      "Shit": "IA yes",
+      "Daylight Saving": "IA no",
+      "Hormuz / Blockade": "IA no",
+      "Fentanyl / Deport / Deported": "IA no",
+      "SI / Super Intelligence": "IA no",
+      "Brazil": "IA no",
+      "Million / Billion / Trillion 25+ times": "IA ~24x (captions undercount)",
+      "Job 15+ times": "IA ~17x",
+      "AI / Artificial Intelligence": "IA no",
+      "Bitcoin / Crypto / Cryptocurrency": "IA no",
+      "Boeing": "IA no",
+      "Aircraft / Aviation": "IA 1x",
+      "Veteran": "IA no",
+      "Windmill": "IA no",
+      "Water": "IA no",
+      "Insurance": "IA no",
+      "Fentanyl": "IA no",
+      "Deport / Deported / Deportation": "IA no",
+      "Bessent": "IA no",
+      "Drill Baby Drill": "IA no"
+    },
+    "CODE5": {
+      "Kamala": "KK",
+      "Transgender": "KT",
+      "Gulf of America": "GG",
+      "Insurance": "KI",
+      "Aircraft / Aviation": "KA",
+      "Veteran": "KV",
+      "Fraud (3+ times)": "DF",
+      "Iran (5+ times)": "DN",
+      "Nuclear (3+ times)": "DN",
+      "Small Business": "KS"
+    }
+  },
+  "weeklyContextGlossary": {
+    "Antifa": "Old protest-crime riff; dropped from the current set.",
+    "Autopen / Auto Pen": "Not said at Rock Hill; last spoken 5 and 13 Oct. Left: Daytona, the tele-rallies, gaggles and posts.",
+    "Crypto / Bitcoin": "Only in crypto-policy events; not in the rally set.",
+    "Cybersecurity / Cyber Security": "Only at policy events.",
+    "Epstein": "Defensive riff when the press brings it up; said at Chillicothe.",
+    "Ethanol": "Dubuque IA rally back on in person (Five Flags, 4:00 AM WITA Mon 2 Nov); Iowa's own Ethanol strike trades 86/81. Farm-state riff (Sioux City 22 Oct).",
+    "Golden Dome": "Defense brag; rare at rallies.",
+    "Houthi": "Not said at Rock Hill.",
+    "Make Iran Great Again": "Novelty line; not used this cycle.",
+    "Marijuana / Weed / Cannabis": "Only when asked about rescheduling.",
+    "Mortgage": "Not said at Rock Hill.",
+    "Peace in the Middle East": "Not his current phrasing; he says 'peace' plus Iran.",
+    "Prediction Market / Predictive Market": "",
+    "Ranked Choice / Ranked-Choice": "The Rock Hill Alaska riff did not mention ranked choice; it shows up more often in posts.",
+    "Refinery": "Not said at Rock Hill; Daytona is a gas-price crowd.",
+    "Third Term": "Not said at Rock Hill; needs a crowd chant.",
+    "Tomahawk": "Ukraine weapons talk; dormant. 28 Oct gaggle was about a meeting.",
+    "UFO / UAP": "Only when asked.",
+    "Uranium": "Not said at Rock Hill (Iran 4x, no uranium).",
+    "Vivek / Ramaswamy": "Finalized YES.",
+    "Zohran / Mamdani": "NYC riff; needs an NYC hook.",
+    "Death To America": "Iran chant line; rare.",
+    "Easter": "Seasonal only.",
+    "Gays For Palestine": "Occasional riff on Democrats' coalition.",
+    "Genius / Elon / Musk": "'Genius' is a frequent brag word.",
+    "Happy Halloween": "The White House Halloween event was Thu 29 Oct US (LiveNOW); no quote found yet.",
+    "Muscle / Muscular": "Not at Rock Hill.",
+    "Radical Left Lunatic": "Said at Rock Hill.",
+    "Ranked Choice": "Spoken only here; it mostly appears in posts.",
+    "Six Seven": "Rock Hill: 'six seven times as many' (poll riff). Whether that counts depends on Polymarket's resolution.",
+    "Trump Ocean / Trump Strait": "Hormuz rename riff.",
+    "Allah": "Spoken Iran or Muslim-voters riff; not a post word.",
+    "Bitcoin / Crypto / Cryptocurrency": "Not in the current rally set.",
+    "China": "Trade and Xi posts. Fresh: Xi meeting scheduled (28 Oct gaggle).",
+    "Flying Car / Roadster": "",
+    "Greenland": "No current hook.",
+    "Israel": "Posts on Bibi and Israel's election.",
+    "Russia": "Peace-talk posts. Fresh: 'meeting set up very soon' (28 Oct gaggle).",
+    "Scam / Scum": "Democrat 'scam' line, common in posts.",
+    "Ceasefire / Uranium": "Iran truce and deal talk.",
+    "Moon / UFO / UAP": "",
+    "Fat shot / Ozempic": "Drug-pricing event riff only.",
+    "Peptide": "",
+    "Anthropic / Claude": "",
+    "BBC": "Lawsuit line when the press comes up.",
+    "Caterpillar": "Rare in investment lists.",
+    "ChatGPT / OpenAI": "AI riffs rarely name companies.",
+    "Chevron / CVX": "Not at Rock Hill; Venezuela oil riff.",
+    "DoorDash / DASH": "'No tax on tips' names no company.",
+    "ExxonMobil / XOM": "Not at Rock Hill.",
+    "Turning Point": "Charlie Kirk tribute; rare lately.",
+    "X / Twitter": "Elon not said at Rock Hill.",
+    "Australia / Australian": "Not at Rock Hill; one rally left before close.",
+    "Bahrain / Bahraini": "Gulf-ally lists in the Iran war riff.",
+    "Kuwait / Kuwaiti": "Not at Rock Hill.",
+    "UAE / United Arab Emirates": "Not at Rock Hill.",
+    "Panama / Panamanian": "Not at Rock Hill.",
+    "Paraguay / Paraguayan": "No follow-up event after Peña's visit.",
+    "South Africa / South African": "G20 jabs possible.",
+    "Cake (food)": "Food riffs are unreliable.",
+    "Burger (food)": "Food ad-lib.",
+    "Visa (company)": "'Visa' as an immigration word may count; check the rules.",
+    "Neurotic": "Last trade 90%, but no transcript hit. Verify.",
+    "Weave": "His 'the weave' speaking-style defense.",
+    "Hakeem Jeffries": "Shutdown-fight target.",
+    "J.B. Pritzker": "Chicago-crime insult target.",
+    "Ken Paxton": "His endorsed Texas candidate; praise, not insults.",
+    "Kevin Warsh": "His Fed pick.",
+    "Mark Carney": "Canada riffs name the country, not Carney.",
+    "Vladimir Putin": "'Disappointed' tone, not insults; 28 Oct 'progress'.",
+    "Xi Jinping": "Praise ahead of APEC.",
+    "Elon Musk": "'Very good' relationship.",
+    "J.D. Vance": "Running mate.",
+    "Zohran Mamdani": "NYC riff; no NYC hook.",
+    "Crying Chuck / Cryin Chuck": "Schumer shutdown riff; 'Cryin' at 6 rallies 1–16 Oct, none since.",
+    "Crazy Bernie": "Rock Hill: 'He's still crazy Bernie.'",
+    "Crazy Nancy": "Pelosi riff.",
+    "Low Energy": "Aimed at opponents generally.",
+    "Rocket Man": "Kim riff; possible APEC meeting (unconfirmed).",
+    "Marjorie Traitor Greene": "Said at Dalton 16 Oct.",
+    "Piggy": "",
+    "Slopadopolous": ""
+  },
+  "weeklyHitGlossary": {
+    "Autism": "0/3 recent · 0/8 rallies (Daytona counted)",
+    "Clown": "0/3 recent · 0/8 rallies (Daytona counted)",
+    "Cognitive": "1/3 recent · 1/8 rallies (Daytona counted)",
+    "Front Row Joe": "1/3 recent · 4/8 rallies (Daytona counted)",
+    "Gay": "0/3 recent · 2/8 rallies (Daytona counted)",
+    "Golden Age": "3/3 recent · 8/8 rallies (Daytona counted)",
+    "Heritage": "0/3 recent · 2/8 rallies (Daytona counted)",
+    "Keep America Great": "0/3 recent · 0/8 rallies (Daytona counted)",
+    "Nazi": "0/3 recent · 0/8 rallies (Daytona counted)",
+    "Prediction": "0/3 recent · 0/8 rallies (Daytona counted)",
+    "Refund": "0/3 recent · 0/8 rallies (Daytona counted)",
+    "Shark": "0/3 recent · 0/8 rallies (Daytona counted)",
+    "Shit": "1/3 recent · 4/8 rallies (Daytona counted)",
+    "Shut Up": "0/3 recent · 1/8 rallies (Daytona counted)",
+    "Space Force": "1/3 recent · 2/8 rallies (Daytona counted)",
+    "Antifa": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Autopen / Auto Pen": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no",
+    "Bibi / Netanyahu": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes",
+    "Blockade": "0/3 recent · 3/8 rallies (Daytona counted) · this week: yes",
+    "Canada / Canadian": "3/3 recent · 6/8 rallies (Daytona counted) · this week: yes",
+    "Ceasefire": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes",
+    "Crypto / Bitcoin": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Cuba / Cuban": "2/3 recent · 3/8 rallies (Daytona counted) · this week: yes",
+    "Cybersecurity / Cyber Security": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Diesel": "2/3 recent · 3/8 rallies (Daytona counted) · this week: yes",
+    "Dividend / Stimulus": "3/3 recent · 7/8 rallies (Daytona counted) · this week: yes",
+    "Epstein": "3/3 recent · 5/8 rallies (Daytona counted) · this week: yes",
+    "Ethanol": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Golden Dome": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Houthi": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Ilhan / Omar": "3/3 recent · 5/8 rallies (Daytona counted) · this week: yes",
+    "Make Iran Great Again": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Marijuana / Weed / Cannabis": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Melania": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes",
+    "Moon": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes",
+    "Mortgage": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no",
+    "Nobel": "1/3 recent · 3/8 rallies (Daytona counted) · this week: yes",
+    "Peace in the Middle East": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Prediction Market / Predictive Market": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Ranked Choice / Ranked-Choice": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Refinery": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Rigged Election / Stolen Election": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes",
+    "Soleimani": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes",
+    "Superintelligence / Super Intelligence": "0/3 recent · 2/8 rallies (Daytona counted) · this week: no",
+    "Third Term": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Tomahawk": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "UFO / UAP": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Uranium": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Vivek / Ramaswamy": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes · 28 Oct gaggles: yes",
+    "Zohran / Mamdani": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Apple": "2/3 recent · 4/8 rallies (Daytona counted) · this week: yes",
+    "Athlete / Athletic": "3/3 recent · 5/8 rallies (Daytona counted) · this week: yes",
+    "Bitcoin / Crypto / Cryptocurrency": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Ceasefire / Uranium": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes",
+    "Death To America": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Easter": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Gays For Palestine": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no",
+    "Genius / Elon / Musk": "3/3 recent · 8/8 rallies (Daytona counted) · this week: yes",
+    "Good Looking": "1/3 recent · 4/8 rallies (Daytona counted) · this week: yes",
+    "Happy Halloween": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Muscle / Muscular": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no",
+    "No No No": "1/3 recent · 4/8 rallies (Daytona counted) · this week: yes",
+    "Pirate": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes",
+    "Radical Left Lunatic": "0/3 recent · 2/8 rallies (Daytona counted) · this week: no",
+    "Ranked Choice": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Six Seven": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no",
+    "Trump Ocean / Trump Strait": "1/3 recent · 3/8 rallies (Daytona counted) · this week: yes",
+    "Allah": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "China": "2/3 recent · 7/8 rallies (Daytona counted) · this week: yes · 28 Oct gaggles: yes",
+    "Flying Car / Roadster": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Greenland": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no",
+    "Israel": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes",
+    "Moon / UFO / UAP": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes",
+    "Russia": "0/3 recent · 3/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes",
+    "Scam / Scum": "2/3 recent · 4/8 rallies (Daytona counted) · this week: yes",
+    "Autism, Predict / Prediction, Ceasefire, Filibuster": "—",
+    "Fat shot / Ozempic": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Peptide": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Airbnb / ABNB": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Amazon, Paramount, Hyundai, Deere, Tesla, Google and others": "—",
+    "Anthropic / Claude": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "BBC": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "BlackRock": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Caterpillar": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "ChatGPT / OpenAI": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Chevron / CVX": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "DoorDash / DASH": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "ExxonMobil / XOM": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Honda / HMC": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "JPMorgan / JPM": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Mastercard / MA": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Netflix / NFLX": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Oracle / ORCL": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Qualcomm / QCOM": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Rigetti / RGTI": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Turning Point": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Verizon": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "X / Twitter": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Australia / Australian": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no",
+    "Bahrain / Bahraini": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Belgium / Belgian": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Cuba, Argentina, Iceland, Ireland, Somalia": "—",
+    "Hungary / Hungarian": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Jamaica / Jamaican": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Kuwait / Kuwaiti": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Panama / Panamanian": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Paraguay / Paraguayan": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "South Africa / South African": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Sudan / Sudanese": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "UAE / United Arab Emirates": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Andy Burnham": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Benjamin Netanyahu": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes",
+    "Candace Owens": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Dario Amodei": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Elon Musk": "2/3 recent · 6/8 rallies (Daytona counted) · this week: yes",
+    "Emmanuel Macron": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes",
+    "Friedrich Merz": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Hakeem Jeffries": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Hillary Clinton": "1/3 recent · 3/8 rallies (Daytona counted) · this week: yes",
+    "J.B. Pritzker": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "J.D. Vance": "2/3 recent · 6/8 rallies (Daytona counted) · this week: yes · 28 Oct gaggles: yes",
+    "Ken Paxton": "2/3 recent · 2/8 rallies (Daytona counted) · this week: yes",
+    "Kevin Warsh": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes",
+    "Mark Carney": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Masoud Pezeshkian": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Mike Rogers": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no",
+    "Pope Leo XIV": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Stephen Colbert": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Tucker Carlson": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Vladimir Putin": "0/3 recent · 3/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes",
+    "Xi Jinping": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes · 28 Oct gaggles: yes",
+    "Zohran Mamdani": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Biden Crime Family": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Comrade Kamala": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Crazy Bernie": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no",
+    "Crazy Nancy": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Crooked Hillary": "0/3 recent · 2/8 rallies (Daytona counted) · this week: yes",
+    "Crying Chuck / Cryin Chuck": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Fake Tapper": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Fat Slob": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Little Communist": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Low Energy": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Marjorie Traitor Greene": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Piggy": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Rocket Man": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Airbus (company)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Burger (food)": "1/3 recent · 1/8 rallies (Daytona counted) · this week: yes",
+    "Cake (food)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Caterpillar (company)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Chicken (food)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Cucumber (food)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Dancing in the Street": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Discord (company)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Ferrari (company)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Hyperliquid (company)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Illness": "—",
+    "Neurotic": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Oracle (company)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Qualcomm (company)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Visa (company)": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes",
+    "Weave": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no",
+    "Slopadopolous": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no"
+  },
+  "closedMarkets": [
+    {
+      "id": "pw2",
+      "page": "research",
+      "state": "Say, week to 2 Nov",
+      "kind": "weekly",
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/what-will-trump-say-this-week-october-26-november-1-20261101?r=PolymarketProgram",
+      "timeWita": "Mon 2 Nov, 12:59 PM WITA",
+      "closeWita": "Mon 2 Nov, 12:59 PM WITA",
+      "eventTicker": null,
+      "polymarketSlug": "what-will-trump-say-this-week-october-26-november-1-20261101",
+      "title": "What will Trump say this week? (October 26 - November 1)",
+      "status": "closed",
+      "feeds": "Spoken only. Daytona done (Six Seven and Muscle said there). Still to come: Halloween (31 Oct US), the Iowa and Kansas rallies Sun 1 Nov US, tele-rallies and gaggles.",
+      "strikes": [
+        {
+          "name": "Apple",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "2/3 recent · 4/8 rallies",
+          "hitDetail": "2/3 recent · 4/8 rallies (Daytona counted) · this week: yes · Rock Hill: yes",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Athlete / Athletic",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "3/3 recent · 5/8 rallies",
+          "hitDetail": "3/3 recent · 5/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Bitcoin / Crypto / Cryptocurrency",
+          "fairYes": 11,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not in the current rally set.",
+          "snapshot": {
+            "yesAsk": 54,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (11%)",
+          "priceText": "54% ask, 2% bid · spread 52, skip"
+        },
+        {
+          "name": "Ceasefire / Uranium",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Iran truce and deal talk.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Death To America",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Iran chant line; rare.",
+          "snapshot": {
+            "yesAsk": 69,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "69% ask, 2% bid · spread 67, skip"
+        },
+        {
+          "name": "Easter",
+          "fairYes": 9,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Seasonal only.",
+          "snapshot": {
+            "yesAsk": 70,
+            "yesBid": 10,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (9%)",
+          "priceText": "70% ask, 10% bid · spread 60, skip"
+        },
+        {
+          "name": "Gays For Palestine",
+          "fairYes": 33,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Occasional riff on Democrats' coalition.",
+          "snapshot": {
+            "yesAsk": 48,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (33%)",
+          "priceText": "48% ask, 3% bid · spread 45, skip"
+        },
+        {
+          "name": "Genius / Elon / Musk",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "3/3 recent · 8/8 rallies",
+          "hitDetail": "3/3 recent · 8/8 rallies (Daytona counted) · this week: yes · Rock Hill: yes",
+          "context": "'Genius' is a frequent brag word.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Good Looking",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 4/8 rallies",
+          "hitDetail": "1/3 recent · 4/8 rallies (Daytona counted) · this week: yes · Rock Hill: yes",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Happy Halloween",
+          "fairYes": 99,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "The White House Halloween event was Thu 29 Oct US (LiveNOW); no quote found yet.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": 98,
+            "settled": null,
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Likely YES (99%)",
+          "priceText": "100% ask, 98% bid · market treats it as said"
+        },
+        {
+          "name": "Moon",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Muscle / Muscular",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not at Rock Hill.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "No No No",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 4/8 rallies",
+          "hitDetail": "1/3 recent · 4/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Pirate",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 2/8 rallies",
+          "hitDetail": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Radical Left Lunatic",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 2/8 rallies",
+          "hitDetail": "0/3 recent · 2/8 rallies (Daytona counted) · this week: no · Rock Hill: yes",
+          "context": "Said at Rock Hill.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Ranked Choice",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Spoken only here; it mostly appears in posts.",
+          "snapshot": {
+            "yesAsk": 61,
+            "yesBid": 11,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "61% ask, 11% bid · spread 50, skip"
+        },
+        {
+          "name": "Six Seven",
+          "fairYes": 86,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: yes",
+          "context": "Rock Hill: 'six seven times as many' (poll riff). Whether that counts depends on Polymarket's resolution.",
+          "snapshot": {
+            "yesAsk": 49,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely YES (86%)",
+          "priceText": "49% ask, 2% bid · spread 47, skip"
+        },
+        {
+          "name": "Trump Ocean / Trump Strait",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 3/8 rallies",
+          "hitDetail": "1/3 recent · 3/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Hormuz rename riff.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        }
+      ]
+    },
+    {
+      "id": "pp",
+      "page": "research",
+      "state": "Posts, week to 2 Nov",
+      "kind": "weekly",
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/what-will-trump-post-this-week-october-26-november-1-20261101?r=PolymarketProgram",
+      "timeWita": "Mon 2 Nov, 12:59 PM WITA",
+      "closeWita": "Mon 2 Nov, 12:59 PM WITA",
+      "eventTicker": null,
+      "polymarketSlug": "what-will-trump-post-this-week-october-26-november-1-20261101",
+      "title": "What will Trump post this week? (October 26 - November 1)",
+      "status": "closed",
+      "feeds": "Truth Social posts only. Books are mostly empty (about 2–98).",
+      "strikes": [
+        {
+          "name": "Allah",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Spoken Iran or Muslim-voters riff; not a post word.",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "90% ask, 1% bid · spread 89, skip"
+        },
+        {
+          "name": "Bitcoin / Crypto / Cryptocurrency",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not in the current rally set.",
+          "snapshot": {
+            "yesAsk": 67,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "67% ask, 2% bid · spread 65, skip"
+        },
+        {
+          "name": "Ceasefire / Uranium",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Iran truce and deal talk.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "97% ask, 2% bid · spread 95, skip"
+        },
+        {
+          "name": "China",
+          "fairYes": 80,
+          "nonstandard": false,
+          "hitRate": "2/3 recent · 7/8 rallies",
+          "hitDetail": "2/3 recent · 7/8 rallies (Daytona counted) · this week: yes · 28 Oct gaggles: yes · Rock Hill: yes",
+          "context": "Trade and Xi posts. Fresh: Xi meeting scheduled (28 Oct gaggle).",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely YES (80%)",
+          "priceText": "98% ask, 2% bid · spread 96, skip"
+        },
+        {
+          "name": "Flying Car / Roadster",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 73,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "73% ask, 1% bid · spread 72, skip"
+        },
+        {
+          "name": "Genius / Elon / Musk",
+          "fairYes": 50,
+          "nonstandard": false,
+          "hitRate": "3/3 recent · 8/8 rallies",
+          "hitDetail": "3/3 recent · 8/8 rallies (Daytona counted) · this week: yes · Rock Hill: yes",
+          "context": "'Genius' is a frequent brag word.",
+          "snapshot": {
+            "yesAsk": 45,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Toss-up (50%)",
+          "priceText": "45% ask, 3% bid · spread 42, skip"
+        },
+        {
+          "name": "Greenland",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No current hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Israel",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes · Rock Hill: no",
+          "context": "Posts on Bibi and Israel's election.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Moon / UFO / UAP",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 15,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "15% ask · NO gap -3"
+        },
+        {
+          "name": "Russia",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 3/8 rallies",
+          "hitDetail": "0/3 recent · 3/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes · Rock Hill: no",
+          "context": "Peace-talk posts. Fresh: 'meeting set up very soon' (28 Oct gaggle).",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Scam / Scum",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "2/3 recent · 4/8 rallies",
+          "hitDetail": "2/3 recent · 4/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Democrat 'scam' line, common in posts.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Trump Ocean / Trump Strait",
+          "fairYes": 10,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 3/8 rallies",
+          "hitDetail": "1/3 recent · 3/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Hormuz rename riff.",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (10%)",
+          "priceText": "89% ask, 2% bid · spread 87, skip"
+        }
+      ]
+    },
+    {
+      "id": "km",
+      "page": "research",
+      "state": "October words",
+      "kind": "monthly",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpsaymonth",
+      "timeWita": "Sun 1 Nov, 11:00 PM WITA",
+      "closeWita": "Sun 1 Nov, 11:00 PM WITA",
+      "eventTicker": "KXTRUMPSAYMONTH-26NOV01",
+      "polymarketSlug": null,
+      "title": "Kalshi: What will Trump say in October? (KXTRUMPSAYMONTH)",
+      "status": "closed",
+      "feeds": "Daytona done. Still to come: gaggles and posts to 1 Nov; the Iowa and Kansas rallies are 1 Nov US.",
+      "strikes": [
+        {
+          "name": "Antifa",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Old protest-crime riff; dropped from the current set.",
+          "snapshot": {
+            "yesAsk": 4,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "4% ask · NO gap -5"
+        },
+        {
+          "name": "Autism, Predict / Prediction, Ceasefire, Filibuster",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "—",
+          "hitDetail": "—",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Epstein",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "3/3 recent · 5/8 rallies",
+          "hitDetail": "3/3 recent · 5/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Defensive riff when the press brings it up; said at Chillicothe.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Fat shot / Ozempic",
+          "fairYes": 6,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Drug-pricing event riff only.",
+          "snapshot": {
+            "yesAsk": 4,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (6%)",
+          "priceText": "4% ask · NO gap -3"
+        },
+        {
+          "name": "Golden Dome",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Defense brag; rare at rallies.",
+          "snapshot": {
+            "yesAsk": 4,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "4% ask · NO gap -2"
+        },
+        {
+          "name": "Make Iran Great Again",
+          "fairYes": 2,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Novelty line; not used this cycle.",
+          "snapshot": {
+            "yesAsk": 2,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (2%)",
+          "priceText": "2% ask · NO gap -1"
+        },
+        {
+          "name": "Peace in the Middle East",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not his current phrasing; he says 'peace' plus Iran.",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "3% ask · NO gap -1"
+        },
+        {
+          "name": "Peptide",
+          "fairYes": 2,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 5,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (2%)",
+          "priceText": "5% ask · NO gap +0"
+        },
+        {
+          "name": "UFO / UAP",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Only when asked.",
+          "snapshot": {
+            "yesAsk": 4,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "4% ask · NO gap +0"
+        }
+      ]
+    },
+    {
+      "id": "kc",
+      "page": "research",
+      "state": "October companies",
+      "kind": "monthly",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpsaycompany",
+      "timeWita": "Sun 1 Nov, 11:00 PM WITA",
+      "closeWita": "Sun 1 Nov, 11:00 PM WITA",
+      "eventTicker": "KXTRUMPSAYCOMPANY-26NOV01",
+      "polymarketSlug": null,
+      "title": "Kalshi: Companies in October (KXTRUMPSAYCOMPANY)",
+      "status": "closed",
+      "feeds": "Daytona done. Still to come: gaggles and the 1 Nov rallies.",
+      "strikes": [
+        {
+          "name": "Airbnb / ABNB",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "3% ask · NO gap -1"
+        },
+        {
+          "name": "Amazon, Paramount, Hyundai, Deere, Tesla, Google and others",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "—",
+          "hitDetail": "—",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Anthropic / Claude",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 10,
+            "yesBid": 9,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "10% ask · NO gap -6"
+        },
+        {
+          "name": "BBC",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Lawsuit line when the press comes up.",
+          "snapshot": {
+            "yesAsk": 5,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "5% ask · NO gap -4"
+        },
+        {
+          "name": "BlackRock",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 5,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "5% ask · NO gap -3"
+        },
+        {
+          "name": "Caterpillar",
+          "fairYes": 6,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Rare in investment lists.",
+          "snapshot": {
+            "yesAsk": 2,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (6%)",
+          "priceText": "2% ask · NO gap -5"
+        },
+        {
+          "name": "ChatGPT / OpenAI",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "AI riffs rarely name companies.",
+          "snapshot": {
+            "yesAsk": 6,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "6% ask · NO gap -3"
+        },
+        {
+          "name": "Chevron / CVX",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not at Rock Hill; Venezuela oil riff.",
+          "snapshot": {
+            "yesAsk": 16,
+            "yesBid": 15,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "16% ask · NO gap -15"
+        },
+        {
+          "name": "DoorDash / DASH",
+          "fairYes": 4,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "'No tax on tips' names no company.",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (4%)",
+          "priceText": "3% ask · NO gap -2"
+        },
+        {
+          "name": "ExxonMobil / XOM",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not at Rock Hill.",
+          "snapshot": {
+            "yesAsk": 16,
+            "yesBid": 7,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "16% ask · NO gap -8"
+        },
+        {
+          "name": "Honda / HMC",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "JPMorgan / JPM",
+          "fairYes": 4,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 2,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (4%)",
+          "priceText": "2% ask · NO gap -3"
+        },
+        {
+          "name": "Mastercard / MA",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 8,
+            "yesBid": 7,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "8% ask · NO gap +2"
+        },
+        {
+          "name": "Netflix / NFLX",
+          "fairYes": 6,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 7,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (6%)",
+          "priceText": "7% ask · NO gap -1"
+        },
+        {
+          "name": "Oracle / ORCL",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 4,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "4% ask · NO gap -5"
+        },
+        {
+          "name": "Qualcomm / QCOM",
+          "fairYes": 4,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (4%)",
+          "priceText": "3% ask · NO gap -2"
+        },
+        {
+          "name": "Rigetti / RGTI",
+          "fairYes": 1,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 2,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (1%)",
+          "priceText": "2% ask · NO gap +0"
+        },
+        {
+          "name": "Turning Point",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Charlie Kirk tribute; rare lately.",
+          "snapshot": {
+            "yesAsk": 5,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "5% ask · NO gap -5"
+        },
+        {
+          "name": "Verizon",
+          "fairYes": 4,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 10,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (4%)",
+          "priceText": "10% ask · NO gap -1"
+        },
+        {
+          "name": "X / Twitter",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Elon not said at Rock Hill.",
+          "snapshot": {
+            "yesAsk": 26,
+            "yesBid": 25,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "26% ask · NO gap +10"
+        }
+      ]
+    },
+    {
+      "id": "kco",
+      "page": "research",
+      "state": "October countries",
+      "kind": "monthly",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpsaycountry",
+      "timeWita": "Sun 1 Nov, 11:00 PM WITA",
+      "closeWita": "Sun 1 Nov, 11:00 PM WITA",
+      "eventTicker": "KXTRUMPSAYCOUNTRY-26NOV01",
+      "polymarketSlug": null,
+      "title": "Kalshi: Countries in October (KXTRUMPSAYCOUNTRY)",
+      "status": "closed",
+      "feeds": "Daytona done (Australia hit). Still to come: gaggles and the 1 Nov rallies.",
+      "strikes": [
+        {
+          "name": "Australia / Australian",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not at Rock Hill; one rally left before close.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": 99,
+            "settled": null,
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "100% ask (bid 99)"
+        },
+        {
+          "name": "Bahrain / Bahraini",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Gulf-ally lists in the Iran war riff.",
+          "snapshot": {
+            "yesAsk": 11,
+            "yesBid": 6,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "11% ask · NO gap -2"
+        },
+        {
+          "name": "Belgium / Belgian",
+          "fairYes": 4,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 11,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (4%)",
+          "priceText": "11% ask · NO gap -2"
+        },
+        {
+          "name": "Cuba, Argentina, Iceland, Ireland, Somalia",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "100/98",
+          "hitDetail": "Iceland is at 100/98, not yet finalized. · Rock Hill: no",
+          "context": "Iceland is at 100/98, not yet finalized.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Hungary / Hungarian",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 12,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "12% ask · NO gap -4"
+        },
+        {
+          "name": "Jamaica / Jamaican",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 7,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "7% ask · NO gap -2"
+        },
+        {
+          "name": "Kuwait / Kuwaiti",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not at Rock Hill.",
+          "snapshot": {
+            "yesAsk": 10,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "10% ask · NO gap -13"
+        },
+        {
+          "name": "Panama / Panamanian",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not at Rock Hill.",
+          "snapshot": {
+            "yesAsk": 8,
+            "yesBid": 7,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (12%)",
+          "priceText": "8% ask · NO gap -5"
+        },
+        {
+          "name": "Paraguay / Paraguayan",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No follow-up event after Peña's visit.",
+          "snapshot": {
+            "yesAsk": 2,
+            "yesBid": 0,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "2% ask · NO gap -5"
+        },
+        {
+          "name": "South Africa / South African",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "G20 jabs possible.",
+          "snapshot": {
+            "yesAsk": 14,
+            "yesBid": 13,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "14% ask · NO gap +5"
+        },
+        {
+          "name": "Sudan / Sudanese",
+          "fairYes": 4,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 10,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (4%)",
+          "priceText": "10% ask · NO gap -3"
+        },
+        {
+          "name": "UAE / United Arab Emirates",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not at Rock Hill.",
+          "snapshot": {
+            "yesAsk": 10,
+            "yesBid": 9,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "10% ask · NO gap -6"
+        }
+      ]
+    },
+    {
+      "id": "pi",
+      "page": "research",
+      "state": "Insults by 31 Oct",
+      "kind": "insults",
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/who-will-trump-publicly-insult-by-october-31-2026?r=PolymarketProgram",
+      "timeWita": "Sun 1 Nov, 7:59 AM WITA",
+      "closeWita": "Sun 1 Nov, 7:59 AM WITA",
+      "eventTicker": null,
+      "polymarketSlug": "who-will-trump-publicly-insult-by-october-31-2026",
+      "title": "Who will Trump publicly insult by October 31?",
+      "status": "closed",
+      "feeds": "Rallies, gaggles and posts through 31 Oct.",
+      "strikes": [
+        {
+          "name": "Andy Burnham",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 8,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "8% ask · NO gap -1"
+        },
+        {
+          "name": "Benjamin Netanyahu",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 6,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "6% ask · NO gap -2"
+        },
+        {
+          "name": "Candace Owens",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 17,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "17% ask · NO gap -4"
+        },
+        {
+          "name": "Dario Amodei",
+          "fairYes": 4,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 1,
+            "yesBid": 0,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (4%)",
+          "priceText": "1% ask · NO gap -4"
+        },
+        {
+          "name": "Elon Musk",
+          "fairYes": 1,
+          "nonstandard": false,
+          "hitRate": "2/3 recent · 6/8 rallies",
+          "hitDetail": "2/3 recent · 6/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "'Very good' relationship.",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 0,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (1%)",
+          "priceText": "3% ask, 0% bid · NO gap -1"
+        },
+        {
+          "name": "Emmanuel Macron",
+          "fairYes": 6,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 12,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (6%)",
+          "priceText": "12% ask · NO gap -2"
+        },
+        {
+          "name": "Friedrich Merz",
+          "fairYes": 4,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 5,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (4%)",
+          "priceText": "5% ask, 1% bid · NO gap -3"
+        },
+        {
+          "name": "Hakeem Jeffries",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Shutdown-fight target.",
+          "snapshot": {
+            "yesAsk": 64,
+            "yesBid": 17,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "64% ask, 17% bid · spread 47, skip"
+        },
+        {
+          "name": "Hillary Clinton",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 3/8 rallies",
+          "hitDetail": "1/3 recent · 3/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "J.B. Pritzker",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Chicago-crime insult target.",
+          "snapshot": {
+            "yesAsk": 83,
+            "yesBid": 10,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "83% ask, 10% bid · spread 73, skip"
+        },
+        {
+          "name": "J.D. Vance",
+          "fairYes": 1,
+          "nonstandard": false,
+          "hitRate": "2/3 recent · 6/8 rallies",
+          "hitDetail": "2/3 recent · 6/8 rallies (Daytona counted) · this week: yes · 28 Oct gaggles: yes · Rock Hill: no",
+          "context": "Running mate.",
+          "snapshot": {
+            "yesAsk": 2,
+            "yesBid": 0,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (1%)",
+          "priceText": "2% ask, 0% bid · NO gap -1"
+        },
+        {
+          "name": "Ken Paxton",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "2/3 recent · 2/8 rallies",
+          "hitDetail": "2/3 recent · 2/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "His endorsed Texas candidate; praise, not insults.",
+          "snapshot": {
+            "yesAsk": 36,
+            "yesBid": 7,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "36% ask · NO gap +4"
+        },
+        {
+          "name": "Kevin Warsh",
+          "fairYes": 2,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes · Rock Hill: no",
+          "context": "His Fed pick.",
+          "snapshot": {
+            "yesAsk": 2,
+            "yesBid": 0,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (2%)",
+          "priceText": "2% ask · NO gap -2"
+        },
+        {
+          "name": "Mark Carney",
+          "fairYes": 20,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Canada riffs name the country, not Carney.",
+          "snapshot": {
+            "yesAsk": 48,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (20%)",
+          "priceText": "48% ask, 4% bid · spread 44, skip"
+        },
+        {
+          "name": "Masoud Pezeshkian",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 6,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "6% ask, 1% bid · NO gap -2"
+        },
+        {
+          "name": "Mike Rogers",
+          "fairYes": 2,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 9,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (2%)",
+          "priceText": "9% ask, 3% bid · NO gap +1"
+        },
+        {
+          "name": "Pope Leo XIV",
+          "fairYes": 1,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 0,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (1%)",
+          "priceText": "3% ask · NO gap -1"
+        },
+        {
+          "name": "Stephen Colbert",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 19,
+            "yesBid": 12,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (12%)",
+          "priceText": "19% ask, 12% bid · NO gap +0"
+        },
+        {
+          "name": "Tucker Carlson",
+          "fairYes": 20,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 45,
+            "yesBid": 12,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (20%)",
+          "priceText": "45% ask · NO gap -8"
+        },
+        {
+          "name": "Vladimir Putin",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 3/8 rallies",
+          "hitDetail": "0/3 recent · 3/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes · Rock Hill: no",
+          "context": "'Disappointed' tone, not insults; 28 Oct 'progress'.",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "3% ask · NO gap -2"
+        },
+        {
+          "name": "Xi Jinping",
+          "fairYes": 1,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 2/8 rallies",
+          "hitDetail": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes · 28 Oct gaggles: yes · Rock Hill: no",
+          "context": "Praise ahead of APEC.",
+          "snapshot": {
+            "yesAsk": 0,
+            "yesBid": 0,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (1%)",
+          "priceText": "0% ask, 0% bid · NO gap -1"
+        },
+        {
+          "name": "Zohran Mamdani",
+          "fairYes": 10,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "NYC riff; no NYC hook.",
+          "snapshot": {
+            "yesAsk": 18,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (10%)",
+          "priceText": "18% ask · NO gap -7"
+        }
+      ]
+    }
+  ],
+  "sourceStrings": {
+    "rallyTail": [
+      "Open Kalshi and Polymarket rally strikes priced at the live ask (",
+      "), with fair value from the last eight rally transcripts and fresh news. Dubuque IA (1 Nov US) and Daytona Beach FL results are at the bottom; only Salina KS is still open.",
+      "Salina still on: KWCH and the RNC page say program 5:30 PM, Trump about 7 PM CST Sun 1 Nov (9:00 AM WITA Mon 2 Nov), Hangar 509. Clocks went back on Sunday, so 7 PM CST is 01:00 UTC.",
+      "Iowa tonight is the template for Kansas: Greenland 'infinite' deal, $5,000 per adult if Republicans hold both chambers, '1929-style depression' warning, red-dye diesel tax-free for farmers, Maduro capture, Somalia 'ruined Minnesota', El-Sayed 'jihadist' and Haley Stevens praise, Hinson weight joke, protesters 'paid by Soros… $250'. No Hormuz, no ethanol, no Turek transgender riff.",
+      "Kansas hooks: Marshall vs Hamilton (toss-up polls; at Park City he hit Hamilton on church LGBTQ fights and 'eat less beef'); governor Masterson vs Holscher with the 'Jesus could be transgender' ad; Wichita aviation (Spirit/Boeing, Textron, Bombardier Learjet).",
+      "Last 12 hours of news: Haley Stevens endorsed Mike Rogers in Michigan; a judge tossed the administration's Alaska Senate certification suit and Dan Sullivan said he'd accept the result; Sen. Chris Murphy hospitalized after a stroke.",
+      "10:00 AM WITA Sun check: both rallies still on. Dubuque, Five Flags: the RNC page now lists remarks at 3 PM CT (5 AM WITA Mon; KTIV said 2 PM). Salina, Hangar 509: program 5:30 PM CT, Trump about 7 PM CT (9 AM WITA Mon). US clocks go back on Sun 1 Nov, so CT is UTC−6. Event does not qualify is 4/3 (Iowa) and 9/7 (Kansas). Polymarket still has no Iowa or Kansas market.",
+      "31 Oct (US): 109 Truth Social posts, mostly endorsements, plus six tele-rallies (PA, OH, NY, MI, FL). Key post: LA attorney Essayli 'caught… 20,000' illegal votes, 'Election Fraud', '2020 Rigged and Stolen Election', 'Supreme Court… NO STANDING'. That supports Fraud and Supreme Court. He also posted a 'Reuters (One of the Worst!) Reporter' clip. 30 Oct: Iran will 'end very soon… they want to talk'.",
+      "Overnight moves: Iowa Gulf of America 38→56, Kamala 38→55, Nuclear 80→90, Ethanol 84→73. Kansas Cattle 65→36, Corn 54→24, Kamala 50→67, Small Business 47→62, Hormuz 71→84, Russia/Ukraine 45→53, Insurance 29→14. Why they moved (deep check, 10:15 AM WITA): traders repriced to Kalshi's own settled record (Hit rate now shows 'Kalshi Y/N'). Gulf 12/22 and said at Sioux City IA (22 Oct), so fair 55 and no longer a NO spot. Kamala 14/22, said at both Sioux City and Park City KS, missed the last 2; Harris hit Trump on 31 Oct ('too big to rig'), so fair 58. Corn 0/2 even at Iowa and Nebraska, Cattle only ever at Park City KS (0/8 in recent transcripts), Ethanol 1/3 (Iowa only). Small Business 3/6 but missed at Iowa and skipped at Daytona. Hormuz said in the 31 Oct NY tele-rally. Nothing on Factbase since 30 Oct has Kamala, Gulf, Corn, Cattle or Ethanol. 30 Oct KC radio interview: farmers, ranchers, China $28B, Boeing 757 cash riff, voter fraud.",
+      "Daytona (30 Oct, about 8:00–9:30 PM ET): 'I thought this was going to be my last one… they called me in Iowa and they called me in Kansas.' Core riffs were Iran and nuclear, Alaska voter fraud, 'communist' Angie Nixon, 'low IQ' Nixon and Jolly, and a long Democrat video montage (Abolish ICE, trans clips), which counts only if he says the words himself.",
+      "Daytona skips: Kamala (second straight miss), Gulf of America (even in Florida), Small Business, Veteran, Insurance, windmills and electricity, Russia–Ukraine and Supreme Court. Fairs for those are cut for Iowa and Kansas.",
+      "Polymarket South Carolina Job 20+ settled NO (about 18 in my captions), so the SC event is fully resolved.",
+      "Tarmac gaggle at Joint Base Andrews (29 Oct, PBS, TheWrap): 'Tomorrow, I'm doing Florida… if something else comes up.' Kansas and Iowa were briefly scrapped for tele-rallies, but both were put back on 30 Oct as in-person rallies for Sun 1 Nov US. To the Reuters reporter: 'You are disgusting… You look like hell.' That supports Hell, so Polymarket Hell 15+ fair goes to 60.",
+      "White House Halloween (29 Oct, pool reports, PBS): candy handout only, no remarks.",
+      "Communist/Socialist 5+ fair raised to 30 for a Florida crowd (Rock Hill said it about 4 times).",
+      "Rock Hill themes (Post and Courier, Herald, 29 Oct): '49.2 percent more people show up', 3.4% GDP, Octapharma and Re:Build investments ('you build here, you don't pay tariffs'), 'voter fraud at the highest level' on Alaska, the Ilhan Omar riff, the Andrews windmill attack, and the Roy Cooper hurricane aside.",
+      "Truth Social, 29 Oct (49 posts, SuperTrumpTracker): GDP 'BOOMING at 3.4 PERCENT', Kentucky and Pennsylvania early-vote posts, endorsements ('Dumocrats', 'Transgender Mutilization'), and 'BIGGEST CROWDS' with Darline Graham.",
+      "FOX Carolina interview (29 Oct): 'when we make sure that Iran has no nuclear weapon… oil prices will come plummeting'; no tax on tips, overtime and Social Security.",
+      "Factbase (30 Oct, 8:50 AM WITA): a 29 Oct Air Force One gaggle and endorsement vlogs are posted. There is no Rock Hill transcript yet.",
+      "Hit-rate fixes, checked quote by quote: AI 1/7 (only Pendleton 'artificial intelligence'); Elon/Musk 2/7 (Pendleton and Youngstown; the 'Elon Poll' line settled NO at Rock Hill); Terrorist 2/7 (Corpus and Youngstown); Grass 1/7 (Pendleton 'the new grass'); Deport 2/7 (Corpus and Lubbock; Chillicothe and Youngstown were audience chants); Two Percent 4/7 (Chillicothe, Corpus, Lubbock and Rock Hill '49.2%').",
+      "Results: Dubuque IA (1 Nov US) and Daytona Beach FL (30 Oct US)",
+      ". Hits: Iran 5+, Nuclear 3+, Tariff 3+, China, Canada, Steel, Corn, Greenland ('infinite' deal), Maduro, Russia/Ukraine, Kamala, ICE, Small Business, Omar, Save America Act. Misses: Ethanol (in Iowa!), Hormuz, Blockade, Cattle, Data Center, Gulf of America, Social Security 5+, Supreme Court. Polymarket: Hell 15+, Crazy 7+, Tariff 5+, Ass, Shit, Illinois, Alaska YES; Tax 32+ (about 25) and Transgender 7+ (about 4) NO. Still open: Kalshi Fraud 3+ at 14/23 (about 2 from Trump, lean NO); Polymarket results are proposed, not final. Source: my speech-to-text of the YouTube stream PW9928Xgmbw (about 13,800 words incl. guest speakers; it has gaps, so market settlements win where they differ). Omar, Bessent, Drill Baby Drill and Maduro were never on our Iowa tab.",
+      "Daytona Kalshi: 31 right, 3 wrong, 3 no call",
+      "Daytona Poly: 16 right, 3 wrong, 3 no call",
+      "Source: YouTube full-speech captions (0iGxqZz_Vnk, about 12,700 words, 92 min), saved at /workspace/u1031/T_daytona.txt, checked against Kalshi and Polymarket settlements. Counts are approximate.",
+      "Kalshi pending at 1¢ (treated as NO): Kamala, Small Business, Veteran, Elon/Musk, Insurance, Deport, Social Security 5+, Fentanyl. Polymarket still settling: Obama/Kamala/Biden 12+ (15%), Terrorist and Grass (22%), Russia/Ukraine (12%).",
+      "Hit rates on the open tabs are now out of 8 rallies, with the Daytona count shown as DB.",
+      "Rock Hill SC (29 Oct) notes, kept for reference:",
+      "No South Carolina strike was a Best spot at the 4:05 PM update, so there is no spot record for this rally.",
+      "Polymarket South Carolina is fully settled: Job 20+ settled NO (about 18 in my captions). SI, Transgender 7+, Million/Billion/Trillion 30+ and Biden/Obama/Kamala 15+ settled NO. Hell 15+ (about 23), America First and Hormuz/Blockade are settled YES.",
+      "Two Percent rule (Polymarket clarification): '49.2%' counts. He said it at Rock Hill ('49.2% more people show up'), so Two Percent is now 4/7 rallies.",
+      ". YES leans are judged against the YES ask; NO leans against the bid (NO ask = 100 − bid).",
+      "Half the prior call, half a weighted hit rate over the last eight rallies: Daytona ×3, Rock Hill ×2, Chillicothe, Lubbock, Corpus Christi, Fort Myers, Pendleton and Youngstown ×1, with each move capped at 15 points. Then fresh-hook and same-state adjustments. Strikes whose hit rate I corrected this update (AI, Elon/Musk, Terrorist, Grass, Deport, Two Percent) were reset to the corrected rate. Hit rate shows rallies said out of 8, then the Daytona count (DB).",
+      "Factbase transcript (posted 28 Oct), Trump's segments only (Husted and Ramaswamy removed). It fixed my speech-to-text undercounts: Fraud 3, Hormuz 2 (spelled 'Hormone Strait'), Save America Act 1, Job 11, Transgender 4, Million/Billion/Trillion 28.",
+      "Likely YES 78%+, Lean YES 56%+, Toss-up 46–55%, Lean NO 22%+, Likely NO below that. Not financial advice."
+    ],
+    "weeklyTail": [
+      "Open weekly, monthly and long-dated Trump word markets, priced at the live ask (",
+      ") and updated for the Daytona Beach FL rally (30 Oct US); the Iowa and Kansas rallies are back on for Sun 1 Nov US.",
+      "Iowa and Kansas are counted in this week's windows.",
+      ": all 8 spots are now on the Kalshi November tabs. The weekly has none left: Ethanol went from 68 to 72 ask (gap 8, fair 80), and every other open weekly word sits within 6 of fair. Polymarket weekly say/post books are all 30+ wide or near zero, so they are skipped. Country moves: Turkey 88→92, UAE 65→72, North Korea 80→85, Hungary 12→30, Belgium 15→22, South Africa 28→25. Yellow strike names on the countries tab are not in Trump's standard rally template (standard: Mexico, Canada, France, Somalia, Afghanistan, Japan, South Korea, Germany, Saudi, Congo, UK, Australia, Cuba), so they need news or a meeting to hit.",
+      "Diplomacy calendar → country strikes (WITA)",
+      "Two Trump–Erdoğan calls: Hormuz, Houthis, Ukraine",
+      "G20 foreign ministers, Atlanta; South Africa not invited, Poland a guest",
+      "Iran delegation in Doha; Qatar and Pakistan mediating; Trump–Netanyahu call",
+      "Midterm results remarks; US may confirm Abu Dhabi talks; Iran strikes could restart after 3 Nov",
+      "US–Russia–Ukraine talks in Abu Dhabi (Zelensky's dates)",
+      "European Political Community summit, Dublin (no US)",
+      "Taiwan 97, North Korea 85, Japan, South Korea, Australia",
+      "No foreign-leader White House visit found; Milei Miami mention; possible Belgium visit floated",
+      "Kalshi November say, countries and companies markets open",
+      "https://kalshi.com/markets/kxtrumpmention/kxtrumpmention-26nov01",
+      "https://kalshi.com/markets/kxtrumpmentionb/kxtrumpmentionb-26nov01",
+      "Rock Hill words on these markets: 'crazy Bernie' (Kalshi nicknames, now 100/99), 'radical left' lunatic (Polymarket weekly, settled YES), 'six seven times as many' (Polymarket Six Seven still open, 90/13), plus Canada, China, Omar, Diesel, Dividend, Golden Age and Front Row Joe.",
+      "Not said at Rock Hill: Autopen, Ethanol, Houthi, Mortgage, Refinery, Third Term, Tomahawk, Uranium, Zohran, Ranked Choice, Chevron, Exxon, Australia, UAE, Kuwait and Panama (LiveNOW captions, about 14,600 words).",
+      "Vivek and Epstein are finalized YES (our Epstein YES spot at 18%, 1:05 PM WITA Wed, won). Ceasefire and Mortgage are at 100/99, not finalized yet.",
+      "Last update's Autopen NO spot is closed out by the market: gap now -1 (8:55 PM WITA Fri).",
+      "Kalshi Companies Honda is now finalized YES.",
+      ". YES leans use the YES ask; NO leans use the bid (NO ask = 100 − bid). Spreads of 40+ are skipped.",
+      "Same base for every strike: recent = Chillicothe, Corpus Christi, Lubbock; rallies = those plus Corinth, Fort Myers, Pendleton, Youngstown (7 transcripts, Chillicothe from my own speech-to-text). 'This week' = any rally from 26 Oct US. 'Rock Hill' = said in the LiveNOW captions of the 29 Oct speech. Gaggles = the two 28 Oct Air Force One gaggles. Spoken only: Truth Social posts are not counted, and they do count on Kalshi. Insult and nickname markets count name mentions, not insults.",
+      "Factbase transcripts of the recent rallies and the 28 Oct gaggles, plus my own speech-to-text of the Chillicothe stream (Factbase hasn't posted it yet). Kalshi weekly counts Truth Social posts; Polymarket 'say' counts spoken words only."
+    ]
+  }
+}
