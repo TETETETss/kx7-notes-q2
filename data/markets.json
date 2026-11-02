@@ -1,0 +1,5396 @@
+{
+  "title": "Notes",
+  "timezone": "WITA",
+  "utcOffset": "+08:00",
+  "stamps": {
+    "rallies": "8:50 AM WITA, Mon 2 Nov 2026",
+    "weekly": "1:12 PM WITA, Mon 2 Nov 2026"
+  },
+  "rules": {
+    "yesLeanMin": 56,
+    "noLeanMax": 45,
+    "likelyYesMin": 78,
+    "leanNoMin": 22,
+    "tossLow": 46,
+    "tossHigh": 55,
+    "minGap": 12,
+    "maxSpread": 40,
+    "spreadRule": "Skip a book when YES ask minus YES bid is 40 or more.",
+    "gapYes": "Fair minus YES ask. Needs fair at 56% or more.",
+    "gapNo": "YES bid minus fair. NO ask = 100 minus YES bid. Needs fair at 45% or less.",
+    "labels": "Likely YES 78%+, Lean YES 56%+, Toss-up 46–55%, Lean NO 22–45%, Likely NO under 22%.",
+    "advice": "Not financial advice.",
+    "yellow": "Yellow strike text means the word is not part of the standard every-rally template."
+  },
+  "edit": "Change fairYes (a YES percent) and context on a strike. The site recomputes the call, the gap, and best spots from fairYes plus data/prices.json.",
+  "events": [
+    {
+      "id": "ks",
+      "page": "markets",
+      "state": "Kansas",
+      "kind": "rally",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-26nov01",
+      "timeWita": "Mon 2 Nov, 9:00 AM WITA",
+      "closeWita": null,
+      "eventTicker": "KXTRUMPMENTIONB-26NOV01",
+      "polymarketSlug": null,
+      "title": "KXTRUMPMENTIONB-26NOV01",
+      "status": "open",
+      "feeds": "Rally mention market. Fair value is edited on each strike.",
+      "strikes": [
+        {
+          "name": "Transgender",
+          "fairYes": 98,
+          "nonstandard": false,
+          "hitRate": "7/8 rallies · Daytona 0 · Kalshi 17/17",
+          "hitDetail": "IA ~4x · 7/8 · DB 0 · Kalshi 17/17",
+          "context": "Schools and sports line; usually 1–2. 7/8 rallies, but at Daytona it was only in the Democrat video montage he played, which doesn't count. Said at every Kalshi rally (17/17); Masterson vs Holscher governor race and Hamilton's church views.",
+          "snapshot": {
+            "yesAsk": 99,
+            "yesBid": 98,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KT",
+          "evidence": [
+            7,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Save America Act",
+          "fairYes": 97,
+          "nonstandard": false,
+          "hitRate": "8/8 rallies · Daytona 1 · Kalshi 25/25",
+          "hitDetail": "IA yes · 8/8 · DB 1x · Kalshi 25/25",
+          "context": "Voter-ID and election riff.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": 97,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            8,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Farm / Farmer",
+          "fairYes": 95,
+          "nonstandard": true,
+          "hitRate": "5/8 rallies · Daytona 0 · Kalshi 3/3",
+          "hitDetail": "IA ~20x · 5/8 · DB 0 · Kalshi 3/3",
+          "context": "Kansas farm crowd; farm estate-tax and diesel riffs (Rock Hill: 'family farms').",
+          "snapshot": {
+            "yesAsk": 91,
+            "yesBid": 88,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KF",
+          "evidence": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Tariff (3+ times)",
+          "fairYes": 90,
+          "nonstandard": false,
+          "hitRate": "7/8 rallies · Daytona 3 · Kalshi 8/9",
+          "hitDetail": "IA yes · 7/8 · DB 3x · Kalshi 8/9",
+          "context": "'My favorite word' riff.",
+          "snapshot": {
+            "yesAsk": 88,
+            "yesBid": 87,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            7,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "name": "Nuclear (3+ times)",
+          "fairYes": 90,
+          "nonstandard": false,
+          "hitRate": "7/8 rallies · Daytona 8 · Kalshi 11/12",
+          "hitDetail": "IA yes · 7/8 · DB 8x · Kalshi 11/12",
+          "context": "Iran 'never have a nuclear weapon' line. Daytona: Iran about 11 times, nuclear about 8; the Iran war riff is core.",
+          "snapshot": {
+            "yesAsk": 91,
+            "yesBid": 88,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "DN",
+          "evidence": [
+            7,
+            0,
+            1,
+            8
+          ]
+        },
+        {
+          "name": "Iran (5+ times)",
+          "fairYes": 85,
+          "nonstandard": false,
+          "hitRate": "7/8 rallies · Daytona 11 · Kalshi 18/25",
+          "hitDetail": "IA yes · 7/8 · DB 11x · Kalshi 18/25",
+          "context": "Core war riff; many uses every rally. Daytona: Iran about 11 times, nuclear about 8; the Iran war riff is core.",
+          "snapshot": {
+            "yesAsk": 87,
+            "yesBid": 80,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "DN",
+          "evidence": [
+            7,
+            0,
+            1,
+            11
+          ]
+        },
+        {
+          "name": "China / Chinese",
+          "fairYes": 93,
+          "nonstandard": false,
+          "hitRate": "7/8 rallies · Daytona 1 · Kalshi 16/19",
+          "hitDetail": "IA yes · 7/8 · DB 1x · Kalshi 16/19",
+          "context": "Trade and Xi riffs; missed at Chillicothe. Kansas is a beef, wheat, sorghum and soybean state; China buys its crops.",
+          "snapshot": {
+            "yesAsk": 91,
+            "yesBid": 88,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KC",
+          "evidence": [
+            7,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Made in America / American Made",
+          "fairYes": 90,
+          "nonstandard": false,
+          "hitRate": "7/8 rallies · Daytona 1 · Kalshi 17/25",
+          "hitDetail": "IA yes · 7/8 · DB 1x · Kalshi 17/25",
+          "context": "Car-loan tax riff, but sometimes in variations that don't count.",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 88,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            7,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Fraud (3+ times)",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "4/8 rallies · Daytona 7 · Kalshi 6/20",
+          "hitDetail": "IA ~2x (pending) · 4/8 · DB 7x · Kalshi 6/20",
+          "context": "Election-integrity riff (voter fraud, Alaska ballots). About 7 at Daytona ('voter fraud at the highest level', Alaska); 4/8 rallies at 3+. Iowa ~2 from Trump (pending at 14/23).",
+          "snapshot": {
+            "yesAsk": 55,
+            "yesBid": 47,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "DF",
+          "evidence": [
+            4,
+            0,
+            1,
+            7
+          ]
+        },
+        {
+          "name": "Hormuz",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "6/8 rallies · Daytona 1 · Kalshi 15/25",
+          "hitDetail": "IA no · 6/8 · DB 1x · Kalshi 15/25",
+          "context": "Iran war riff (strait, oil).  Missed in Iowa tonight; Iran riff stayed on nukes and the war.",
+          "snapshot": {
+            "yesAsk": 55,
+            "yesBid": 41,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            6,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Steel",
+          "fairYes": 90,
+          "nonstandard": false,
+          "hitRate": "6/8 rallies · Daytona 1 · Kalshi 6/6",
+          "hitDetail": "IA yes · 6/8 · DB 1x · Kalshi 6/6",
+          "context": "Tariff and industry brag; strong in Rust Belt states.",
+          "snapshot": {
+            "yesAsk": 91,
+            "yesBid": 86,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            6,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Kamala",
+          "fairYes": 75,
+          "nonstandard": false,
+          "hitRate": "5/8 rallies · Daytona 0 · Kalshi 14/22",
+          "hitDetail": "IA yes · 5/8 · DB 0 · Kalshi 14/22",
+          "context": "Attacks tying opponents to Biden and Kamala. Missed at Rock Hill and at Daytona (Kalshi 1¢), now 5/8; he hits local Democrats (Nixon, Jolly) instead. Said in Iowa ('2024 election versus Kamala Harris').",
+          "snapshot": {
+            "yesAsk": 80,
+            "yesBid": 69,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KK",
+          "evidence": [
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Small Business",
+          "fairYes": 65,
+          "nonstandard": false,
+          "hitRate": "2/8 rallies · Daytona 0 · Kalshi 3/6",
+          "hitDetail": "IA yes · 2/8 · DB 0 · Kalshi 3/6",
+          "context": "Missed at Daytona; the Rock Hill estate-tax line ('family farms and small businesses') is the farm-state hook.",
+          "snapshot": {
+            "yesAsk": 64,
+            "yesBid": 58,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KS",
+          "evidence": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "ICE",
+          "fairYes": 88,
+          "nonstandard": false,
+          "hitRate": "4/8 rallies · Daytona 1 · Kalshi 14/18",
+          "hitDetail": "IA yes · 4/8 · DB 1x · Kalshi 14/18",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 88,
+            "yesBid": 85,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            4,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Supreme Court",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "4/8 rallies · Daytona 0 · Kalshi 15/23",
+          "hitDetail": "IA no · 4/8 · DB 0 · Kalshi 15/23",
+          "context": "Tariff court case riff.",
+          "snapshot": {
+            "yesAsk": 19,
+            "yesBid": 15,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Aircraft / Aviation",
+          "fairYes": 50,
+          "nonstandard": true,
+          "hitRate": "3/8 rallies · Daytona 1 · Kalshi 1/1",
+          "hitDetail": "IA 1x · 3/8 · DB 1x · Kalshi 1/1",
+          "context": "Daytona: 'build aircraft engines in Okaloosa County'; Wichita is the 'Air Capital' and he speaks in a hangar. Salina is an airport hangar; Wichita aviation (Spirit, Textron) is the Kansas industry hook.",
+          "snapshot": {
+            "yesAsk": 51,
+            "yesBid": 45,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KA",
+          "evidence": [
+            3,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Diesel",
+          "fairYes": 90,
+          "nonstandard": true,
+          "hitRate": "3/8 rallies · Daytona 0 · Kalshi 1/2",
+          "hitDetail": "IA 3x (red-dye diesel) · 3/8 · DB 0 · Kalshi 1/2",
+          "context": "Kansas farm crowd; farm estate-tax and diesel riffs (Rock Hill: 'family farms'). New standard line in Iowa: red-dye diesel tax-free for farmers and truckers.",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 83,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KF",
+          "evidence": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Ethanol",
+          "fairYes": 6,
+          "nonstandard": true,
+          "hitRate": "0/8 rallies · Daytona 0 · Kalshi 1/3",
+          "hitDetail": "IA no · 0/8 · DB 0 · Kalshi 1/3",
+          "context": "Farm and biofuel riff in farm states. Kansas is a beef, wheat, sorghum and soybean state; China buys its crops.",
+          "snapshot": {
+            "yesAsk": 10,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KC",
+          "evidence": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Water",
+          "fairYes": 30,
+          "nonstandard": true,
+          "hitRate": "3/8 rallies · Daytona 3 · Kalshi 1/2",
+          "hitDetail": "IA no · 3/8 · DB 3x · Kalshi 1/2",
+          "context": "Kansas farm crowd; farm estate-tax and diesel riffs (Rock Hill: 'family farms').",
+          "snapshot": {
+            "yesAsk": 38,
+            "yesBid": 30,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KF",
+          "evidence": [
+            3,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "name": "Russia / Ukraine",
+          "fairYes": 65,
+          "nonstandard": false,
+          "hitRate": "4/8 rallies · Daytona 0 · Kalshi 13/25",
+          "hitDetail": "IA yes · 4/8 · DB 0 · Kalshi 13/25",
+          "context": "Peace-deal brag; skipped at Chillicothe.  Said in Iowa tonight; Abu Dhabi talks this week.",
+          "snapshot": {
+            "yesAsk": 55,
+            "yesBid": 45,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Boeing",
+          "fairYes": 30,
+          "nonstandard": true,
+          "hitRate": "1/8 rallies · Daytona 0 · Kalshi 1/2",
+          "hitDetail": "IA no · 1/8 · DB 0 · Kalshi 1/2",
+          "context": "Daytona: 'build aircraft engines in Okaloosa County'; Wichita is the 'Air Capital' and he speaks in a hangar. Spirit AeroSystems/Boeing Wichita hook; not said in Iowa.",
+          "snapshot": {
+            "yesAsk": 38,
+            "yesBid": 27,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KA",
+          "evidence": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Cattle",
+          "fairYes": 30,
+          "nonstandard": true,
+          "hitRate": "0/8 rallies · Daytona 0 · Kalshi 1/1",
+          "hitDetail": "IA no · 0/8 · DB 0 · Kalshi 1/1",
+          "context": "Kansas is a beef, wheat, sorghum and soybean state; China buys its crops. Hamilton 'eat less beef' attack was at Park City; Iowa skipped cattle.",
+          "snapshot": {
+            "yesAsk": 36,
+            "yesBid": 33,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KC",
+          "evidence": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Corn",
+          "fairYes": 40,
+          "nonstandard": true,
+          "hitRate": "0/8 rallies · Daytona 0 · Kalshi 0/2",
+          "hitDetail": "IA yes · 0/8 · DB 0 · Kalshi 0/2",
+          "context": "Kansas is a beef, wheat, sorghum and soybean state; China buys its crops. Said in Iowa; Kansas grows corn too, but the farm riff is usually 'farmers'.",
+          "snapshot": {
+            "yesAsk": 30,
+            "yesBid": 26,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KC",
+          "evidence": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Insurance",
+          "fairYes": 12,
+          "nonstandard": true,
+          "hitRate": "1/8 rallies · Daytona 0 · Kalshi 0/3",
+          "hitDetail": "IA no · 1/8 · DB 0 · Kalshi 0/3",
+          "context": "Missed in Florida despite its property-insurance crisis; 1/8 rallies.",
+          "snapshot": {
+            "yesAsk": 15,
+            "yesBid": 14,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KI",
+          "evidence": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Veteran",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/8 rallies · Daytona 0 · Kalshi 1/7",
+          "hitDetail": "IA no · 0/8 · DB 0 · Kalshi 1/7",
+          "context": "0/8 rallies, missed at Daytona too.",
+          "snapshot": {
+            "yesAsk": 19,
+            "yesBid": 14,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KV",
+          "evidence": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "NATO",
+          "fairYes": 8,
+          "nonstandard": true,
+          "hitRate": "0/8 rallies · Daytona 0 · Kalshi 1/2",
+          "hitDetail": " · 0/8 · DB 0 · Kalshi 1/2",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 9,
+            "yesBid": 8,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Data Center",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "2/8 rallies · Daytona 0 · Kalshi 3/22",
+          "hitDetail": "IA no · 2/8 · DB 0 · Kalshi 3/22",
+          "context": "AI and power-bill riff; skipped in Ohio.",
+          "snapshot": {
+            "yesAsk": 21,
+            "yesBid": 18,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Deport / Deported / Deportation",
+          "fairYes": 10,
+          "nonstandard": false,
+          "hitRate": "2/8 rallies · Daytona 0 · Kalshi 3/25",
+          "hitDetail": "IA no · 2/8 · DB 0 · Kalshi 3/25",
+          "context": "Border riff, but often says 'illegal aliens' instead.",
+          "snapshot": {
+            "yesAsk": 13,
+            "yesBid": 11,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Windmill",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "2/8 rallies · Daytona 0 · Kalshi 2/9",
+          "hitDetail": "IA no · 2/8 · DB 0 · Kalshi 2/9",
+          "context": "Kansas is a top wind-power state; Rock Hill windmill attack.",
+          "snapshot": {
+            "yesAsk": 22,
+            "yesBid": 13,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KW",
+          "evidence": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "AI / Artificial Intelligence",
+          "fairYes": 7,
+          "nonstandard": false,
+          "hitRate": "1/8 rallies · Daytona 0 · Kalshi 6/25",
+          "hitDetail": "IA no · 1/8 · DB 0 · Kalshi 6/25",
+          "context": "Superintelligence (SI) riff; sometimes hits.",
+          "snapshot": {
+            "yesAsk": 10,
+            "yesBid": 9,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Fentanyl",
+          "fairYes": 10,
+          "nonstandard": false,
+          "hitRate": "1/8 rallies · Daytona 0 · Kalshi 2/25",
+          "hitDetail": "IA no · 1/8 · DB 0 · Kalshi 2/25",
+          "context": "Border and drugs riff; rare lately.",
+          "snapshot": {
+            "yesAsk": 13,
+            "yesBid": 9,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Social Security (5+ times)",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/8 rallies · Daytona 2 · Kalshi 1/9",
+          "hitDetail": "IA ~3x · 0/8 · DB 2x · Kalshi 1/9",
+          "context": "No-tax list line; usually once.",
+          "snapshot": {
+            "yesAsk": 8,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "name": "Trump Account",
+          "fairYes": 2,
+          "nonstandard": false,
+          "hitRate": "1/8 rallies · Daytona 0 · Kalshi 0/19",
+          "hitDetail": " · 1/8 · DB 0 · Kalshi 0/19",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 5,
+            "yesBid": 0,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Ceasefire",
+          "fairYes": 2,
+          "nonstandard": false,
+          "hitRate": "0/8 rallies · Daytona 0 · Kalshi 1/25",
+          "hitDetail": " · 0/8 · DB 0 · Kalshi 1/25",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Crypto / Bitcoin",
+          "fairYes": 1,
+          "nonstandard": false,
+          "hitRate": "0/8 rallies · Daytona 0 · Kalshi 0/25",
+          "hitDetail": " · 0/8 · DB 0 · Kalshi 0/25",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 1,
+            "yesBid": 0,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Event does not qualify",
+          "fairYes": 1,
+          "nonstandard": false,
+          "hitRate": "—",
+          "hitDetail": "—",
+          "context": "Salina Regional Airport, Hangar 509; Trump speaks 7 PM CT Sun 1 Nov (9:00 AM WITA Mon), after Dubuque.",
+          "snapshot": {
+            "yesAsk": 1,
+            "yesBid": 0,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "KQ",
+          "evidence": []
+        },
+        {
+          "name": "Ilhan / Omar",
+          "fairYes": 92,
+          "nonstandard": false,
+          "hitRate": "—",
+          "hitDetail": "IA yes",
+          "context": "Said in Iowa (Somalia riff, 'ruined Minnesota').",
+          "snapshot": {
+            "yesAsk": 92,
+            "yesBid": 90,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": []
+        },
+        {
+          "name": "Drill Baby Drill",
+          "fairYes": 10,
+          "nonstandard": false,
+          "hitRate": "—",
+          "hitDetail": "IA no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 13,
+            "yesBid": 9,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": []
+        },
+        {
+          "name": "Maduro",
+          "fairYes": 88,
+          "nonstandard": false,
+          "hitRate": "—",
+          "hitDetail": "IA yes",
+          "context": "Iowa: 'captured and brought to justice… Maduro'.",
+          "snapshot": {
+            "yesAsk": 87,
+            "yesBid": 82,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": []
+        },
+        {
+          "name": "Bessent",
+          "fairYes": 6,
+          "nonstandard": false,
+          "hitRate": "—",
+          "hitDetail": "IA no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 13,
+            "yesBid": 7,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "pks",
+      "page": "markets",
+      "state": "Kansas",
+      "kind": "rally",
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/what-will-trump-say-during-his-midterm-rally-in-kansas-november-1-salina-ks",
+      "timeWita": "Mon 2 Nov, 9:00 AM WITA",
+      "closeWita": null,
+      "eventTicker": null,
+      "polymarketSlug": "what-will-trump-say-during-his-midterm-rally-in-kansas-november-1-salina-ks",
+      "title": "What will Trump say during his Midterm Rally in Kansas?",
+      "status": "open",
+      "feeds": "Rally mention market. Fair value is edited on each strike.",
+      "strikes": [
+        {
+          "name": "AI / Artificial Intelligence",
+          "fairYes": 7,
+          "nonstandard": false,
+          "hitRate": "4/8 rallies · Daytona 0 · Kalshi 6/25",
+          "hitDetail": "IA no · 4/8 · DB 0 · Kalshi 6/25",
+          "context": "Superintelligence (SI) riff; sometimes hits.",
+          "snapshot": {
+            "yesAsk": 11,
+            "yesBid": 8,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            4,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Ass",
+          "fairYes": 60,
+          "nonstandard": false,
+          "hitRate": "4/8 rallies · Daytona 5",
+          "hitDetail": "IA yes · 4/8 · DB 5x",
+          "context": "Ad-lib (Vivek intro at Chillicothe).",
+          "snapshot": {
+            "yesAsk": 79,
+            "yesBid": 39,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "flag": "",
+          "evidence": [
+            4,
+            2,
+            1,
+            5
+          ]
+        },
+        {
+          "name": "Bitcoin / Crypto / Cryptocurrency",
+          "fairYes": 1,
+          "nonstandard": false,
+          "hitRate": "0/8 rallies · Daytona 0",
+          "hitDetail": "IA no · 0/8 · DB 0",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 4,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            0,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Boeing",
+          "fairYes": 25,
+          "nonstandard": true,
+          "hitRate": "1/8 rallies · Daytona 0 · Kalshi 1/2",
+          "hitDetail": "IA no · 1/8 · DB 0 · Kalshi 1/2",
+          "context": "Kansas aerospace hook (Wichita); Lubbock only. Kalshi Kansas Boeing settled 1/2. Spirit AeroSystems/Boeing Wichita hook; not said in Iowa.",
+          "snapshot": {
+            "yesAsk": 54,
+            "yesBid": 6,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "flag": "PK",
+          "evidence": [
+            1,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Bombardier",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/8 rallies · Daytona 0",
+          "hitDetail": " · 0/8 · DB 0",
+          "context": "Canadian jet maker (Learjet plant in Wichita). Never said at recent rallies.",
+          "snapshot": {
+            "yesAsk": 37,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "PB",
+          "evidence": [
+            0,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Brazil",
+          "fairYes": 4,
+          "nonstandard": true,
+          "hitRate": "1/8 rallies · Daytona 0",
+          "hitDetail": "IA no · 1/8 · DB 0",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 24,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            1,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Cancel",
+          "fairYes": 45,
+          "nonstandard": false,
+          "hitRate": "0/8 rallies · Daytona 0",
+          "hitDetail": " · 0/8 · DB 0",
+          "context": "He canceled this rally then put it back on (29–30 Oct); could joke about it. Never said in the last 8.",
+          "snapshot": {
+            "yesAsk": 79,
+            "yesBid": 32,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "flag": "PN",
+          "evidence": [
+            0,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Data Center",
+          "fairYes": 10,
+          "nonstandard": false,
+          "hitRate": "2/8 rallies · Daytona 0 · Kalshi 3/22",
+          "hitDetail": "IA no · 2/8 · DB 0 · Kalshi 3/22",
+          "context": "AI and power-bill riff; skipped in Ohio.",
+          "snapshot": {
+            "yesAsk": 48,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "flag": "",
+          "evidence": [
+            2,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Daylight Saving",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/8 rallies · Daytona 0",
+          "hitDetail": "IA no · 0/8 · DB 0",
+          "context": "US clocks go back on rally day (Sun 1 Nov); he has pushed to end the switch. Never said in the last 8 rallies.",
+          "snapshot": {
+            "yesAsk": 45,
+            "yesBid": 15,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "PD",
+          "evidence": [
+            0,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Fentanyl / Deport / Deported",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "2/8 rallies · Daytona 0",
+          "hitDetail": "IA no · 2/8 · DB 0",
+          "context": "Border and drugs riff; rare lately.",
+          "snapshot": {
+            "yesAsk": 40,
+            "yesBid": 12,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            2,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Halloween",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "1/8 rallies · Daytona 0",
+          "hitDetail": " · 1/8 · DB 0",
+          "context": "Day after Halloween and his Mar-a-Lago party; said once (Rock Hill).",
+          "snapshot": {
+            "yesAsk": 64,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "flag": "PW",
+          "evidence": [
+            1,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Hell 15+ times",
+          "fairYes": 55,
+          "nonstandard": false,
+          "hitRate": "6/8 rallies · Daytona 7",
+          "hitDetail": "IA YES (15+) · 6/8 · DB 7x",
+          "context": "Ad-lib; count depends on length. 15+ needed. Rock Hill 23 but Daytona 7, and his voice is 'at 49.2%'.",
+          "snapshot": {
+            "yesAsk": 40,
+            "yesBid": 8,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "PL",
+          "evidence": [
+            6,
+            1,
+            0,
+            7
+          ]
+        },
+        {
+          "name": "Hormuz / Blockade",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "7/8 rallies · Daytona 1",
+          "hitDetail": "IA no · 7/8 · DB 1x",
+          "context": "Iran war riff (strait, oil). Either word counts. Kalshi Hormuz was YES at Daytona, SC and Chillicothe (7 of last 8); also said in the 31 Oct NY tele-rally. Iowa tonight had no Hormuz or blockade (Kalshi IA Hormuz 0/1); Kalshi KS Hormuz only 41/55. Polymarket 60 bid is far too high.",
+          "snapshot": {
+            "yesAsk": 86,
+            "yesBid": 60,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "PH",
+          "evidence": [
+            7,
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Job 15+ times",
+          "fairYes": 60,
+          "nonstandard": false,
+          "hitRate": "6/8 rallies · Daytona 10",
+          "hitDetail": "IA ~17x · 6/8 · DB 10x",
+          "context": "Economy brag; count depends on length. 15+ needed. Rock Hill 18, Chillicothe 17, Daytona only 10.",
+          "snapshot": {
+            "yesAsk": 83,
+            "yesBid": 33,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "flag": "PJ",
+          "evidence": [
+            6,
+            2,
+            0,
+            10
+          ]
+        },
+        {
+          "name": "Million / Billion / Trillion 25+ times",
+          "fairYes": 55,
+          "nonstandard": false,
+          "hitRate": "6/8 rallies · Daytona 23",
+          "hitDetail": "IA ~24x (captions undercount) · 6/8 · DB 23x",
+          "context": "Border numbers and investment figures. 25+ combined needed. Rock Hill 28, Chillicothe 29, Daytona 23.",
+          "snapshot": {
+            "yesAsk": 68,
+            "yesBid": 40,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "PO",
+          "evidence": [
+            6,
+            2,
+            0,
+            23
+          ]
+        },
+        {
+          "name": "Pardon / Pardoned",
+          "fairYes": 20,
+          "nonstandard": false,
+          "hitRate": "2/8 rallies · Daytona 2",
+          "hitDetail": " · 2/8 · DB 2x",
+          "context": "Said at Daytona (2) and Lubbock.",
+          "snapshot": {
+            "yesAsk": 79,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "flag": "PP",
+          "evidence": [
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Russia / Ukraine",
+          "fairYes": 65,
+          "nonstandard": false,
+          "hitRate": "4/8 rallies · Daytona 0 · Kalshi 13/25",
+          "hitDetail": "IA yes · 4/8 · DB 0 · Kalshi 13/25",
+          "context": "Peace-deal brag; skipped at Chillicothe.  Said in Iowa tonight; Abu Dhabi talks this week.",
+          "snapshot": {
+            "yesAsk": 61,
+            "yesBid": 34,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            4,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Shit",
+          "fairYes": 60,
+          "nonstandard": false,
+          "hitRate": "3/8 rallies · Daytona 0",
+          "hitDetail": "IA yes · 3/8 · DB 0",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 58,
+            "yesBid": 33,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            3,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "SI / Super Intelligence",
+          "fairYes": 8,
+          "nonstandard": true,
+          "hitRate": "2/8 rallies · Daytona 0",
+          "hitDetail": "IA no · 2/8 · DB 0",
+          "context": "Superintelligence riff; sometimes hits.",
+          "snapshot": {
+            "yesAsk": 45,
+            "yesBid": 12,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "",
+          "evidence": [
+            2,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "name": "Tax 32+ times",
+          "fairYes": 25,
+          "nonstandard": false,
+          "hitRate": "1/8 rallies · Daytona 21",
+          "hitDetail": "IA ~25x, NO · 1/8 · DB 21x",
+          "context": "32+ needed. Factbase max is 30 (Corinth); Daytona and Rock Hill 21, Chillicothe 15. 0 of the last 6 rallies reached 32.",
+          "snapshot": {
+            "yesAsk": 61,
+            "yesBid": 21,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "flag": "PX",
+          "evidence": [
+            1,
+            0,
+            0,
+            21
+          ]
+        },
+        {
+          "name": "Transgender 7+ times",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "3/8 rallies · Daytona 5",
+          "hitDetail": "IA ~4x, NO · 3/8 · DB 5x",
+          "context": "Schools and sports line; usually 1–2. Park City 12 (Hamilton and Holscher attacks); standard speech 4–5. Masterson vs Holscher still live (vote 3 Nov); pro-Masterson ad on 'Jesus could be transgender' running. Iowa only ~4 (no Turek riff). Park City KS had 12 with Hamilton/Holscher attacks, so Kansas can run hotter, but Iowa says the base speech is ~4.",
+          "snapshot": {
+            "yesAsk": 48,
+            "yesBid": 20,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "PTK",
+          "evidence": [
+            3,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "name": "Travel Ban",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/8 rallies · Daytona 0",
+          "hitDetail": " · 0/8 · DB 0",
+          "context": "Not said at any of the last 8 rallies.",
+          "snapshot": {
+            "yesAsk": 42,
+            "yesBid": 12,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "flag": "PV",
+          "evidence": [
+            0,
+            0,
+            0,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nw9",
+      "page": "markets",
+      "state": "Week to 9 Nov",
+      "kind": "weekly",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpsay/what-will-trump-say/kxtrumpsay-26nov09",
+      "timeWita": "Mon 9 Nov, 1:00 PM WITA",
+      "closeWita": "Mon 9 Nov, 1:00 PM WITA",
+      "eventTicker": "KXTRUMPSAY-26NOV09",
+      "polymarketSlug": null,
+      "title": "Weekly words, Mon 2 Nov 1:00 PM WITA to Mon 9 Nov 1:00 PM WITA (no rallies left; Mon tele-rallies count) · KXTRUMPSAY-26NOV09",
+      "status": "open",
+      "feeds": "Rules: speech, quotes in news reports, or his Truth Social/X posts count; plurals and possessives count; either side of a slash counts; executive orders don't. Yellow = new strike (under 3 past weeks). Hit rate = weeks said in Kalshi past results. Every book is wider than 40 (market just opened), so no spots yet.",
+      "strikes": [
+        {
+          "name": "Vivek / Ramaswamy",
+          "fairYes": 88,
+          "nonstandard": false,
+          "hitRate": "3/3 weeks",
+          "hitDetail": "3/3 weeks",
+          "context": "Ohio governor race; Vance stumped for him Mon; tele-rallies + results talk",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 26,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely YES (88%)",
+          "priceText": "bid 26 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Ilhan / Omar",
+          "fairYes": 70,
+          "nonstandard": false,
+          "hitRate": "3/3 weeks",
+          "hitDetail": "3/3 weeks",
+          "context": "Regular target",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 26,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean YES (70%)",
+          "priceText": "bid 26 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Superintelligence / Super Intelligence",
+          "fairYes": 41,
+          "nonstandard": false,
+          "hitRate": "4/4 weeks",
+          "hitDetail": "4/4 weeks",
+          "context": "AI/policy riffs, not rally-only",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Toss-up (41%)",
+          "priceText": "bid 3 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Cybersecurity / Cyber Security",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "1/3 weeks",
+          "hitDetail": "1/3 weeks",
+          "context": "Rare",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (12%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Ranked Choice / Ranked-Choice",
+          "fairYes": 30,
+          "nonstandard": true,
+          "hitRate": "1/1 weeks",
+          "hitDetail": "1/1 weeks",
+          "context": "Could come up in results/rigged talk",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Finland / Finnish",
+          "fairYes": 10,
+          "nonstandard": true,
+          "hitRate": "0/0 weeks",
+          "hitDetail": "0/0 weeks",
+          "context": "New strike; no hook",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (10%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "GDP",
+          "fairYes": 41,
+          "nonstandard": true,
+          "hitRate": "0/0 weeks",
+          "hitDetail": "0/0 weeks",
+          "context": "Economy brag at remarks/gaggles",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Toss-up (41%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Robot / Robotic / Robotics",
+          "fairYes": 20,
+          "nonstandard": true,
+          "hitRate": "0/0 weeks",
+          "hitDetail": "0/0 weeks",
+          "context": "New strike; no hook",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (20%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Mortgage",
+          "fairYes": 30,
+          "nonstandard": true,
+          "hitRate": "1/1 weeks",
+          "hitDetail": "1/1 weeks",
+          "context": "Housing/rates riff",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Tomahawk",
+          "fairYes": 10,
+          "nonstandard": true,
+          "hitRate": "0/1 weeks",
+          "hitDetail": "0/1 weeks",
+          "context": "Ukraine weapons; Abu Dhabi talks may revive",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (10%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Soleimani",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "2/10 weeks",
+          "hitDetail": "2/10 weeks",
+          "context": "Iran riff, mostly at rallies",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Peace in the Middle East",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/9 weeks",
+          "hitDetail": "0/9 weeks",
+          "context": "Exact phrase never hit",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Ethanol",
+          "fairYes": 12,
+          "nonstandard": true,
+          "hitRate": "1/1 weeks",
+          "hitDetail": "1/1 weeks",
+          "context": "Farm-state rally word; rallies over",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (12%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Diesel",
+          "fairYes": 25,
+          "nonstandard": true,
+          "hitRate": "2/2 weeks",
+          "hitDetail": "2/2 weeks",
+          "context": "Red-dye diesel was a rally line",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Refinery",
+          "fairYes": 10,
+          "nonstandard": true,
+          "hitRate": "0/0 weeks",
+          "hitDetail": "0/0 weeks",
+          "context": "Rare",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (10%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Houthi",
+          "fairYes": 15,
+          "nonstandard": true,
+          "hitRate": "1/2 weeks",
+          "hitDetail": "1/2 weeks",
+          "context": "Iran-adjacent; low",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Quantum",
+          "fairYes": 8,
+          "nonstandard": true,
+          "hitRate": "0/0 weeks",
+          "hitDetail": "0/0 weeks",
+          "context": "New strike; no hook",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "bid 1 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Uranium",
+          "fairYes": 25,
+          "nonstandard": false,
+          "hitRate": "0/9 weeks",
+          "hitDetail": "0/9 weeks",
+          "context": "Only if Iran nuclear talks/strikes heat up",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "UFO / UAP",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/9 weeks",
+          "hitDetail": "0/9 weeks",
+          "context": "Never hit",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Prediction Market / Predictive Market",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/9 weeks",
+          "hitDetail": "0/9 weeks",
+          "context": "Never hit",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Bibi / Netanyahu",
+          "fairYes": 75,
+          "nonstandard": false,
+          "hitRate": "7/10 weeks",
+          "hitDetail": "7/10 weeks",
+          "context": "Iran war partner",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean YES (75%)",
+          "priceText": "bid 2 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Blockade",
+          "fairYes": 78,
+          "nonstandard": false,
+          "hitRate": "7/7 weeks",
+          "hitDetail": "7/7 weeks",
+          "context": "Hormuz/Iran blockade",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean YES (78%)",
+          "priceText": "bid 2 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Dividend / Stimulus",
+          "fairYes": 70,
+          "nonstandard": false,
+          "hitRate": "7/7 weeks",
+          "hitDetail": "7/7 weeks",
+          "context": "$5,000 dividend push",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean YES (70%)",
+          "priceText": "bid 2 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Canada / Canadian",
+          "fairYes": 75,
+          "nonstandard": false,
+          "hitRate": "6/6 weeks",
+          "hitDetail": "6/6 weeks",
+          "context": "Trade riffs",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean YES (75%)",
+          "priceText": "bid 2 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Melania",
+          "fairYes": 70,
+          "nonstandard": false,
+          "hitRate": "9/10 weeks",
+          "hitDetail": "9/10 weeks",
+          "context": "Remarks and posts",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 7,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean YES (70%)",
+          "priceText": "bid 7 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Moon",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "6/9 weeks",
+          "hitDetail": "6/9 weeks",
+          "context": "Mostly a rally riff",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "bid 2 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Nobel",
+          "fairYes": 45,
+          "nonstandard": false,
+          "hitRate": "3/6 weeks",
+          "hitDetail": "3/6 weeks",
+          "context": "Peace-deal talk",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Toss-up (45%)",
+          "priceText": "bid 2 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Third Term",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "3/8 weeks",
+          "hitDetail": "3/8 weeks",
+          "context": "Gaggle bait after midterms",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "bid 2 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Rigged Election / Stolen Election",
+          "fairYes": 78,
+          "nonstandard": false,
+          "hitRate": "7/10 weeks",
+          "hitDetail": "7/10 weeks",
+          "context": "Election week",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean YES (78%)",
+          "priceText": "bid 2 / ask 90 · too wide, skip"
+        },
+        {
+          "name": "Zohran / Mamdani",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "2/9 weeks",
+          "hitDetail": "2/9 weeks",
+          "context": "NYC hook",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "bid 2 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Autopen / Auto Pen",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "4/9 weeks",
+          "hitDetail": "4/9 weeks",
+          "context": "Biden riff",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "bid 2 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Ceasefire",
+          "fairYes": 55,
+          "nonstandard": false,
+          "hitRate": "3/8 weeks",
+          "hitDetail": "3/8 weeks",
+          "context": "Iran/Ukraine talks",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Toss-up (55%)",
+          "priceText": "bid 2 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Crypto / Bitcoin",
+          "fairYes": 18,
+          "nonstandard": false,
+          "hitRate": "1/9 weeks",
+          "hitDetail": "1/9 weeks",
+          "context": "Rare lately",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (18%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Antifa",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "1/8 weeks",
+          "hitDetail": "1/8 weeks",
+          "context": "Rare lately",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (12%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Cuba / Cuban",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "6/10 weeks",
+          "hitDetail": "6/10 weeks",
+          "context": "Often a rally/Florida line",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "bid 4 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Epstein",
+          "fairYes": 25,
+          "nonstandard": false,
+          "hitRate": "2/9 weeks",
+          "hitDetail": "2/9 weeks",
+          "context": "Gaggle questions",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Golden Dome",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "0/8 weeks",
+          "hitDetail": "0/8 weeks",
+          "context": "Never hit lately",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (12%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Marijuana / Weed / Cannabis",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "1/9 weeks",
+          "hitDetail": "1/9 weeks",
+          "context": "Rare",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        },
+        {
+          "name": "Make Iran Great Again",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/8 weeks",
+          "hitDetail": "0/8 weeks",
+          "context": "Never hit",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "bid 1 / ask 89 · too wide, skip"
+        }
+      ]
+    },
+    {
+      "id": "kw2",
+      "page": "markets",
+      "state": "Week to 2 Nov",
+      "kind": "weekly",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpsay",
+      "timeWita": "Mon 2 Nov, 11:00 PM WITA",
+      "closeWita": "Mon 2 Nov, 11:00 PM WITA",
+      "eventTicker": "KXTRUMPSAY-26NOV02",
+      "polymarketSlug": null,
+      "title": "Kalshi: What will Trump say this week? (KXTRUMPSAY-26NOV02)",
+      "status": "open",
+      "feeds": "Counts Truth Social posts. Daytona (30 Oct US) is done: Mortgage hit there. Still to come: Dubuque IA (4 AM WITA Mon) and Salina KS (9 AM WITA Mon) rallies, tele-rallies, gaggles and posts, up to the 11 PM WITA Mon cutoff.",
+      "strikes": [
+        {
+          "name": "Antifa",
+          "fairYes": 2,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Old protest-crime riff; dropped from the current set.",
+          "snapshot": {
+            "yesAsk": 2,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (2%)",
+          "priceText": "2% ask · NO gap -1"
+        },
+        {
+          "name": "Autopen / Auto Pen",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not said at Rock Hill; last spoken 5 and 13 Oct. Left: Daytona, the tele-rallies, gaggles and posts.",
+          "snapshot": {
+            "yesAsk": 27,
+            "yesBid": 17,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "27% ask · NO gap +2"
+        },
+        {
+          "name": "Bibi / Netanyahu",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · 28 Oct gaggles: yes · Rock Hill: no",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Blockade",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 3/8 rallies",
+          "hitDetail": "0/3 recent · 3/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Canada / Canadian",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "3/3 recent · 6/8 rallies",
+          "hitDetail": "3/3 recent · 6/8 rallies (Daytona counted) · this week: yes · Rock Hill: yes",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Ceasefire",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Iran 'little cease fire' line, 26 Oct; not finalized yet.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (100%)",
+          "priceText": "100% ask · YES gap +0"
+        },
+        {
+          "name": "Crypto / Bitcoin",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Only in crypto-policy events; not in the rally set.",
+          "snapshot": {
+            "yesAsk": 7,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "7% ask · NO gap -1"
+        },
+        {
+          "name": "Cuba / Cuban",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "2/3 recent · 3/8 rallies",
+          "hitDetail": "2/3 recent · 3/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Finalized YES (Corpus Christi, 27 Oct).",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Cybersecurity / Cyber Security",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Only at policy events.",
+          "snapshot": {
+            "yesAsk": 13,
+            "yesBid": 8,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "13% ask · NO gap +0"
+        },
+        {
+          "name": "Diesel",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "2/3 recent · 3/8 rallies",
+          "hitDetail": "2/3 recent · 3/8 rallies (Daytona counted) · this week: yes · Rock Hill: yes",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Dividend / Stimulus",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "3/3 recent · 7/8 rallies",
+          "hitDetail": "3/3 recent · 7/8 rallies (Daytona counted) · this week: yes · Rock Hill: yes",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Epstein",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "3/3 recent · 5/8 rallies",
+          "hitDetail": "3/3 recent · 5/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Defensive riff when the press brings it up; said at Chillicothe.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Ethanol",
+          "fairYes": 80,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Dubuque IA rally back on in person (Five Flags, 4:00 AM WITA Mon 2 Nov); Iowa's own Ethanol strike trades 86/81. Farm-state riff (Sioux City 22 Oct).",
+          "snapshot": {
+            "yesAsk": 72,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (80%)",
+          "priceText": "72% ask · YES gap +8"
+        },
+        {
+          "name": "Golden Dome",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Defense brag; rare at rallies.",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "3% ask · NO gap -1"
+        },
+        {
+          "name": "Houthi",
+          "fairYes": 6,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not said at Rock Hill.",
+          "snapshot": {
+            "yesAsk": 6,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (6%)",
+          "priceText": "6% ask · NO gap -2"
+        },
+        {
+          "name": "Ilhan / Omar",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "3/3 recent · 5/8 rallies",
+          "hitDetail": "3/3 recent · 5/8 rallies (Daytona counted) · this week: yes · Rock Hill: yes",
+          "context": "Finalized YES; said again at Chillicothe.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Make Iran Great Again",
+          "fairYes": 1,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Novelty line; not used this cycle.",
+          "snapshot": {
+            "yesAsk": 2,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (1%)",
+          "priceText": "2% ask · NO gap +0"
+        },
+        {
+          "name": "Marijuana / Weed / Cannabis",
+          "fairYes": 3,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Only when asked about rescheduling.",
+          "snapshot": {
+            "yesAsk": 5,
+            "yesBid": 3,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (3%)",
+          "priceText": "5% ask · NO gap +0"
+        },
+        {
+          "name": "Melania",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 2/8 rallies",
+          "hitDetail": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Moon",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Mortgage",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not said at Rock Hill.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (100%)",
+          "priceText": "100% ask · YES gap +0"
+        },
+        {
+          "name": "Nobel",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 3/8 rallies",
+          "hitDetail": "1/3 recent · 3/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Peace in the Middle East",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not his current phrasing; he says 'peace' plus Iran.",
+          "snapshot": {
+            "yesAsk": 11,
+            "yesBid": 6,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "11% ask · NO gap -2"
+        },
+        {
+          "name": "Prediction Market / Predictive Market",
+          "fairYes": 2,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (2%)",
+          "priceText": "3% ask · NO gap -1"
+        },
+        {
+          "name": "Ranked Choice / Ranked-Choice",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "The Rock Hill Alaska riff did not mention ranked choice; it shows up more often in posts.",
+          "snapshot": {
+            "yesAsk": 18,
+            "yesBid": 13,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "18% ask · NO gap -2"
+        },
+        {
+          "name": "Refinery",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not said at Rock Hill; Daytona is a gas-price crowd.",
+          "snapshot": {
+            "yesAsk": 34,
+            "yesBid": 30,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "34% ask · NO gap +0"
+        },
+        {
+          "name": "Rigged Election / Stolen Election",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 2/8 rallies",
+          "hitDetail": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Soleimani",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 2/8 rallies",
+          "hitDetail": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Superintelligence / Super Intelligence",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 2/8 rallies",
+          "hitDetail": "0/3 recent · 2/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Third Term",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not said at Rock Hill; needs a crowd chant.",
+          "snapshot": {
+            "yesAsk": 15,
+            "yesBid": 11,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (12%)",
+          "priceText": "15% ask · NO gap -1"
+        },
+        {
+          "name": "Tomahawk",
+          "fairYes": 4,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Ukraine weapons talk; dormant. 28 Oct gaggle was about a meeting.",
+          "snapshot": {
+            "yesAsk": 7,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (4%)",
+          "priceText": "7% ask · NO gap +1"
+        },
+        {
+          "name": "UFO / UAP",
+          "fairYes": 1,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Only when asked.",
+          "snapshot": {
+            "yesAsk": 2,
+            "yesBid": 1,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (1%)",
+          "priceText": "2% ask · NO gap +0"
+        },
+        {
+          "name": "Uranium",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not said at Rock Hill (Iran 4x, no uranium).",
+          "snapshot": {
+            "yesAsk": 3,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "3% ask · NO gap -6"
+        },
+        {
+          "name": "Vivek / Ramaswamy",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 2/8 rallies",
+          "hitDetail": "1/3 recent · 2/8 rallies (Daytona counted) · this week: yes · 28 Oct gaggles: yes · Rock Hill: no",
+          "context": "Finalized YES.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Zohran / Mamdani",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "NYC riff; needs an NYC hook.",
+          "snapshot": {
+            "yesAsk": 20,
+            "yesBid": 16,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "20% ask · NO gap +1"
+        }
+      ]
+    },
+    {
+      "id": "nw",
+      "page": "markets",
+      "state": "November words",
+      "kind": "monthly",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpsaymonth",
+      "timeWita": "Tue 1 Dec, 1:00 PM WITA",
+      "closeWita": "Tue 1 Dec, 1:00 PM WITA",
+      "eventTicker": "KXTRUMPSAYMONTH-26DEC01",
+      "polymarketSlug": null,
+      "title": "November words (opens Sun 1 Nov 12:00 PM WITA, closes Tue 1 Dec 1:00 PM WITA) · KXTRUMPSAYMONTH-26DEC01",
+      "status": "open",
+      "feeds": "Rules: anything Trump says in public or posts on Truth Social / X counts (quotes in news reports too); plurals and possessives count; either side of a slash counts; executive orders don't. Hit rate = months said (Kalshi past results) · rallies said (our 7 transcripts).",
+      "strikes": [
+        {
+          "name": "Aluminum",
+          "fairYes": 85,
+          "nonstandard": false,
+          "hitRate": "1/1 months · 2/7 rallies",
+          "hitDetail": "1/1 months · 2/7 rallies",
+          "context": "Tariff word; said in October.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (85%)",
+          "priceText": "YES ask 97 · gap -12"
+        },
+        {
+          "name": "Autism",
+          "fairYes": 85,
+          "nonstandard": false,
+          "hitRate": "3/3 months · 0/7 rallies",
+          "hitDetail": "3/3 months · 0/7 rallies",
+          "context": "Health riff; said Sep and Oct.",
+          "snapshot": {
+            "yesAsk": 79,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (85%)",
+          "priceText": "YES ask 79 · gap 6"
+        },
+        {
+          "name": "Ceasefire",
+          "fairYes": 92,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 0/7 rallies",
+          "hitDetail": "2/2 months · 0/7 rallies",
+          "context": "Iran war talks via Qatar and Pakistan.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (92%)",
+          "priceText": "YES ask 97 · gap -5"
+        },
+        {
+          "name": "Dividend / Stimulus",
+          "fairYes": 93,
+          "nonstandard": false,
+          "hitRate": "1/1 months · 7/7 rallies",
+          "hitDetail": "1/1 months · 7/7 rallies",
+          "context": "Tariff-dividend line, every rally.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (93%)",
+          "priceText": "YES ask 97 · gap -4"
+        },
+        {
+          "name": "E15",
+          "fairYes": 55,
+          "nonstandard": false,
+          "hitRate": "0/7 rallies",
+          "hitDetail": "new · 0/7 rallies",
+          "context": "Iowa and Kansas farm rallies Sun 1 Nov.",
+          "snapshot": {
+            "yesAsk": 83,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (55%)",
+          "priceText": "YES ask 83 · gap -28"
+        },
+        {
+          "name": "Eli Lilly",
+          "fairYes": 65,
+          "nonstandard": false,
+          "hitRate": "3/7 rallies",
+          "hitDetail": "new · 3/7 rallies",
+          "context": "Drug-pricing deals riff.",
+          "snapshot": {
+            "yesAsk": 96,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (65%)",
+          "priceText": "YES ask 96 · gap -31"
+        },
+        {
+          "name": "Fannie Mae / Freddie Mac",
+          "fairYes": 50,
+          "nonstandard": false,
+          "hitRate": "1/7 rallies",
+          "hitDetail": "new · 1/7 rallies",
+          "context": "Housing posts; occasional.",
+          "snapshot": {
+            "yesAsk": 51,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (50%)",
+          "priceText": "YES ask 51 · gap -1"
+        },
+        {
+          "name": "Filibuster",
+          "fairYes": 90,
+          "nonstandard": false,
+          "hitRate": "3/3 months · 1/7 rallies",
+          "hitDetail": "3/3 months · 1/7 rallies",
+          "context": "Post-midterm push to end it.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (90%)",
+          "priceText": "YES ask 97 · gap -7"
+        },
+        {
+          "name": "Golden Dome",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "0/1 months · 0/7 rallies",
+          "hitDetail": "0/1 months · 0/7 rallies",
+          "context": "Missed October; defense talk, posts.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 20,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "NO ask 80 · gap -20"
+        },
+        {
+          "name": "Greenland",
+          "fairYes": 80,
+          "nonstandard": false,
+          "hitRate": "2/3 months · 1/7 rallies",
+          "hitDetail": "2/3 months · 1/7 rallies",
+          "context": "Said Sep and Oct.",
+          "snapshot": {
+            "yesAsk": 90,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (80%)",
+          "priceText": "YES ask 90 · gap -10"
+        },
+        {
+          "name": "Manufactured Housing",
+          "fairYes": 20,
+          "nonstandard": false,
+          "hitRate": "0/7 rallies",
+          "hitDetail": "new · 0/7 rallies",
+          "context": "Never heard it.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (20%)",
+          "priceText": "NO ask 95 · gap -15"
+        },
+        {
+          "name": "Nvidia",
+          "fairYes": 85,
+          "nonstandard": false,
+          "hitRate": "0/7 rallies",
+          "hitDetail": "new · 0/7 rallies",
+          "context": "Chips with Xi at APEC (18–19 Nov).",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (85%)",
+          "priceText": "YES ask 97 · gap -12"
+        },
+        {
+          "name": "Ozempic / GLP-1",
+          "fairYes": 45,
+          "nonstandard": false,
+          "hitRate": "0/7 rallies",
+          "hitDetail": "new · 0/7 rallies",
+          "context": "October Fat shot / Ozempic missed; TrumpRx hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 58,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (45%)",
+          "priceText": "NO ask 42 · gap 13"
+        },
+        {
+          "name": "Peptide",
+          "fairYes": 10,
+          "nonstandard": false,
+          "hitRate": "0/2 months · 0/7 rallies",
+          "hitDetail": "0/2 months · 0/7 rallies",
+          "context": "Missed Sep and Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 6,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (10%)",
+          "priceText": "NO ask 94 · gap -4"
+        },
+        {
+          "name": "Rare Earth",
+          "fairYes": 85,
+          "nonstandard": false,
+          "hitRate": "0/7 rallies",
+          "hitDetail": "new · 0/7 rallies",
+          "context": "Xi meeting at APEC.",
+          "snapshot": {
+            "yesAsk": 93,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (85%)",
+          "priceText": "YES ask 93 · gap -8"
+        },
+        {
+          "name": "Refinance / Refinanced / Refinancing",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "0/7 rallies",
+          "hitDetail": "new · 0/7 rallies",
+          "context": "Rates and housing; rare.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 18,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "NO ask 82 · gap -17"
+        },
+        {
+          "name": "SMR / Small Modular Reactor",
+          "fairYes": 20,
+          "nonstandard": false,
+          "hitRate": "0/7 rallies",
+          "hitDetail": "new · 0/7 rallies",
+          "context": "Rare.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 11,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (20%)",
+          "priceText": "NO ask 89 · gap -9"
+        },
+        {
+          "name": "Stablecoin",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "0/7 rallies",
+          "hitDetail": "new · 0/7 rallies",
+          "context": "Crypto; Binance hack.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 14,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "NO ask 86 · gap -26"
+        },
+        {
+          "name": "TrumpRx",
+          "fairYes": 75,
+          "nonstandard": false,
+          "hitRate": "0/7 rallies",
+          "hitDetail": "new · 0/7 rallies",
+          "context": "His drug-price brand; posts.",
+          "snapshot": {
+            "yesAsk": 69,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (75%)",
+          "priceText": "YES ask 69 · gap 6"
+        },
+        {
+          "name": "UFC",
+          "fairYes": 92,
+          "nonstandard": false,
+          "hitRate": "3/3 months · 1/7 rallies",
+          "hitDetail": "3/3 months · 1/7 rallies",
+          "context": "Said every month.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (92%)",
+          "priceText": "YES ask 97 · gap -5"
+        },
+        {
+          "name": "Whistleblower",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "0/7 rallies",
+          "hitDetail": "new · 0/7 rallies",
+          "context": "No hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 15,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "NO ask 85 · gap -15"
+        },
+        {
+          "name": "Zohran / Mamdani",
+          "fairYes": 93,
+          "nonstandard": false,
+          "hitRate": "3/3 months · 0/7 rallies",
+          "hitDetail": "3/3 months · 0/7 rallies",
+          "context": "Said every month.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (93%)",
+          "priceText": "YES ask 97 · gap -4"
+        }
+      ]
+    },
+    {
+      "id": "nc",
+      "page": "markets",
+      "state": "November countries",
+      "kind": "monthly",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpsaycountry",
+      "timeWita": "Tue 1 Dec, 1:00 PM WITA",
+      "closeWita": "Tue 1 Dec, 1:00 PM WITA",
+      "eventTicker": "KXTRUMPSAYCOUNTRY-26DEC01",
+      "polymarketSlug": null,
+      "title": "November countries (opens Sun 1 Nov 12:00 PM WITA, closes Tue 1 Dec 1:00 PM WITA) · KXTRUMPSAYCOUNTRY-26DEC01",
+      "status": "open",
+      "feeds": "Rules: anything Trump says in public or posts on Truth Social / X counts (quotes in news reports too); plurals and possessives count; either side of a slash counts; executive orders don't. Hit rate = months said (Kalshi past results) · rallies said (our 7 transcripts).",
+      "strikes": [
+        {
+          "name": "Afghanistan / Afghan",
+          "fairYes": 95,
+          "nonstandard": false,
+          "hitRate": "5/5 months · 2/7 rallies",
+          "hitDetail": "5/5 months · 2/7 rallies",
+          "context": "Bagram and withdrawal riff.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (95%)",
+          "priceText": "YES ask 98 · gap -3"
+        },
+        {
+          "name": "Argentina / Argentinian",
+          "fairYes": 92,
+          "nonstandard": true,
+          "hitRate": "4/5 months · 0/7 rallies",
+          "hitDetail": "4/5 months · 0/7 rallies",
+          "context": "Milei listed for Miami in Nov; beef imports.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (92%)",
+          "priceText": "YES ask 97 · gap -5"
+        },
+        {
+          "name": "Australia / Australian",
+          "fairYes": 94,
+          "nonstandard": false,
+          "hitRate": "5/5 months · 1/7 rallies",
+          "hitDetail": "5/5 months · 1/7 rallies",
+          "context": "APEC Shenzhen 18–19 Nov; said at Daytona; every month Jun–Oct.",
+          "snapshot": {
+            "yesAsk": 91,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (94%)",
+          "priceText": "YES ask 91 · gap 3"
+        },
+        {
+          "name": "Bahrain / Bahraini",
+          "fairYes": 48,
+          "nonstandard": true,
+          "hitRate": "4/5 months · 0/7 rallies",
+          "hitDetail": "4/5 months · 0/7 rallies",
+          "context": "Manama Dialogue 30 Oct–1 Nov; only if the Iran war heats up. Missed Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 39,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (48%)",
+          "priceText": "NO ask 61 · gap -9"
+        },
+        {
+          "name": "Belgium / Belgian",
+          "fairYes": 22,
+          "nonstandard": true,
+          "hitRate": "1/5 months · 0/7 rallies",
+          "hitDetail": "1/5 months · 0/7 rallies",
+          "context": "Belgian 'trade bazooka' talk over US pharma tariffs; a future Trump visit floated, no date.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 39,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (22%)",
+          "priceText": "NO ask 61 · gap 17"
+        },
+        {
+          "name": "Brazil / Brazilian",
+          "fairYes": 93,
+          "nonstandard": true,
+          "hitRate": "3/5 months · 0/7 rallies",
+          "hitDetail": "3/5 months · 0/7 rallies",
+          "context": "Lula re-elected; Bolsonaro fled.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (93%)",
+          "priceText": "YES ask 98 · gap -5"
+        },
+        {
+          "name": "Canada / Canadian",
+          "fairYes": 98,
+          "nonstandard": false,
+          "hitRate": "5/5 months · 6/7 rallies",
+          "hitDetail": "5/5 months · 6/7 rallies",
+          "context": "Tariffs; most rallies.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (98%)",
+          "priceText": "YES ask 100 · gap -2"
+        },
+        {
+          "name": "Colombia / Colombian",
+          "fairYes": 90,
+          "nonstandard": true,
+          "hitRate": "4/5 months · 0/7 rallies",
+          "hitDetail": "4/5 months · 0/7 rallies",
+          "context": "Venezuela and drugs.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (90%)",
+          "priceText": "YES ask 97 · gap -7"
+        },
+        {
+          "name": "Congo / Congolese",
+          "fairYes": 88,
+          "nonstandard": false,
+          "hitRate": "5/5 months · 3/7 rallies",
+          "hitDetail": "5/5 months · 3/7 rallies",
+          "context": "Every month; wars list.",
+          "snapshot": {
+            "yesAsk": 85,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (88%)",
+          "priceText": "YES ask 85 · gap 3"
+        },
+        {
+          "name": "Cuba / Cuban",
+          "fairYes": 94,
+          "nonstandard": false,
+          "hitRate": "4/4 months · 3/7 rallies",
+          "hitDetail": "4/4 months · 3/7 rallies",
+          "context": "Every listed month; 3 rallies.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (94%)",
+          "priceText": "YES ask 100 · gap -6"
+        },
+        {
+          "name": "Denmark / Danish",
+          "fairYes": 80,
+          "nonstandard": true,
+          "hitRate": "3/5 months · 1/7 rallies",
+          "hitDetail": "3/5 months · 1/7 rallies",
+          "context": "Greenland; 3 of 5 months.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (80%)",
+          "priceText": "YES ask 100 · gap -20"
+        },
+        {
+          "name": "Egypt / Egyptian",
+          "fairYes": 88,
+          "nonstandard": true,
+          "hitRate": "3/5 months · 1/7 rallies",
+          "hitDetail": "3/5 months · 1/7 rallies",
+          "context": "Gaza plus Sudan Quad (US, Saudi, UAE, Egypt).",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (88%)",
+          "priceText": "YES ask 98 · gap -10"
+        },
+        {
+          "name": "France / French",
+          "fairYes": 97,
+          "nonstandard": false,
+          "hitRate": "5/5 months · 6/7 rallies",
+          "hitDetail": "5/5 months · 6/7 rallies",
+          "context": "Drug-price and Macron riffs.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (97%)",
+          "priceText": "YES ask 100 · gap -3"
+        },
+        {
+          "name": "Germany / German",
+          "fairYes": 96,
+          "nonstandard": false,
+          "hitRate": "5/5 months · 2/7 rallies",
+          "hitDetail": "5/5 months · 2/7 rallies",
+          "context": "Every month; NATO, energy.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (96%)",
+          "priceText": "YES ask 100 · gap -4"
+        },
+        {
+          "name": "Hungary / Hungarian",
+          "fairYes": 30,
+          "nonstandard": true,
+          "hitRate": "0/5 months · 0/7 rallies",
+          "hitDetail": "0/5 months · 0/7 rallies",
+          "context": "New US–Hungary energy and law-enforcement deals (Nov); officials back Orbán for UN chief. Raised from 12%; 40 bid still rich but under the 12 gap.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 40,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "NO ask 60 · gap 10"
+        },
+        {
+          "name": "Iceland / Icelandic",
+          "fairYes": 20,
+          "nonstandard": true,
+          "hitRate": "1/5 months · 0/7 rallies",
+          "hitDetail": "1/5 months · 0/7 rallies",
+          "context": "Only Oct; no Nov hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (20%)",
+          "priceText": "NO ask 96 · gap -16"
+        },
+        {
+          "name": "India / Indian",
+          "fairYes": 95,
+          "nonstandard": true,
+          "hitRate": "4/5 months · 3/7 rallies",
+          "hitDetail": "4/5 months · 3/7 rallies",
+          "context": "Pakistan and tariffs.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (95%)",
+          "priceText": "YES ask 100 · gap -5"
+        },
+        {
+          "name": "Ireland / Irish",
+          "fairYes": 85,
+          "nonstandard": true,
+          "hitRate": "4/5 months · 0/7 rallies",
+          "hitDetail": "4/5 months · 0/7 rallies",
+          "context": "Said Sep and Oct; EPC summit Dublin 12 Nov (no US).",
+          "snapshot": {
+            "yesAsk": 93,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (85%)",
+          "priceText": "YES ask 93 · gap -8"
+        },
+        {
+          "name": "Italy / Italian",
+          "fairYes": 96,
+          "nonstandard": true,
+          "hitRate": "5/5 months · 2/7 rallies",
+          "hitDetail": "5/5 months · 2/7 rallies",
+          "context": "Every month; rallies.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (96%)",
+          "priceText": "YES ask 98 · gap -2"
+        },
+        {
+          "name": "Jamaica / Jamaican",
+          "fairYes": 7,
+          "nonstandard": true,
+          "hitRate": "0/5 months · 0/7 rallies",
+          "hitDetail": "0/5 months · 0/7 rallies",
+          "context": "No Nov hook found.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (7%)",
+          "priceText": "NO ask 95 · gap -2"
+        },
+        {
+          "name": "Japan / Japanese",
+          "fairYes": 98,
+          "nonstandard": false,
+          "hitRate": "5/5 months · 4/7 rallies",
+          "hitDetail": "5/5 months · 4/7 rallies",
+          "context": "ASEAN Manila 16–17 Nov and APEC Shenzhen 18–19 Nov; trade deal brag.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (98%)",
+          "priceText": "YES ask 100 · gap -2"
+        },
+        {
+          "name": "Kuwait / Kuwaiti",
+          "fairYes": 50,
+          "nonstandard": true,
+          "hitRate": "4/5 months · 0/7 rallies",
+          "hitDetail": "4/5 months · 0/7 rallies",
+          "context": "Only if Iran strikes restart after the midterms; missed Oct.",
+          "snapshot": {
+            "yesAsk": 72,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (50%)",
+          "priceText": "YES ask 72 · gap -22"
+        },
+        {
+          "name": "Mexico / Mexican",
+          "fairYes": 99,
+          "nonstandard": false,
+          "hitRate": "5/5 months · 5/7 rallies",
+          "hitDetail": "5/5 months · 5/7 rallies",
+          "context": "Border; every rally.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (99%)",
+          "priceText": "YES ask 100 · gap -1"
+        },
+        {
+          "name": "North Korea / North Korean",
+          "fairYes": 85,
+          "nonstandard": true,
+          "hitRate": "3/5 months · 0/7 rallies",
+          "hitDetail": "3/5 months · 0/7 rallies",
+          "context": "31 Oct gaggle: 'if it's North Korea, we'll talk to North Korea' (before window); Kim talk likely around APEC 18–19 Nov. Raised from 80%.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (85%)",
+          "priceText": "YES ask 98 · gap -13"
+        },
+        {
+          "name": "Norway / Norwegian",
+          "fairYes": 92,
+          "nonstandard": true,
+          "hitRate": "5/5 months · 1/7 rallies",
+          "hitDetail": "5/5 months · 1/7 rallies",
+          "context": "Every month; Nobel.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (92%)",
+          "priceText": "YES ask 100 · gap -8"
+        },
+        {
+          "name": "Palestine / Palestinian",
+          "fairYes": 88,
+          "nonstandard": true,
+          "hitRate": "4/4 months · 1/7 rallies",
+          "hitDetail": "4/4 months · 1/7 rallies",
+          "context": "Gaza Board of Peace / Middle East peace riff; 4/4 months on Kalshi.",
+          "snapshot": {
+            "yesAsk": 69,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (88%)",
+          "priceText": "YES ask 69 · gap 19"
+        },
+        {
+          "name": "Panama / Panamanian",
+          "fairYes": 75,
+          "nonstandard": true,
+          "hitRate": "3/5 months · 0/7 rallies",
+          "hitDetail": "3/5 months · 0/7 rallies",
+          "context": "Canal riff.",
+          "snapshot": {
+            "yesAsk": 80,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (75%)",
+          "priceText": "YES ask 80 · gap -5"
+        },
+        {
+          "name": "Paraguay / Paraguayan",
+          "fairYes": 5,
+          "nonstandard": true,
+          "hitRate": "0/5 months · 0/7 rallies",
+          "hitDetail": "0/5 months · 0/7 rallies",
+          "context": "Peña was in Washington 21–23 Oct; nothing in Nov.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "NO ask 95 · gap 0"
+        },
+        {
+          "name": "Poland / Polish",
+          "fairYes": 88,
+          "nonstandard": true,
+          "hitRate": "4/5 months · 0/7 rallies",
+          "hitDetail": "4/5 months · 0/7 rallies",
+          "context": "Poland was a G20 guest in Atlanta; Miami G20 invite story.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (88%)",
+          "priceText": "YES ask 100 · gap -12"
+        },
+        {
+          "name": "Qatar / Qatari",
+          "fairYes": 98,
+          "nonstandard": true,
+          "hitRate": "5/5 months · 0/7 rallies",
+          "hitDetail": "5/5 months · 0/7 rallies",
+          "context": "Doha hosts Iran mediation (Iran team in Doha 31 Oct).",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (98%)",
+          "priceText": "YES ask 100 · gap -2"
+        },
+        {
+          "name": "Saudi Arabia / Saudi Arabian",
+          "fairYes": 98,
+          "nonstandard": false,
+          "hitRate": "5/5 months · 3/7 rallies",
+          "hitDetail": "5/5 months · 3/7 rallies",
+          "context": "Houthis hit Riyadh airport (Oct); US helping Saudi strikes; said in Michigan and NY tele-rallies.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (98%)",
+          "priceText": "YES ask 100 · gap -2"
+        },
+        {
+          "name": "Somalia / Somali",
+          "fairYes": 96,
+          "nonstandard": false,
+          "hitRate": "3/5 months · 6/7 rallies",
+          "hitDetail": "3/5 months · 6/7 rallies",
+          "context": "Omar riff, most rallies.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (96%)",
+          "priceText": "YES ask 97 · gap -1"
+        },
+        {
+          "name": "South Africa / South African",
+          "fairYes": 25,
+          "nonstandard": true,
+          "hitRate": "0/5 months · 0/7 rallies",
+          "hitDetail": "0/5 months · 0/7 rallies",
+          "context": "Not invited to G20 FM meeting (Atlanta 30–31 Oct); Miami G20 is 14–15 Dec, so mostly a December story. Cut from 28%.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 32,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "NO ask 68 · gap 7"
+        },
+        {
+          "name": "South Korea / South Korean",
+          "fairYes": 96,
+          "nonstandard": false,
+          "hitRate": "5/5 months · 3/7 rallies",
+          "hitDetail": "5/5 months · 3/7 rallies",
+          "context": "APEC Shenzhen 18–19 Nov; Lee and investment brag.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (96%)",
+          "priceText": "YES ask 100 · gap -4"
+        },
+        {
+          "name": "Spain / Spanish",
+          "fairYes": 92,
+          "nonstandard": true,
+          "hitRate": "5/5 months · 0/7 rallies",
+          "hitDetail": "5/5 months · 0/7 rallies",
+          "context": "Every month; NATO spending.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (92%)",
+          "priceText": "YES ask 98 · gap -6"
+        },
+        {
+          "name": "Sudan / Sudanese",
+          "fairYes": 15,
+          "nonstandard": true,
+          "hitRate": "0/5 months · 0/7 rallies",
+          "hitDetail": "0/5 months · 0/7 rallies",
+          "context": "Geneva talks were 21 Oct (Boulos, not Trump); none set for Nov.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 13,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "NO ask 87 · gap -2"
+        },
+        {
+          "name": "Switzerland / Swiss",
+          "fairYes": 92,
+          "nonstandard": true,
+          "hitRate": "5/5 months · 0/7 rallies",
+          "hitDetail": "5/5 months · 0/7 rallies",
+          "context": "Every month Jun–Oct; tariffs.",
+          "snapshot": {
+            "yesAsk": 91,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (92%)",
+          "priceText": "YES ask 91 · gap 1"
+        },
+        {
+          "name": "Taiwan / Taiwanese",
+          "fairYes": 97,
+          "nonstandard": true,
+          "hitRate": "5/5 months · 1/7 rallies",
+          "hitDetail": "5/5 months · 1/7 rallies",
+          "context": "APEC Shenzhen + Xi meeting 18–19 Nov; chips/TSMC riff. Ask 84 is cheap.",
+          "snapshot": {
+            "yesAsk": 84,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (97%)",
+          "priceText": "YES ask 84 · gap 13"
+        },
+        {
+          "name": "Turkey / Turkish",
+          "fairYes": 92,
+          "nonstandard": true,
+          "hitRate": "4/5 months · 0/7 rallies",
+          "hitDetail": "4/5 months · 0/7 rallies",
+          "context": "Two Erdoğan calls 28–29 Oct (Hormuz, Houthis, Ukraine); COP31 in Antalya 9–20 Nov; Turkey floated for an anti-Houthi role. Raised from 88%.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (92%)",
+          "priceText": "YES ask 98 · gap -6"
+        },
+        {
+          "name": "UAE / United Arab Emirates",
+          "fairYes": 72,
+          "nonstandard": true,
+          "hitRate": "4/5 months · 0/7 rallies",
+          "hitDetail": "4/5 months · 0/7 rallies",
+          "context": "Abu Dhabi to host US–Russia–Ukraine talks ~6–10 Nov (US to confirm ~4 Nov); Gulf Iran talk. Raised from 65%.",
+          "snapshot": {
+            "yesAsk": 84,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (72%)",
+          "priceText": "YES ask 84 · gap -12"
+        },
+        {
+          "name": "United Kingdom / British",
+          "fairYes": 96,
+          "nonstandard": false,
+          "hitRate": "4/5 months · 1/7 rallies",
+          "hitDetail": "4/5 months · 1/7 rallies",
+          "context": "Said Sep and Oct; UK at Daytona.",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (96%)",
+          "priceText": "YES ask 100 · gap -4"
+        },
+        {
+          "name": "Yemen / Yemeni",
+          "fairYes": 72,
+          "nonstandard": true,
+          "hitRate": "1/4 months · 0/7 rallies",
+          "hitDetail": "1/4 months · 0/7 rallies",
+          "context": "Houthis/Red Sea in Erdoğan calls; depends on strikes resuming after 3 Nov.",
+          "snapshot": {
+            "yesAsk": 63,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (72%)",
+          "priceText": "YES ask 63 · gap 9"
+        }
+      ]
+    },
+    {
+      "id": "nco",
+      "page": "markets",
+      "state": "November companies",
+      "kind": "monthly",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpsaycompany",
+      "timeWita": "Tue 1 Dec, 1:00 PM WITA",
+      "closeWita": "Tue 1 Dec, 1:00 PM WITA",
+      "eventTicker": "KXTRUMPSAYCOMPANY-26DEC01",
+      "polymarketSlug": null,
+      "title": "November companies (opens Sun 1 Nov 12:00 PM WITA, closes Tue 1 Dec 1:00 PM WITA) · KXTRUMPSAYCOMPANY-26DEC01",
+      "status": "open",
+      "feeds": "Rules: anything Trump says in public or posts on Truth Social / X counts (quotes in news reports too); plurals and possessives count; either side of a slash counts; executive orders don't. Hit rate = months said (Kalshi past results) · rallies said (our 7 transcripts).",
+      "strikes": [
+        {
+          "name": "AMD",
+          "fairYes": 45,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Chips; said Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 12,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (45%)",
+          "priceText": "NO ask 88 · gap -33"
+        },
+        {
+          "name": "Airbnb / ABNB",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "1/3 months · 0/7 rallies",
+          "hitDetail": "1/3 months · 0/7 rallies",
+          "context": "No hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "NO ask 95 · gap -10"
+        },
+        {
+          "name": "Amazon / AMZN",
+          "fairYes": 90,
+          "nonstandard": false,
+          "hitRate": "3/3 months · 0/7 rallies",
+          "hitDetail": "3/3 months · 0/7 rallies",
+          "context": "Said Sep and Oct.",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (90%)",
+          "priceText": "YES ask 89 · gap 1"
+        },
+        {
+          "name": "Anthropic / Claude",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "1/3 months · 0/7 rallies",
+          "hitDetail": "1/3 months · 0/7 rallies",
+          "context": "AI policy; missed Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 36,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "NO ask 64 · gap 6"
+        },
+        {
+          "name": "Apple / AAPL",
+          "fairYes": 96,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 2/7 rallies",
+          "hitDetail": "2/2 months · 2/7 rallies",
+          "context": "Investment brag.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (96%)",
+          "priceText": "YES ask 97 · gap -1"
+        },
+        {
+          "name": "BBC",
+          "fairYes": 25,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Lawsuit faded.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 40,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "NO ask 60 · gap 15"
+        },
+        {
+          "name": "BlackRock",
+          "fairYes": 10,
+          "nonstandard": false,
+          "hitRate": "0/3 months · 0/7 rallies",
+          "hitDetail": "0/3 months · 0/7 rallies",
+          "context": "No hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 11,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (10%)",
+          "priceText": "NO ask 89 · gap 1"
+        },
+        {
+          "name": "Boeing",
+          "fairYes": 90,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 1/7 rallies",
+          "hitDetail": "2/2 months · 1/7 rallies",
+          "context": "Asia trade deals.",
+          "snapshot": {
+            "yesAsk": 95,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (90%)",
+          "priceText": "YES ask 95 · gap -5"
+        },
+        {
+          "name": "CNN",
+          "fairYes": 99,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 7/7 rallies",
+          "hitDetail": "2/2 months · 7/7 rallies",
+          "context": "Every rally.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (99%)",
+          "priceText": "YES ask 98 · gap 1"
+        },
+        {
+          "name": "Caterpillar",
+          "fairYes": 10,
+          "nonstandard": false,
+          "hitRate": "0/2 months · 0/7 rallies",
+          "hitDetail": "0/2 months · 0/7 rallies",
+          "context": "No hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 11,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (10%)",
+          "priceText": "NO ask 89 · gap 1"
+        },
+        {
+          "name": "ChatGPT / OpenAI",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "1/3 months · 0/7 rallies",
+          "hitDetail": "1/3 months · 0/7 rallies",
+          "context": "AI talk; missed Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 26,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "NO ask 74 · gap -9"
+        },
+        {
+          "name": "Chevron / CVX",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Oil, Venezuela.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 42,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "NO ask 58 · gap 7"
+        },
+        {
+          "name": "Deere",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "1/3 months · 0/7 rallies",
+          "hitDetail": "1/3 months · 0/7 rallies",
+          "context": "Farm rallies Sun.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 45,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "NO ask 55 · gap 5"
+        },
+        {
+          "name": "Dell",
+          "fairYes": 65,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 1/7 rallies",
+          "hitDetail": "2/2 months · 1/7 rallies",
+          "context": "Michael Dell; said Sep and Oct.",
+          "snapshot": {
+            "yesAsk": 96,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (65%)",
+          "priceText": "YES ask 96 · gap -31"
+        },
+        {
+          "name": "DoorDash / DASH",
+          "fairYes": 10,
+          "nonstandard": false,
+          "hitRate": "1/3 months · 0/7 rallies",
+          "hitDetail": "1/3 months · 0/7 rallies",
+          "context": "No hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 6,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (10%)",
+          "priceText": "NO ask 94 · gap -4"
+        },
+        {
+          "name": "Eli Lilly / LLY",
+          "fairYes": 80,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 3/7 rallies",
+          "hitDetail": "2/2 months · 3/7 rallies",
+          "context": "Drug deals.",
+          "snapshot": {
+            "yesAsk": 94,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (80%)",
+          "priceText": "YES ask 94 · gap -14"
+        },
+        {
+          "name": "ExxonMobil / XOM",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Oil, Venezuela.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 52,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "NO ask 48 · gap 17"
+        },
+        {
+          "name": "Fox News",
+          "fairYes": 97,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 0/7 rallies",
+          "hitDetail": "2/2 months · 0/7 rallies",
+          "context": "Every month.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (97%)",
+          "priceText": "YES ask 97 · gap 0"
+        },
+        {
+          "name": "General Motors / GM",
+          "fairYes": 85,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 1/7 rallies",
+          "hitDetail": "2/2 months · 1/7 rallies",
+          "context": "Autos, tariffs.",
+          "snapshot": {
+            "yesAsk": 96,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (85%)",
+          "priceText": "YES ask 96 · gap -11"
+        },
+        {
+          "name": "Google / GOOG / GOOGL",
+          "fairYes": 96,
+          "nonstandard": false,
+          "hitRate": "3/3 months · 3/7 rallies",
+          "hitDetail": "3/3 months · 3/7 rallies",
+          "context": "Every month.",
+          "snapshot": {
+            "yesAsk": 96,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (96%)",
+          "priceText": "YES ask 96 · gap 0"
+        },
+        {
+          "name": "Honda / HMC",
+          "fairYes": 75,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 1/7 rallies",
+          "hitDetail": "2/2 months · 1/7 rallies",
+          "context": "Japan deal.",
+          "snapshot": {
+            "yesAsk": 68,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (75%)",
+          "priceText": "YES ask 68 · gap 7"
+        },
+        {
+          "name": "Hyundai / HYMTF",
+          "fairYes": 50,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Korea; said Oct.",
+          "snapshot": {
+            "yesAsk": 45,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (50%)",
+          "priceText": "YES ask 45 · gap 5"
+        },
+        {
+          "name": "IBM",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Said Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 25,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "NO ask 75 · gap -15"
+        },
+        {
+          "name": "Intel / INTC",
+          "fairYes": 85,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 2/7 rallies",
+          "hitDetail": "2/2 months · 2/7 rallies",
+          "context": "US stake.",
+          "snapshot": {
+            "yesAsk": 84,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (85%)",
+          "priceText": "YES ask 84 · gap 1"
+        },
+        {
+          "name": "JPMorgan / JPM",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/2 months · 0/7 rallies",
+          "hitDetail": "0/2 months · 0/7 rallies",
+          "context": "No hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 11,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "NO ask 89 · gap -4"
+        },
+        {
+          "name": "MS NOW / MSNBC",
+          "fairYes": 96,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 0/7 rallies",
+          "hitDetail": "2/2 months · 0/7 rallies",
+          "context": "Media attacks.",
+          "snapshot": {
+            "yesAsk": 96,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (96%)",
+          "priceText": "YES ask 96 · gap 0"
+        },
+        {
+          "name": "Mastercard",
+          "fairYes": 25,
+          "nonstandard": false,
+          "hitRate": "0/1 months · 0/7 rallies",
+          "hitDetail": "0/1 months · 0/7 rallies",
+          "context": "Card-fee talk; missed Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 27,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "NO ask 73 · gap 2"
+        },
+        {
+          "name": "Mercedes / Mercedes-Benz",
+          "fairYes": 70,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 1/7 rallies",
+          "hitDetail": "2/2 months · 1/7 rallies",
+          "context": "Plant-investment brag.",
+          "snapshot": {
+            "yesAsk": 67,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (70%)",
+          "priceText": "YES ask 67 · gap 3"
+        },
+        {
+          "name": "Merck",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "2/7 rallies",
+          "hitDetail": "new · 2/7 rallies",
+          "context": "Drug deals.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 51,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "NO ask 49 · gap 16"
+        },
+        {
+          "name": "Meta",
+          "fairYes": 75,
+          "nonstandard": false,
+          "hitRate": "2/3 months · 1/7 rallies",
+          "hitDetail": "2/3 months · 1/7 rallies",
+          "context": "Said Sep and Oct.",
+          "snapshot": {
+            "yesAsk": 73,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (75%)",
+          "priceText": "YES ask 73 · gap 2"
+        },
+        {
+          "name": "Micron / MU",
+          "fairYes": 45,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Said Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 36,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (45%)",
+          "priceText": "NO ask 64 · gap -9"
+        },
+        {
+          "name": "Microsoft / MSFT",
+          "fairYes": 95,
+          "nonstandard": false,
+          "hitRate": "3/3 months · 0/7 rallies",
+          "hitDetail": "3/3 months · 0/7 rallies",
+          "context": "Every month.",
+          "snapshot": {
+            "yesAsk": 79,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (95%)",
+          "priceText": "YES ask 79 · gap 16"
+        },
+        {
+          "name": "Netflix / NFLX",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Missed Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 29,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "NO ask 71 · gap -6"
+        },
+        {
+          "name": "New York Times / NYT",
+          "fairYes": 98,
+          "nonstandard": false,
+          "hitRate": "3/3 months · 2/7 rallies",
+          "hitDetail": "3/3 months · 2/7 rallies",
+          "context": "Every month.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (98%)",
+          "priceText": "YES ask 97 · gap 1"
+        },
+        {
+          "name": "Nvidia / NVDA",
+          "fairYes": 97,
+          "nonstandard": false,
+          "hitRate": "3/3 months · 0/7 rallies",
+          "hitDetail": "3/3 months · 0/7 rallies",
+          "context": "Every month; APEC.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (97%)",
+          "priceText": "YES ask 97 · gap 0"
+        },
+        {
+          "name": "Oracle / ORCL",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/2 months · 0/7 rallies",
+          "hitDetail": "0/2 months · 0/7 rallies",
+          "context": "TikTok deal; missed Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 6,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "NO ask 94 · gap -9"
+        },
+        {
+          "name": "Paramount / PSKY",
+          "fairYes": 50,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Media deals.",
+          "snapshot": {
+            "yesAsk": 40,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (50%)",
+          "priceText": "YES ask 40 · gap 10"
+        },
+        {
+          "name": "Pfizer / PFE",
+          "fairYes": 95,
+          "nonstandard": false,
+          "hitRate": "3/3 months · 2/7 rallies",
+          "hitDetail": "3/3 months · 2/7 rallies",
+          "context": "Drug deals; every month.",
+          "snapshot": {
+            "yesAsk": 88,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (95%)",
+          "priceText": "YES ask 88 · gap 7"
+        },
+        {
+          "name": "Qualcomm / QCOM",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/2 months · 0/7 rallies",
+          "hitDetail": "0/2 months · 0/7 rallies",
+          "context": "No hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "NO ask 95 · gap -3"
+        },
+        {
+          "name": "Rigetti / RGTI",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/3 months · 0/7 rallies",
+          "hitDetail": "0/3 months · 0/7 rallies",
+          "context": "No hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 6,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "NO ask 94 · gap 1"
+        },
+        {
+          "name": "Saronic",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "1/7 rallies",
+          "hitDetail": "new · 1/7 rallies",
+          "context": "One rally mention.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "NO ask 96 · gap -11"
+        },
+        {
+          "name": "SpaceX / SPCX",
+          "fairYes": 55,
+          "nonstandard": false,
+          "hitRate": "1/3 months · 0/7 rallies",
+          "hitDetail": "1/3 months · 0/7 rallies",
+          "context": "Said Oct.",
+          "snapshot": {
+            "yesAsk": 59,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (55%)",
+          "priceText": "YES ask 59 · gap -4"
+        },
+        {
+          "name": "TSMC / TSM",
+          "fairYes": 60,
+          "nonstandard": false,
+          "hitRate": "1/3 months · 0/7 rallies",
+          "hitDetail": "1/3 months · 0/7 rallies",
+          "context": "Taiwan chips; Asia trip.",
+          "snapshot": {
+            "yesAsk": 58,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (60%)",
+          "priceText": "YES ask 58 · gap 2"
+        },
+        {
+          "name": "Tesla / TSLA",
+          "fairYes": 50,
+          "nonstandard": false,
+          "hitRate": "1/3 months · 0/7 rallies",
+          "hitDetail": "1/3 months · 0/7 rallies",
+          "context": "Said Oct.",
+          "snapshot": {
+            "yesAsk": 40,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (50%)",
+          "priceText": "YES ask 40 · gap 10"
+        },
+        {
+          "name": "Texas Instruments",
+          "fairYes": 25,
+          "nonstandard": false,
+          "hitRate": "1/7 rallies",
+          "hitDetail": "new · 1/7 rallies",
+          "context": "One rally mention.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 7,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "NO ask 93 · gap -18"
+        },
+        {
+          "name": "TikTok",
+          "fairYes": 80,
+          "nonstandard": false,
+          "hitRate": "2/3 months · 0/7 rallies",
+          "hitDetail": "2/3 months · 0/7 rallies",
+          "context": "China talks.",
+          "snapshot": {
+            "yesAsk": 81,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (80%)",
+          "priceText": "YES ask 81 · gap -1"
+        },
+        {
+          "name": "Toyota",
+          "fairYes": 75,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 1/7 rallies",
+          "hitDetail": "2/2 months · 1/7 rallies",
+          "context": "Japan deal.",
+          "snapshot": {
+            "yesAsk": 96,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (75%)",
+          "priceText": "YES ask 96 · gap -21"
+        },
+        {
+          "name": "Turning Point",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Missed Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 30,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "NO ask 70 · gap -5"
+        },
+        {
+          "name": "UFC",
+          "fairYes": 92,
+          "nonstandard": false,
+          "hitRate": "2/2 months · 1/7 rallies",
+          "hitDetail": "2/2 months · 1/7 rallies",
+          "context": "Said every month.",
+          "snapshot": {
+            "yesAsk": 91,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (92%)",
+          "priceText": "YES ask 91 · gap 1"
+        },
+        {
+          "name": "Uber",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Said Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 11,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "NO ask 89 · gap -24"
+        },
+        {
+          "name": "Verizon",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 months · 0/7 rallies",
+          "hitDetail": "0/3 months · 0/7 rallies",
+          "context": "No hook.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 20,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "NO ask 80 · gap 12"
+        },
+        {
+          "name": "X / Twitter",
+          "fairYes": 55,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 1/7 rallies",
+          "hitDetail": "1/2 months · 1/7 rallies",
+          "context": "Missed Oct so far.",
+          "snapshot": {
+            "yesAsk": 49,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (55%)",
+          "priceText": "YES ask 49 · gap 6"
+        },
+        {
+          "name": "eBay",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "1/2 months · 0/7 rallies",
+          "hitDetail": "1/2 months · 0/7 rallies",
+          "context": "Said Oct.",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": 9,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "NO ask 91 · gap -21"
+        }
+      ]
+    },
+    {
+      "id": "pn",
+      "page": "markets",
+      "state": "November words",
+      "kind": "monthly",
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/what-will-trump-say-in-november-2026?r=PolymarketProgram",
+      "timeWita": "Tue 1 Dec, 12:59 PM WITA",
+      "closeWita": "Tue 1 Dec, 12:59 PM WITA",
+      "eventTicker": null,
+      "polymarketSlug": "what-will-trump-say-in-november-2026",
+      "title": "What will Trump say in November?",
+      "status": "open",
+      "feeds": "Counts spoken words 1–30 Nov US: the Iowa and Kansas rallies (Sun 1 Nov), election week and gaggles. Most books are 40+ wide and skipped.",
+      "strikes": [
+        {
+          "name": "Autism",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "Said in October (Kalshi October Autism settled YES), but 0/7 rallies.",
+          "snapshot": {
+            "yesAsk": 70,
+            "yesBid": 8,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "70% ask, 8% bid · spread 62, skip"
+        },
+        {
+          "name": "Clown",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "Occasional insult; not used in the current set.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "97% ask, 5% bid · spread 92, skip"
+        },
+        {
+          "name": "Cognitive",
+          "fairYes": 70,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 1/8 rallies",
+          "hitDetail": "1/3 recent · 1/8 rallies (Daytona counted) · Rock Hill: yes",
+          "context": "Cognitive-test brag; said at Chillicothe.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 59,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (70%)",
+          "priceText": "97% ask · NO gap -11"
+        },
+        {
+          "name": "Epstein",
+          "fairYes": 85,
+          "nonstandard": false,
+          "hitRate": "3/3 recent · 5/8 rallies",
+          "hitDetail": "3/3 recent · 5/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Defensive riff when the press brings it up; said at Chillicothe.",
+          "snapshot": {
+            "yesAsk": 47,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely YES (85%)",
+          "priceText": "47% ask, 4% bid · spread 43, skip"
+        },
+        {
+          "name": "Front Row Joe",
+          "fairYes": 60,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 4/8 rallies",
+          "hitDetail": "1/3 recent · 4/8 rallies (Daytona counted) · Rock Hill: yes",
+          "context": "Crowd shout-out to a regular rally-goer; said at Chillicothe.",
+          "snapshot": {
+            "yesAsk": 95,
+            "yesBid": 77,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (60%)",
+          "priceText": "95% ask · NO gap +17"
+        },
+        {
+          "name": "Gay",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 2/8 rallies",
+          "hitDetail": "0/3 recent · 2/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "Said at Pendleton and Youngstown.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 50,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "97% ask, 50% bid · spread 47, skip"
+        },
+        {
+          "name": "Golden Age",
+          "fairYes": 92,
+          "nonstandard": false,
+          "hitRate": "3/3 recent · 8/8 rallies",
+          "hitDetail": "3/3 recent · 8/8 rallies (Daytona counted) · Rock Hill: yes",
+          "context": "Staple closing line: 'golden age of America'.",
+          "snapshot": {
+            "yesAsk": 99,
+            "yesBid": 95,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely YES (92%)",
+          "priceText": "99% ask · NO gap +3"
+        },
+        {
+          "name": "Golden Dome",
+          "fairYes": 35,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Defense brag; rare at rallies.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": 10,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (35%)",
+          "priceText": "98% ask, 10% bid · spread 88, skip"
+        },
+        {
+          "name": "Greenland",
+          "fairYes": 50,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No current hook.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 25,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Toss-up (50%)",
+          "priceText": "97% ask, 25% bid · spread 72, skip"
+        },
+        {
+          "name": "Heritage",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 2/8 rallies",
+          "hitDetail": "0/3 recent · 2/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "Said at Youngstown and Corinth.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": 10,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "98% ask, 10% bid · spread 88, skip"
+        },
+        {
+          "name": "Keep America Great",
+          "fairYes": 25,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "2020 slogan; not used this cycle.",
+          "snapshot": {
+            "yesAsk": 96,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "96% ask, 2% bid · spread 94, skip"
+        },
+        {
+          "name": "Make Iran Great Again",
+          "fairYes": 5,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Novelty line; not used this cycle.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 2,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Likely NO (5%)",
+          "priceText": "97% ask, 2% bid · spread 95, skip"
+        },
+        {
+          "name": "Moon",
+          "fairYes": 70,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "Space riff; said at Corinth.",
+          "snapshot": {
+            "yesAsk": 98,
+            "yesBid": 62,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (70%)",
+          "priceText": "98% ask · NO gap -8"
+        },
+        {
+          "name": "Nazi",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "Comes up only in replies about Democrat rhetoric.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 13,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "97% ask, 13% bid · spread 84, skip"
+        },
+        {
+          "name": "Peace in the Middle East",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not his current phrasing; he says 'peace' plus Iran.",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": 4,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "89% ask, 4% bid · spread 85, skip"
+        },
+        {
+          "name": "Prediction",
+          "fairYes": 25,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "No market or poll-prediction riff in the set.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 20,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "97% ask, 20% bid · spread 77, skip"
+        },
+        {
+          "name": "Refund",
+          "fairYes": 30,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "Only if the tariff-refund court case comes up.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 6,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (30%)",
+          "priceText": "97% ask, 6% bid · spread 91, skip"
+        },
+        {
+          "name": "Rocket Man",
+          "fairYes": 20,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Kim riff; possible APEC meeting (unconfirmed).",
+          "snapshot": {
+            "yesAsk": 18,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (20%)",
+          "priceText": "18% ask · YES gap +2"
+        },
+        {
+          "name": "Shark",
+          "fairYes": 25,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "Boat-battery riff; dropped from the current set.",
+          "snapshot": {
+            "yesAsk": 92,
+            "yesBid": 7,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "92% ask, 7% bid · spread 85, skip"
+        },
+        {
+          "name": "Shit",
+          "fairYes": 75,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 4/8 rallies",
+          "hitDetail": "1/3 recent · 4/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "Ad-lib profanity at rallies.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 81,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (75%)",
+          "priceText": "97% ask · NO gap +6"
+        },
+        {
+          "name": "Shut Up",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "Press-gaggle retort; none in the 28 Oct gaggles.",
+          "snapshot": {
+            "yesAsk": 87,
+            "yesBid": 13,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "87% ask, 13% bid · spread 74, skip"
+        },
+        {
+          "name": "Six Seven",
+          "fairYes": 70,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: yes",
+          "context": "Rock Hill: 'six seven times as many' (poll riff). Whether that counts depends on Polymarket's resolution.",
+          "snapshot": {
+            "yesAsk": 89,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (70%)",
+          "priceText": "89% ask · YES gap -19"
+        },
+        {
+          "name": "Space Force",
+          "fairYes": 55,
+          "nonstandard": false,
+          "hitRate": "1/3 recent · 2/8 rallies",
+          "hitDetail": "1/3 recent · 2/8 rallies (Daytona counted) · Rock Hill: no",
+          "context": "Military brag list.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 61,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Toss-up (55%)",
+          "priceText": "97% ask · NO gap +6"
+        },
+        {
+          "name": "Third Term",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Not said at Rock Hill; needs a crowd chant.",
+          "snapshot": {
+            "yesAsk": 97,
+            "yesBid": 12,
+            "settled": null,
+            "hit": false,
+            "tradable": false
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "97% ask, 12% bid · spread 85, skip"
+        }
+      ]
+    },
+    {
+      "id": "kn",
+      "page": "markets",
+      "state": "Nicknames before 2027",
+      "kind": "nicknames",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpsaynickname",
+      "timeWita": "Sat 2 Jan 2027, 11:00 PM WITA",
+      "closeWita": "Sat 2 Jan 2027, 11:00 PM WITA",
+      "eventTicker": "KXTRUMPSAYNICKNAME-27JAN01",
+      "polymarketSlug": null,
+      "title": "Kalshi: Nicknames before 2027 (KXTRUMPSAYNICKNAME)",
+      "status": "open",
+      "feeds": "Every event to year-end, including APEC (Kim) and election week.",
+      "strikes": [
+        {
+          "name": "Biden Crime Family",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 12,
+            "yesBid": 7,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (12%)",
+          "priceText": "12% ask · NO gap -5"
+        },
+        {
+          "name": "Comrade Kamala",
+          "fairYes": 12,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 15,
+            "yesBid": 11,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (12%)",
+          "priceText": "15% ask · NO gap -1"
+        },
+        {
+          "name": "Crazy Bernie",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 1/8 rallies",
+          "hitDetail": "0/3 recent · 1/8 rallies (Daytona counted) · this week: no · Rock Hill: yes",
+          "context": "Rock Hill: 'He's still crazy Bernie.'",
+          "snapshot": {
+            "yesAsk": 100,
+            "yesBid": 99,
+            "settled": null,
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "100% ask (bid 99)"
+        },
+        {
+          "name": "Crazy Nancy",
+          "fairYes": 22,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Pelosi riff.",
+          "snapshot": {
+            "yesAsk": 34,
+            "yesBid": 23,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (22%)",
+          "priceText": "34% ask · NO gap +1"
+        },
+        {
+          "name": "Crooked Hillary",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 2/8 rallies",
+          "hitDetail": "0/3 recent · 2/8 rallies (Daytona counted) · this week: yes · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": null,
+            "yesBid": null,
+            "settled": "YES",
+            "hit": true,
+            "tradable": false
+          },
+          "callText": "Already hit",
+          "priceText": "settled YES"
+        },
+        {
+          "name": "Crying Chuck / Cryin Chuck",
+          "fairYes": 70,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Schumer shutdown riff; 'Cryin' at 6 rallies 1–16 Oct, none since.",
+          "snapshot": {
+            "yesAsk": 76,
+            "yesBid": null,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean YES (70%)",
+          "priceText": "76% ask · YES gap -6"
+        },
+        {
+          "name": "Fake Tapper",
+          "fairYes": 8,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 13,
+            "yesBid": 5,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (8%)",
+          "priceText": "13% ask · NO gap -3"
+        },
+        {
+          "name": "Fat Slob",
+          "fairYes": 25,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 39,
+            "yesBid": 22,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (25%)",
+          "priceText": "39% ask · NO gap -3"
+        },
+        {
+          "name": "Little Communist",
+          "fairYes": 15,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "No Factbase hit 1–22 Oct.",
+          "snapshot": {
+            "yesAsk": 20,
+            "yesBid": 12,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (15%)",
+          "priceText": "20% ask · NO gap -3"
+        },
+        {
+          "name": "Low Energy",
+          "fairYes": 18,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Aimed at opponents generally.",
+          "snapshot": {
+            "yesAsk": 34,
+            "yesBid": 21,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Likely NO (18%)",
+          "priceText": "34% ask · NO gap +3"
+        },
+        {
+          "name": "Marjorie Traitor Greene",
+          "fairYes": 100,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Said at Dalton 16 Oct.",
+          "snapshot": {
+            "yesAsk": 99,
+            "yesBid": 97,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Already hit",
+          "priceText": "99% ask (bid 97)"
+        },
+        {
+          "name": "Piggy",
+          "fairYes": 40,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "",
+          "snapshot": {
+            "yesAsk": 60,
+            "yesBid": 49,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (40%)",
+          "priceText": "60% ask · NO gap +9"
+        },
+        {
+          "name": "Rocket Man",
+          "fairYes": 22,
+          "nonstandard": false,
+          "hitRate": "0/3 recent · 0/8 rallies",
+          "hitDetail": "0/3 recent · 0/8 rallies (Daytona counted) · this week: no · Rock Hill: no",
+          "context": "Kim riff; possible APEC meeting (unconfirmed).",
+          "snapshot": {
+            "yesAsk": 16,
+            "yesBid": 7,
+            "settled": null,
+            "hit": false,
+            "tradable": true
+          },
+          "callText": "Lean NO (22%)",
+          "priceText": "16% ask · NO gap -15"
+        }
+      ]
+    }
+  ]
+}

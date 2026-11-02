@@ -1,0 +1,1754 @@
+{
+  "edit": "Past events. result is what happened (YES, NO, or Pending). score is Right, Wrong, No call, or Pending. reason is the note.",
+  "events": [
+    {
+      "id": "ia-kalshi",
+      "state": "Iowa",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpmention/kxtrumpmention-26nov01",
+      "eventTicker": "KXTRUMPMENTION-26NOV01",
+      "timeWita": "Mon 2 Nov, about 5:40–7:45 AM WITA",
+      "tally": "30 right, 6 wrong, 2 no call, 1 pending",
+      "summary": "Hits: Iran 5+, Nuclear 3+, Tariff 3+, China, Canada, Steel, Corn, Greenland ('infinite' deal), Maduro, Russia/Ukraine, Kamala, ICE, Small Business, Omar, Save America Act. Misses: Ethanol (in Iowa), Hormuz, Blockade, Cattle, Data Center, Gulf of America, Social Security 5+, Supreme Court. Still open in the notes: Fraud 3+ (about 2 from Trump, lean NO). Omar, Bessent, Drill Baby Drill and Maduro were never on the Iowa tab before the speech. Source: speech-to-text of YouTube PW9928Xgmbw (about 13,800 words including guest speakers; it has gaps, so a market settlement wins where they differ).",
+      "strikes": [
+        {
+          "name": "AI / Artificial Intelligence",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "America First",
+          "call": "Likely YES (92%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'We will continue to put America first every single day'. Kalshi 99/100."
+        },
+        {
+          "name": "Blockade",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Canada / Canadian",
+          "call": "Likely YES (88%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Kalshi 99/100; my speech-to-text missed it (gaps)."
+        },
+        {
+          "name": "Cattle",
+          "call": "Likely NO (20%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Ceasefire",
+          "call": "Likely NO (4%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "China / Chinese",
+          "call": "Likely YES (88%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'I charge China for it, tariffs' (about 8x). Kalshi 99/100."
+        },
+        {
+          "name": "Corn",
+          "call": "Likely NO (15%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "My captions: 1x. Kalshi 99/100."
+        },
+        {
+          "name": "Crypto / Bitcoin",
+          "call": "Likely NO (1%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Data Center",
+          "call": "Likely NO (12%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Deport / Deported / Deportation",
+          "call": "Likely NO (12%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Only inside a quoted Democrat ad line; Kalshi 0/1."
+        },
+        {
+          "name": "Electricity",
+          "call": "Lean NO (35%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Elon / Musk",
+          "call": "Likely NO (20%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Kalshi 0/1."
+        },
+        {
+          "name": "Ethanol",
+          "call": "Lean YES (70%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not said, even in Iowa (surprise). Kalshi 0/1."
+        },
+        {
+          "name": "Event does not qualify",
+          "call": "Likely NO (3%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Rally held: Five Flags Center, Dubuque, Trump on stage about 5:40–7:45 AM WITA."
+        },
+        {
+          "name": "Fentanyl",
+          "call": "Likely NO (6%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Fraud (3+ times)",
+          "call": "Lean YES (75%)",
+          "result": "Pending",
+          "score": "Pending",
+          "reason": "Trump said fraud about 2x in my captions ('give it to fraud', 'war on corruption and fraud'); a guest's 'Somali fraud' line doesn't count. Kalshi 14/23, not settled: lean NO."
+        },
+        {
+          "name": "Greenland",
+          "call": "Likely NO (6%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "'You know how long my deal is with Greenland? Infinite' (about 6x). Kalshi 99/100."
+        },
+        {
+          "name": "Gulf of America",
+          "call": "Toss-up (55%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "My captions: 0x. Kalshi 0/1 (third straight miss)."
+        },
+        {
+          "name": "Hormuz",
+          "call": "Likely YES (80%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "No Hormuz riff at all this time (Kalshi 0/1); the Iran riff stayed on nukes and the war."
+        },
+        {
+          "name": "ICE",
+          "call": "Lean YES (65%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'Abolish ICE' (Democrat attack). Kalshi 99/100."
+        },
+        {
+          "name": "Iran (5+ times)",
+          "call": "Likely YES (80%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "My captions: 7x. Kalshi 99/100."
+        },
+        {
+          "name": "Israel / Israeli",
+          "call": "Likely NO (20%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Kamala",
+          "call": "Lean YES (58%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'In the 2024 election versus Kamala Harris'. Kalshi 99/100."
+        },
+        {
+          "name": "Made in America / American Made",
+          "call": "Lean YES (70%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Car-loan line: 'only if you buy a car that happens to be made in America'. Kalshi 99/100."
+        },
+        {
+          "name": "Nuclear (3+ times)",
+          "call": "Likely YES (88%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "My captions: 4x. Kalshi 99/100."
+        },
+        {
+          "name": "Palestine / Palestinian",
+          "call": "Likely NO (5%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Peace in the Middle East",
+          "call": "Likely NO (1%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Russia / Ukraine",
+          "call": "Lean NO (40%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "My captions: 2x. Kalshi 99/100."
+        },
+        {
+          "name": "Save America Act",
+          "call": "Likely YES (96%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'Voter identification, proof of citizenship and the Save America Act'. Kalshi 99/100."
+        },
+        {
+          "name": "Small Business",
+          "call": "Lean NO (45%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "'No more estate tax… your family farm or small business'. Kalshi 99/100."
+        },
+        {
+          "name": "Social Security (5+ times)",
+          "call": "Likely NO (8%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 3x, short of 5. Kalshi 0/1."
+        },
+        {
+          "name": "Space Force",
+          "call": "Likely NO (10%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Steel",
+          "call": "Likely YES (85%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'The largest steel mill in all of the United States going to be built in Iowa' (3x). Kalshi 99/100."
+        },
+        {
+          "name": "Supreme Court",
+          "call": "Toss-up (50%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Tariff (3+ times)",
+          "call": "Likely YES (88%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Kalshi 99/100; my captions caught only 2 (gaps)."
+        },
+        {
+          "name": "Trump Account",
+          "call": "Likely NO (3%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Veteran",
+          "call": "Likely NO (10%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        },
+        {
+          "name": "Windmill",
+          "call": "Likely NO (18%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "My captions: 0x. Kalshi 0/1."
+        }
+      ]
+    },
+    {
+      "id": "ia-poly",
+      "state": "Iowa",
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/what-will-trump-say-during-his-midterm-rally-in-iowa-november-1-dubuque-ia",
+      "polymarketSlug": "what-will-trump-say-during-his-midterm-rally-in-iowa-november-1-dubuque-ia",
+      "timeWita": "Mon 2 Nov, about 5:40–7:45 AM WITA",
+      "tally": "15 right, 5 wrong, 1 no call",
+      "summary": "Hell 15+, Crazy 7+, Tariff 5+, Ass, Shit, Illinois, Alaska proposed YES. Tax 32+ (about 25) and Transgender 7+ (about 4) proposed NO. Polymarket results were proposed, not final, when the notes were written.",
+      "strikes": [
+        {
+          "name": "AI / Artificial Intelligence",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said. Proposed NO."
+        },
+        {
+          "name": "Alaska",
+          "call": "Likely YES (88%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'What we did with Alaska… pipelines' (2x). Proposed YES."
+        },
+        {
+          "name": "Ass",
+          "call": "Toss-up (50%)",
+          "result": "YES",
+          "score": "No call",
+          "reason": "Polymarket proposed YES; my speech-to-text missed it."
+        },
+        {
+          "name": "Bitcoin / Crypto / Cryptocurrency",
+          "call": "Likely NO (2%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said. Proposed NO."
+        },
+        {
+          "name": "Brazil",
+          "call": "Likely NO (10%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said. Proposed NO."
+        },
+        {
+          "name": "Crazy 7+ times",
+          "call": "Likely YES (88%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "About 9x: 'common sense versus crazy', 'my wife goes crazy'. Proposed YES."
+        },
+        {
+          "name": "Data Center",
+          "call": "Likely NO (12%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said. Proposed NO."
+        },
+        {
+          "name": "Daylight Saving",
+          "call": "Lean NO (30%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said, even on clock-change day. Proposed NO."
+        },
+        {
+          "name": "Electricity / Chip",
+          "call": "Lean NO (45%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said. Proposed NO."
+        },
+        {
+          "name": "Fentanyl / Deport / Deported",
+          "call": "Lean NO (22%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Only inside a quoted ad line. Proposed NO."
+        },
+        {
+          "name": "Hell 15+ times",
+          "call": "Lean NO (40%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "13x in my captions (they undercount); Polymarket proposed YES."
+        },
+        {
+          "name": "Hormuz / Blockade",
+          "call": "Likely YES (85%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not said. Proposed NO."
+        },
+        {
+          "name": "Illinois",
+          "call": "Lean NO (30%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "'It's up to Illinois' (Dubuque sits on the Illinois line). Proposed YES."
+        },
+        {
+          "name": "Maduro",
+          "call": "Likely YES (80%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Venezuela riff. Proposed YES."
+        },
+        {
+          "name": "MIT",
+          "call": "Lean NO (30%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said. Proposed NO."
+        },
+        {
+          "name": "Russia / Ukraine",
+          "call": "Lean NO (38%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "My captions: 2x. Proposed YES."
+        },
+        {
+          "name": "Shit",
+          "call": "Lean NO (35%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "My captions: 1x. Proposed YES."
+        },
+        {
+          "name": "SI / Super Intelligence",
+          "call": "Likely NO (20%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said. Proposed NO."
+        },
+        {
+          "name": "Tariff 5+ times",
+          "call": "Lean YES (70%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Polymarket proposed YES; my captions caught only 2 (gaps)."
+        },
+        {
+          "name": "Tax 32+ times",
+          "call": "Likely NO (8%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "About 25x in my captions; Polymarket proposed NO."
+        },
+        {
+          "name": "Transgender 7+ times",
+          "call": "Lean NO (45%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "About 4x in my captions ('transgender mutilization'); no Turek attack. Polymarket proposed NO."
+        }
+      ]
+    },
+    {
+      "id": "fl-kalshi",
+      "state": "Florida",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpmention/kxtrumpmention-26oct30",
+      "eventTicker": "KXTRUMPMENTION-26OCT30",
+      "timeWita": "Fri 30 Oct, about 8:00–9:30 PM ET",
+      "tally": "31 right, 3 wrong, 3 no call",
+      "summary": "Wrong on Gulf of America (fair 77, missed even in Florida), Kamala (fair 70, missed again) and ICE (fair 43, settled YES; captions have it only in the video montage). Source: YouTube captions 0iGxqZz_Vnk, about 12,700 words, 92 min. Counts are approximate. Pending at 1¢ and treated as NO in the notes: Kamala, Small Business, Veteran, Elon/Musk, Insurance, Deport, Social Security 5+, Fentanyl.",
+      "strikes": [
+        {
+          "name": "AI / Artificial Intelligence",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions; no tech segment."
+        },
+        {
+          "name": "America First",
+          "call": "Likely YES (96%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'We're going to elect America first Republicans up and down the line.'"
+        },
+        {
+          "name": "Blockade",
+          "call": "Lean NO (28%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions; the Iran riff was about the navy and Hormuz oil flow."
+        },
+        {
+          "name": "Canada / Canadian",
+          "call": "Likely YES (82%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'Canada. Oh, Canada… Canada's not doing so well' (trade riff, about 5)."
+        },
+        {
+          "name": "Ceasefire",
+          "call": "Likely NO (8%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "China / Chinese",
+          "call": "Likely YES (80%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Kalshi settled YES; one mention in my captions."
+        },
+        {
+          "name": "Crypto / Bitcoin",
+          "call": "Likely NO (1%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "Data Center",
+          "call": "Lean NO (26%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions; no power-bill riff."
+        },
+        {
+          "name": "Deport / Deported / Deportation",
+          "call": "Likely NO (20%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Kalshi at 1¢ (pending NO); the only 'deport' was a Democrat clip in his video montage."
+        },
+        {
+          "name": "Electricity",
+          "call": "Toss-up (48%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not said by Trump in my captions; skipped the windmill and power-bill riff."
+        },
+        {
+          "name": "Elon / Musk",
+          "call": "Likely NO (20%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Kalshi at 1¢ (pending NO); captions misheard 'Ilhan Omar' as 'Elon Omar'."
+        },
+        {
+          "name": "Event does not qualify",
+          "call": "Likely NO (3%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Rally held: Ocean Center, about 8:00–9:30 PM ET."
+        },
+        {
+          "name": "Fentanyl",
+          "call": "Likely NO (10%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Kalshi at 1¢ (pending NO); the fentanyl lines look like part of a played clip."
+        },
+        {
+          "name": "Fraud (3+ times)",
+          "call": "Lean YES (61%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "About 7: 'This is voter fraud at the highest level' (Alaska), 'fraudsters'."
+        },
+        {
+          "name": "Greenland",
+          "call": "Likely NO (16%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "Gulf of America",
+          "call": "Lean YES (77%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Missed even in Florida; no Gulf rename riff."
+        },
+        {
+          "name": "Hormuz",
+          "call": "Lean YES (75%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'More oil is flowing right now out of the Hormo Strait' (caption spelling)."
+        },
+        {
+          "name": "ICE",
+          "call": "Lean NO (43%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "Kalshi settled YES; my captions only have it inside the Democrat video montage ('Abolish ICE')."
+        },
+        {
+          "name": "Insurance",
+          "call": "Likely NO (21%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Kalshi at 1¢ (pending NO); no property-insurance riff despite Florida."
+        },
+        {
+          "name": "Iran (5+ times)",
+          "call": "Likely YES (80%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "About 11: 'taken the nuclear threat capability out of the hands of Iran'."
+        },
+        {
+          "name": "Israel / Israeli",
+          "call": "Likely NO (16%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "Kamala",
+          "call": "Lean YES (70%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Kalshi at 1¢ (pending NO); second straight miss after Rock Hill. Only 'Harris' was in a poll clip."
+        },
+        {
+          "name": "Made in America / American Made",
+          "call": "Likely YES (78%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Kalshi settled YES."
+        },
+        {
+          "name": "Nuclear (3+ times)",
+          "call": "Likely YES (82%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "About 8: 'taken the nuclear power away from the lovely Islamic Republic of Iran'."
+        },
+        {
+          "name": "Palestine / Palestinian",
+          "call": "Likely NO (10%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "Peace in the Middle East",
+          "call": "Likely NO (1%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "Russia / Ukraine",
+          "call": "Toss-up (48%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not said by Trump in my captions; no Russia–Ukraine riff."
+        },
+        {
+          "name": "Save America Act",
+          "call": "Likely YES (98%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'…and the Save America Act to defend our sacred American election.'"
+        },
+        {
+          "name": "Small Business",
+          "call": "Lean NO (40%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Kalshi at 1¢ (pending NO); no estate-tax line."
+        },
+        {
+          "name": "Social Security (5+ times)",
+          "call": "Likely NO (4%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Only about 2 ('no tax on social security'); Kalshi at 1¢."
+        },
+        {
+          "name": "Space Force",
+          "call": "Lean NO (26%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions; no Cape Canaveral riff."
+        },
+        {
+          "name": "Steel",
+          "call": "Lean YES (73%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Kalshi settled YES ('like hitting a piece of steel')."
+        },
+        {
+          "name": "Supreme Court",
+          "call": "Toss-up (49%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "Tariff (3+ times)",
+          "call": "Likely YES (90%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'I use tariffs… we're going to charge you 200% tariff' (3+)."
+        },
+        {
+          "name": "Trump Account",
+          "call": "Likely NO (10%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "Veteran",
+          "call": "Likely NO (8%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Kalshi at 1¢ (pending NO); 0/8 rallies."
+        },
+        {
+          "name": "Windmill",
+          "call": "Lean NO (28%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions; energy riff skipped."
+        }
+      ]
+    },
+    {
+      "id": "fl-poly",
+      "state": "Florida",
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/what-will-trump-say-during-his-midterm-rally-in-florida-october-30-daytona",
+      "polymarketSlug": "what-will-trump-say-during-his-midterm-rally-in-florida-october-30-daytona",
+      "timeWita": "Fri 30 Oct, about 8:00–9:30 PM ET",
+      "tally": "16 right, 3 wrong, 3 no call",
+      "summary": "Rock Hill count tiers did not carry over (Hell about 7 vs 23, Beautiful about 13 vs 22). Communist 5+ hit about 10 on the Angie Nixon riff. Best-spot record: 4 won (Veteran NO, Crazy YES, Grass NO, Million 30+ NO), 2 lost (Hell 15+ YES, Beautiful 20+ YES). Still settling when notes were written: Obama/Kamala/Biden 12+ (15%), Terrorist and Grass (22%), Russia/Ukraine (12%).",
+      "strikes": [
+        {
+          "name": "-No Qualifying Event-",
+          "call": "Likely NO (2%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Rally held as scheduled."
+        },
+        {
+          "name": "Affordable / Affordability",
+          "call": "Lean NO (25%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions; settling NO."
+        },
+        {
+          "name": "AI / Artificial Intelligence",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions; no tech segment."
+        },
+        {
+          "name": "Ass",
+          "call": "Toss-up (46%)",
+          "result": "YES",
+          "score": "No call",
+          "reason": "'kissing my ass… I'm working my ass off' (about 5)."
+        },
+        {
+          "name": "Beautiful 20+ times",
+          "call": "Lean YES (60%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Only about 13 in my captions; settling NO."
+        },
+        {
+          "name": "Bitcoin / Crypto / Cryptocurrency",
+          "call": "Likely NO (1%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "Brazil",
+          "call": "Likely NO (19%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "Communist / Socialist 5+ times",
+          "call": "Lean NO (30%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "Resolved YES: about 10 ('America-hating communists', 'communist candidate for Senate' Angie Nixon)."
+        },
+        {
+          "name": "Crazy 7+ times",
+          "call": "Likely YES (85%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "About 12 'crazy'; settling YES."
+        },
+        {
+          "name": "Data Center",
+          "call": "Lean NO (29%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions; no power-bill riff."
+        },
+        {
+          "name": "Fentanyl / Deport / Deported",
+          "call": "Lean NO (45%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Settling NO (only in played clips)."
+        },
+        {
+          "name": "Grass",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions; 22% while pending."
+        },
+        {
+          "name": "Hell 15+ times",
+          "call": "Lean YES (60%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Only about 7 vs 23 at Rock Hill; settling NO."
+        },
+        {
+          "name": "Hormuz / Blockade",
+          "call": "Lean YES (74%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'Hormo Strait' line; settling YES."
+        },
+        {
+          "name": "Made in America / American Made",
+          "call": "Likely YES (78%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Kalshi settled YES."
+        },
+        {
+          "name": "Million / Billion / Trillion 30+ times",
+          "call": "Lean NO (45%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "About 23; settling NO."
+        },
+        {
+          "name": "Obama / Kamala / Biden 12+ times",
+          "call": "Toss-up (46%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "About 12 in my captions, some from clips; market at 15%, pending NO."
+        },
+        {
+          "name": "Russia / Ukraine",
+          "call": "Toss-up (49%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not said by Trump in my captions; no Russia–Ukraine riff."
+        },
+        {
+          "name": "SI / Super Intelligence",
+          "call": "Lean NO (24%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not said by Trump in my captions."
+        },
+        {
+          "name": "Terrorist / Terrorism",
+          "call": "Lean NO (25%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "One 'foreign terrorist organizations' line, likely in a clip; 22% while pending."
+        },
+        {
+          "name": "Transgender 7+ times",
+          "call": "Lean NO (38%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "About 6, nearly all inside the Democrat video montage; settling NO."
+        },
+        {
+          "name": "Two Percent / 2%",
+          "call": "Lean YES (70%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "'My voice is about operating at about 49.2%'; settling YES."
+        }
+      ]
+    },
+    {
+      "id": "oh-kalshi",
+      "state": "Ohio",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpmention",
+      "timeWita": "Wed 28 Oct (Chillicothe speech)",
+      "tallyNote": "Earlier scorecard, kept from the notes before it was replaced by later rallies.",
+      "summary": "Chillicothe, Ohio. Factbase transcript (posted 28 Oct), Trump's segments only.",
+      "strikes": [
+        {
+          "name": "AI / Artificial Intelligence",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; no tech segment in a short Ohio stump speech."
+        },
+        {
+          "name": "America First",
+          "call": "Likely YES (85%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Endorsement run: \"we're going to elect America First Republicans up and down the line\"."
+        },
+        {
+          "name": "Blockade",
+          "call": "Toss-up (50%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not in my transcript; the Iran riff was about victories and nukes, not the naval blockade."
+        },
+        {
+          "name": "Canada / Canadian",
+          "call": "Lean YES (62%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Trade riff: \"O Canada has been ripping us off for many, many years\"."
+        },
+        {
+          "name": "Ceasefire",
+          "call": "Lean NO (30%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; Iran framed as a war to 'close out', not a truce."
+        },
+        {
+          "name": "China / Chinese",
+          "call": "Likely YES (92%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in my transcript; no trade-deal or Xi riff despite the gaggle hook. Short 78-min speech."
+        },
+        {
+          "name": "Crypto / Bitcoin",
+          "call": "Likely NO (4%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; not in his rally set."
+        },
+        {
+          "name": "Data Center",
+          "call": "Lean YES (68%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in my transcript; skipped the local data-center fight entirely. Short 78-min speech."
+        },
+        {
+          "name": "Deport / Deported / Deportation",
+          "call": "Toss-up (55%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not in my transcript; border talk was 'open borders… 25 million illegal aliens', with no deport wording."
+        },
+        {
+          "name": "Electricity",
+          "call": "Lean NO (35%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "Energy riff: \"they can't get electricity anymore\"."
+        },
+        {
+          "name": "Elon / Musk",
+          "call": "Lean NO (30%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; no Musk mention."
+        },
+        {
+          "name": "Event does not qualify",
+          "call": "Likely NO (2%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Rally held as scheduled."
+        },
+        {
+          "name": "Fentanyl",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; crime riff used 'drug dealers… murderers' instead."
+        },
+        {
+          "name": "Fraud (3+ times)",
+          "call": "Toss-up (50%)",
+          "result": "YES",
+          "score": "No call",
+          "reason": "Election riff: \"voter fraud at the highest level\" (Alaska ballot story). Factbase counts 3 from Trump: that line, Omar \"openly admitted to fraud\", and \"the war on corruption and fraud\"."
+        },
+        {
+          "name": "Greenland",
+          "call": "Lean NO (35%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; no current hook."
+        },
+        {
+          "name": "Gulf of America",
+          "call": "Lean NO (45%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "Rename brag: \"we named… the Gulf of Mexico into the Gulf of America\"."
+        },
+        {
+          "name": "Hormuz",
+          "call": "Lean YES (70%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Twice in Factbase (written \"Hormone Strait\"): \"more oil is flowing out of the Hormuz Strait, which I think we're going to rename… the Trump Strait\"."
+        },
+        {
+          "name": "ICE",
+          "call": "Lean YES (62%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in my transcript; no immigration-enforcement segment."
+        },
+        {
+          "name": "Iran (5+ times)",
+          "call": "Likely YES (80%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "About 9 times: \"soon Iran will close that one out too… will never, ever have a nuclear weapon\"."
+        },
+        {
+          "name": "Israel / Israeli",
+          "call": "Lean NO (35%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; Middle East talk stayed on Iran."
+        },
+        {
+          "name": "Kamala",
+          "call": "Lean YES (68%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Sherrod Brown attack: \"He then got involved with Kamala. And he lost\"."
+        },
+        {
+          "name": "Made in America / American Made",
+          "call": "Lean YES (70%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Car-loan brag: \"interest… tax deductible, but only if the car is made in America\"."
+        },
+        {
+          "name": "Nuclear (3+ times)",
+          "call": "Likely YES (88%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "About 6 times, in the Iran passage: \"never, ever have a nuclear weapon\"."
+        },
+        {
+          "name": "Palestine / Palestinian",
+          "call": "Likely NO (8%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; no Gaza segment."
+        },
+        {
+          "name": "Peace in the Middle East",
+          "call": "Likely NO (4%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; not his phrasing lately."
+        },
+        {
+          "name": "Russia / Ukraine",
+          "call": "Lean YES (60%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in my transcript; despite the 28 Oct gaggle hook ('meeting set up very soon'), no foreign-policy tour. Short speech."
+        },
+        {
+          "name": "Save America Act",
+          "call": "Likely YES (92%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Factbase: \"We will pass voter identification, proof of citizenship and the SAVE America Act\"."
+        },
+        {
+          "name": "Small Business",
+          "call": "Lean YES (72%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in my transcript; the economy riff was tariffs, jobs and no tax on tips."
+        },
+        {
+          "name": "Social Security (5+ times)",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Once: \"no tax on social security for our great seniors\". Well short of 5."
+        },
+        {
+          "name": "Space Force",
+          "call": "Lean NO (25%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; no military segment."
+        },
+        {
+          "name": "Steel",
+          "call": "Likely YES (85%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Ohio investment brag: \"Cleveland Cliffs is investing $500 million to make steel in Ohio\"."
+        },
+        {
+          "name": "Supreme Court",
+          "call": "Lean YES (65%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in my transcript; no tariff-case or court riff."
+        },
+        {
+          "name": "Tariff (3+ times)",
+          "call": "Likely YES (92%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "About 8 times: \"thanks to my tariffs, I always say it's my favorite word\"."
+        },
+        {
+          "name": "Trump Account",
+          "call": "Likely NO (12%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; not in this set."
+        },
+        {
+          "name": "Veteran",
+          "call": "Lean NO (30%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; not in this set."
+        },
+        {
+          "name": "Windmill",
+          "call": "Likely NO (10%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; the energy riff didn't reach windmills."
+        }
+      ],
+      "tally": "25 right, 8 wrong, 3 no call"
+    },
+    {
+      "id": "oh-poly",
+      "state": "Ohio",
+      "platform": "Polymarket",
+      "url": "https://polymarket.com",
+      "timeWita": "Wed 28 Oct (Chillicothe speech)",
+      "tallyNote": "Earlier scorecard, kept from the notes before it was replaced by later rallies.",
+      "summary": "Chillicothe, Ohio, Polymarket strikes.",
+      "strikes": [
+        {
+          "name": "-No Qualifying Event-",
+          "call": "Likely NO (2%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Rally held as scheduled."
+        },
+        {
+          "name": "AI / Artificial Intelligence",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; no tech segment in a short Ohio stump speech."
+        },
+        {
+          "name": "America First",
+          "call": "Likely YES (85%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Endorsement run: \"we're going to elect America First Republicans up and down the line\"."
+        },
+        {
+          "name": "Ass",
+          "call": "Toss-up (55%)",
+          "result": "YES",
+          "score": "No call",
+          "reason": "Vivek-intro riff: \"I started by looking at his ass. And it was strong as hell\"."
+        },
+        {
+          "name": "Biden / Obama / Kamala 15+ times",
+          "call": "Lean YES (65%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Factbase: 10 combined (Obama, Biden, Kamala in the Sherrod Brown attacks). Short speech, so the tier missed."
+        },
+        {
+          "name": "Bitcoin / Crypto / Cryptocurrency",
+          "call": "Likely NO (4%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; not in his rally set."
+        },
+        {
+          "name": "Cleveland",
+          "call": "Lean NO (40%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "Ohio investment brag: \"Cleveland Cliffs is investing $500 million to make steel in Ohio\"."
+        },
+        {
+          "name": "Climate Change",
+          "call": "Lean NO (35%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; no green-scam riff."
+        },
+        {
+          "name": "Data Center",
+          "call": "Lean YES (68%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in my transcript; skipped the local data-center fight entirely. Short 78-min speech."
+        },
+        {
+          "name": "Drug 10+ times",
+          "call": "Lean NO (40%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Once: \"drug dealers, 11,888 murders\" in the border riff."
+        },
+        {
+          "name": "Fentanyl / Deport / Deported",
+          "call": "Lean YES (62%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in my transcript; border riff used 'open borders' and 'invasion' instead."
+        },
+        {
+          "name": "Hell 15+ times",
+          "call": "Lean YES (65%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Factbase: 10 times, e.g. \"who the hell is your teammate\" and \"how the hell is that his problem\" (Acton). Short speech."
+        },
+        {
+          "name": "Hormuz / Blockade",
+          "call": "Lean YES (65%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Hormuz twice (Factbase \"Hormone Strait\"), in the \"rename it the Trump Strait\" riff."
+        },
+        {
+          "name": "Job 20+ times",
+          "call": "Lean YES (68%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Factbase: 11, e.g. \"you have the most jobs you've ever had\". Short 78-min speech."
+        },
+        {
+          "name": "Lake America 7+ times",
+          "call": "Likely NO (3%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; no rename riff on lakes."
+        },
+        {
+          "name": "Liar",
+          "call": "Lean YES (65%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Acton passage: \"He had the mother of his opponent say that her daughter was a liar\" (3 uses)."
+        },
+        {
+          "name": "Million / Billion / Trillion 25+ times",
+          "call": "Likely YES (85%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Factbase: 28 from Trump: \"25 million illegal aliens… 33 billion… $500 million\"."
+        },
+        {
+          "name": "Russia / Ukraine",
+          "call": "Lean YES (60%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in my transcript; despite the 28 Oct gaggle hook ('meeting set up very soon'), no foreign-policy tour. Short speech."
+        },
+        {
+          "name": "SI / Super Intelligence",
+          "call": "Lean NO (35%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in my transcript; no tech segment."
+        },
+        {
+          "name": "Transgender 7+ times",
+          "call": "Lean YES (65%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Factbase: 4, e.g. \"transgender insanity out of our schools\". Short of 7."
+        }
+      ],
+      "tally": "11 right, 8 wrong, 1 no call"
+    },
+    {
+      "id": "sc-kalshi",
+      "state": "South Carolina",
+      "platform": "Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumpmention/kxtrumpmention-26oct29",
+      "eventTicker": "KXTRUMPMENTION-26OCT29",
+      "timeWita": "Wed 29 Oct (Rock Hill speech)",
+      "tallyNote": "No South Carolina strike was a best spot at the 4:05 PM update, so there is no spot record for this rally.",
+      "summary": "Rock Hill captions. Polymarket Job 20+ later settled NO (about 18). Two Percent rule: '49.2%' counts.",
+      "strikes": [
+        {
+          "name": "AI / Artificial Intelligence",
+          "call": "Lean NO (38%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Alaska",
+          "call": "—",
+          "result": "YES",
+          "score": "No call",
+          "reason": "\"news yesterday, it was just determined that the Democrats in Alaska, despite their sworn statements to the contrary\""
+        },
+        {
+          "name": "America First",
+          "call": "Likely YES (92%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "\"and a Republican Senate on November 3rd, we will continue to put America first. Every single day, we will do that. We will win\""
+        },
+        {
+          "name": "Bessent",
+          "call": "—",
+          "result": "YES",
+          "score": "No call",
+          "reason": "Kalshi settled YES; my captions garble it."
+        },
+        {
+          "name": "Blockade",
+          "call": "Lean NO (35%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Canada / Canadian",
+          "call": "Likely YES (78%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "\"They're flooding America. They're coming in from Europe, from Asia, Canada, Mexico. They're all pouring in. They're\" (~5x in captions)"
+        },
+        {
+          "name": "Ceasefire",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "China / Chinese",
+          "call": "Likely YES (81%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "\"been 22.2 just let's round it off at 22 trillion dollars invested in China or any other country. And that's times about\" (~2x in captions)"
+        },
+        {
+          "name": "Crypto / Bitcoin",
+          "call": "Likely NO (2%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Data Center",
+          "call": "Lean NO (38%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Deport / Deported / Deportation",
+          "call": "Toss-up (52%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Drill Baby Drill",
+          "call": "—",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Electricity",
+          "call": "Lean NO (35%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "\"and they say no I'm sorry we can't the wind isn't blowing we have no electricity the wind we need electricity for our\" (~2x in captions)"
+        },
+        {
+          "name": "Elon / Musk",
+          "call": "Toss-up (50%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Event does not qualify",
+          "call": "Likely NO (2%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Rally held as scheduled."
+        },
+        {
+          "name": "FEMA",
+          "call": "Likely NO (16%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Fentanyl",
+          "call": "Likely NO (10%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Fraud (3+ times)",
+          "call": "Lean YES (62%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "\"splitting the vote. Totally wrong, totally illegal. This is voter fraud at the highest level. And the Democrat candidate\" (~3x in captions)"
+        },
+        {
+          "name": "Greenland",
+          "call": "Lean NO (22%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Gulf of America",
+          "call": "Lean YES (58%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "\"not happy that I changed the name of the Gulf of Mexico to the Gulf of America. They're not thrilled. The president of Mexico,\" (~2x in captions)"
+        },
+        {
+          "name": "Hormuz",
+          "call": "Lean YES (70%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "\"a river. So, and maybe a straight. I'm thinking about calling the hormones straight, the Trump straight. I'm gonna take How do\""
+        },
+        {
+          "name": "Hurricane",
+          "call": "Likely NO (10%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "\"governor, >> but nobody knows it. Roy Cooper when during the hurricane, which was a water cane because it would have\""
+        },
+        {
+          "name": "ICE",
+          "call": "Lean YES (56%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Ilhan / Omar",
+          "call": "—",
+          "result": "YES",
+          "score": "No call",
+          "reason": "\"last week, it was revealed that my favorite congressperson, Ilhan Omar, that her name is not Ilhan Omar, the one she\" (~6x in captions)"
+        },
+        {
+          "name": "Iran (5+ times)",
+          "call": "Likely YES (90%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Only ~4x in captions, short of 5."
+        },
+        {
+          "name": "Israel / Israeli",
+          "call": "Lean NO (25%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Kamala",
+          "call": "Likely YES (79%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Made in America / American Made",
+          "call": "Likely YES (85%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Maduro",
+          "call": "—",
+          "result": "YES",
+          "score": "No call",
+          "reason": "\"and brought to justice the outlaw dictator of Venezuela, Nicholas Maduro, who is now awaiting trial for lots of bad\""
+        },
+        {
+          "name": "Nuclear (3+ times)",
+          "call": "Likely YES (94%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Only ~2x in captions, short of 3."
+        },
+        {
+          "name": "Palestine / Palestinian",
+          "call": "Likely NO (9%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Peace in the Middle East",
+          "call": "Likely NO (2%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Russia / Ukraine",
+          "call": "Toss-up (55%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Save America Act",
+          "call": "Likely YES (96%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "\"And we will pass voter identification, proof of citizenship, and the Save America Act to defend our sacred American election. And we\""
+        },
+        {
+          "name": "Small Business",
+          "call": "Lean NO (41%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "\"suicide. There's no more estate tax on your family farms and small businesses. I think it's great. And Darlene's opponent\""
+        },
+        {
+          "name": "Social Security (5+ times)",
+          "call": "Likely NO (8%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Only ~3x in captions, short of 5."
+        },
+        {
+          "name": "Space Force",
+          "call": "Lean NO (35%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Steel",
+          "call": "Lean YES (65%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "\"in the community. It's good company. And thanks to my tariffs on steel and aluminum, you know, we had almost our steel\" (~2x in captions)"
+        },
+        {
+          "name": "Supreme Court",
+          "call": "Lean YES (58%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Taiwan",
+          "call": "—",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Tariff (3+ times)",
+          "call": "Likely YES (91%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "\"businesses get. But I think even more important, it's because of the tariffs. Because all these companies are coming in.\" (~8x in captions)"
+        },
+        {
+          "name": "Trump Account",
+          "call": "Likely NO (11%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Veteran",
+          "call": "Likely NO (15%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Windmill",
+          "call": "Likely NO (15%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "\"She wants to ban drilling and send energy cost soaring. Wants to put windmills all over the place. Ruin your farms. Ruin your\" (~3x in captions)"
+        }
+      ],
+      "tally": "25 right, 10 wrong, 9 no call"
+    },
+    {
+      "id": "sc-poly",
+      "state": "South Carolina",
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-29-sc",
+      "polymarketSlug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-29-sc",
+      "timeWita": "Wed 29 Oct (Rock Hill speech)",
+      "summary": "Fully settled in later notes: Job 20+ NO (about 18). SI, Transgender 7+, Million/Billion/Trillion 30+ and Biden/Obama/Kamala 15+ NO. Hell 15+ (about 23), America First and Hormuz/Blockade YES. SI / Super Intelligence was corrected to NO after it settled.",
+      "strikes": [
+        {
+          "name": "-No Qualifying Event-",
+          "call": "Likely NO (2%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Rally held as scheduled."
+        },
+        {
+          "name": "AI / Artificial Intelligence",
+          "call": "Lean NO (38%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "America First",
+          "call": "Likely YES (92%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "\"and a Republican Senate on November 3rd, we will continue to put America first. Every single day, we will do that. We will win\""
+        },
+        {
+          "name": "Ass",
+          "call": "Toss-up (52%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Biden / Obama / Kamala 15+ times",
+          "call": "Lean NO (45%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "About 9 in my caption transcript vs 15 needed (Polymarket still open: 0%)."
+        },
+        {
+          "name": "Bitcoin / Crypto / Cryptocurrency",
+          "call": "Likely NO (2%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Data Center",
+          "call": "Lean NO (38%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Fentanyl / Deport / Deported",
+          "call": "Toss-up (50%)",
+          "result": "NO",
+          "score": "No call",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Hell 15+ times",
+          "call": "Lean NO (45%)",
+          "result": "YES",
+          "score": "Wrong",
+          "reason": "About 23 in my caption transcript vs 15 needed."
+        },
+        {
+          "name": "Hormuz / Blockade",
+          "call": "Lean YES (68%)",
+          "result": "YES",
+          "score": "Right",
+          "reason": "Hormuz said (\"hormones straight\" in captions); Polymarket settled YES."
+        },
+        {
+          "name": "Job 20+ times",
+          "call": "Toss-up (52%)",
+          "result": "Pending",
+          "score": "No call",
+          "reason": "About 18 in my caption transcript vs 20 needed (Polymarket still open: 50/3, 8:55 PM WITA Fri)."
+        },
+        {
+          "name": "Milk",
+          "call": "Likely NO (2%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Million / Billion / Trillion 30+ times",
+          "call": "Lean YES (60%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "About 28 in my caption transcript vs 30 needed (Polymarket still open: 0%)."
+        },
+        {
+          "name": "Russia / Ukraine",
+          "call": "Lean YES (58%)",
+          "result": "NO",
+          "score": "Wrong",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "SI / Super Intelligence",
+          "call": "Lean NO (28%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript; Polymarket settled NO."
+        },
+        {
+          "name": "Strategic / Strategy",
+          "call": "Likely NO (10%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "Not in the transcript."
+        },
+        {
+          "name": "Transgender 7+ times",
+          "call": "Lean NO (45%)",
+          "result": "NO",
+          "score": "Right",
+          "reason": "About 5 in my caption transcript vs 7 needed (Polymarket still open: 5%)."
+        }
+      ],
+      "tally": "11 right, 3 wrong, 3 no call"
+    }
+  ]
+}

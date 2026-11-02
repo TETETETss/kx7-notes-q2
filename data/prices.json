@@ -1,0 +1,1936 @@
+{
+  "updated": "2026-11-02T15:22:50+08:00",
+  "updatedLabel": "15:22 WITA",
+  "events": {
+    "ks": {
+      "strikes": {
+        "Transgender": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Save America Act": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Farm / Farmer": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Tariff (3+ times)": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Nuclear (3+ times)": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Iran (5+ times)": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "China / Chinese": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Made in America / American Made": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Fraud (3+ times)": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Hormuz": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Steel": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Kamala": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Small Business": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "ICE": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Supreme Court": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Aircraft / Aviation": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Diesel": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Ethanol": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Water": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Russia / Ukraine": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Boeing": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Cattle": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Corn": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Insurance": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Veteran": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "NATO": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Data Center": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Deport / Deported / Deportation": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Windmill": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "AI / Artificial Intelligence": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Fentanyl": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Social Security (5+ times)": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Trump Account": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Ceasefire": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Crypto / Bitcoin": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Event does not qualify": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Ilhan / Omar": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Drill Baby Drill": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Maduro": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Bessent": {
+          "settled": "NO",
+          "status": "finalized"
+        }
+      }
+    },
+    "pks": {
+      "strikes": {
+        "AI / Artificial Intelligence": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Ass": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Bitcoin / Crypto / Cryptocurrency": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Boeing": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Bombardier": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Brazil": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Cancel": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Data Center": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Daylight Saving": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Fentanyl / Deport / Deported": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Halloween": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Hell 15+ times": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Hormuz / Blockade": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Job 15+ times": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Million / Billion / Trillion 25+ times": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Pardon / Pardoned": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Russia / Ukraine": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Shit": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "SI / Super Intelligence": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Tax 32+ times": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Transgender 7+ times": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Travel Ban": {
+          "settled": "NO",
+          "status": "resolved"
+        }
+      }
+    },
+    "nw9": {
+      "strikes": {
+        "Vivek / Ramaswamy": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 26
+        },
+        "Ilhan / Omar": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 88
+        },
+        "Superintelligence / Super Intelligence": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 4
+        },
+        "Cybersecurity / Cyber Security": {
+          "status": "active",
+          "yesAsk": 56,
+          "yesBid": 3
+        },
+        "Ranked Choice / Ranked-Choice": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Finland / Finnish": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "GDP": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Robot / Robotic / Robotics": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Mortgage": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Tomahawk": {
+          "status": "active",
+          "yesAsk": 55,
+          "yesBid": 6
+        },
+        "Soleimani": {
+          "status": "active",
+          "yesAsk": 99,
+          "yesBid": 1
+        },
+        "Peace in the Middle East": {
+          "status": "active",
+          "yesAsk": 16,
+          "yesBid": 2
+        },
+        "Ethanol": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Diesel": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Refinery": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Houthi": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Quantum": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Uranium": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 1
+        },
+        "UFO / UAP": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 1
+        },
+        "Prediction Market / Predictive Market": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 1
+        },
+        "Bibi / Netanyahu": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 3
+        },
+        "Blockade": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Dividend / Stimulus": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 31
+        },
+        "Canada / Canadian": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 2
+        },
+        "Melania": {
+          "status": "active",
+          "yesAsk": 96,
+          "yesBid": 11
+        },
+        "Moon": {
+          "status": "active",
+          "yesAsk": 85,
+          "yesBid": 3
+        },
+        "Nobel": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 3
+        },
+        "Third Term": {
+          "status": "active",
+          "yesAsk": 60,
+          "yesBid": 11
+        },
+        "Rigged Election / Stolen Election": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 11
+        },
+        "Zohran / Mamdani": {
+          "status": "active",
+          "yesAsk": 84,
+          "yesBid": 9
+        },
+        "Autopen / Auto Pen": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 3
+        },
+        "Ceasefire": {
+          "status": "active",
+          "yesAsk": 81,
+          "yesBid": 3
+        },
+        "Crypto / Bitcoin": {
+          "status": "active",
+          "yesAsk": 82,
+          "yesBid": 9
+        },
+        "Antifa": {
+          "status": "active",
+          "yesAsk": 52,
+          "yesBid": 3
+        },
+        "Cuba / Cuban": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 6
+        },
+        "Epstein": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 1
+        },
+        "Golden Dome": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 1
+        },
+        "Marijuana / Weed / Cannabis": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 1
+        },
+        "Make Iran Great Again": {
+          "status": "active",
+          "yesAsk": 16,
+          "yesBid": 2
+        }
+      }
+    },
+    "kw2": {
+      "strikes": {
+        "Antifa": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Autopen / Auto Pen": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Bibi / Netanyahu": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Blockade": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Canada / Canadian": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Ceasefire": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Crypto / Bitcoin": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Cuba / Cuban": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Cybersecurity / Cyber Security": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Diesel": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Dividend / Stimulus": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Epstein": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Ethanol": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Golden Dome": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Houthi": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Ilhan / Omar": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Make Iran Great Again": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Marijuana / Weed / Cannabis": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Melania": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Moon": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Mortgage": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Nobel": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Peace in the Middle East": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Prediction Market / Predictive Market": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Ranked Choice / Ranked-Choice": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Refinery": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Rigged Election / Stolen Election": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Soleimani": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Superintelligence / Super Intelligence": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Third Term": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Tomahawk": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "UFO / UAP": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Uranium": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        },
+        "Vivek / Ramaswamy": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Zohran / Mamdani": {
+          "status": "active",
+          "yesAsk": 1,
+          "yesBid": 0
+        }
+      }
+    },
+    "nw": {
+      "strikes": {
+        "Aluminum": {
+          "status": "active",
+          "yesAsk": 94,
+          "yesBid": 86
+        },
+        "Autism": {
+          "status": "active",
+          "yesAsk": 77,
+          "yesBid": 65
+        },
+        "Ceasefire": {
+          "status": "active",
+          "yesAsk": 89,
+          "yesBid": 79
+        },
+        "Dividend / Stimulus": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "E15": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Eli Lilly": {
+          "status": "active",
+          "yesAsk": 91,
+          "yesBid": 84
+        },
+        "Fannie Mae / Freddie Mac": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Filibuster": {
+          "status": "active",
+          "yesAsk": 84,
+          "yesBid": 69
+        },
+        "Golden Dome": {
+          "status": "active",
+          "yesAsk": 38,
+          "yesBid": 27
+        },
+        "Greenland": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Manufactured Housing": {
+          "status": "active",
+          "yesAsk": 21,
+          "yesBid": 9
+        },
+        "Nvidia": {
+          "status": "active",
+          "yesAsk": 91,
+          "yesBid": 84
+        },
+        "Ozempic / GLP-1": {
+          "status": "active",
+          "yesAsk": 87,
+          "yesBid": 66
+        },
+        "Peptide": {
+          "status": "active",
+          "yesAsk": 15,
+          "yesBid": 5
+        },
+        "Rare Earth": {
+          "status": "active",
+          "yesAsk": 86,
+          "yesBid": 75
+        },
+        "Refinance / Refinanced / Refinancing": {
+          "status": "active",
+          "yesAsk": 44,
+          "yesBid": 21
+        },
+        "SMR / Small Modular Reactor": {
+          "status": "active",
+          "yesAsk": 23,
+          "yesBid": 11
+        },
+        "Stablecoin": {
+          "status": "active",
+          "yesAsk": 32,
+          "yesBid": 14
+        },
+        "TrumpRx": {
+          "status": "active",
+          "yesAsk": 70,
+          "yesBid": 59
+        },
+        "UFC": {
+          "status": "active",
+          "yesAsk": 92,
+          "yesBid": 83
+        },
+        "Whistleblower": {
+          "status": "active",
+          "yesAsk": 69,
+          "yesBid": 54
+        },
+        "Zohran / Mamdani": {
+          "status": "active",
+          "yesAsk": 82,
+          "yesBid": 71
+        }
+      }
+    },
+    "nc": {
+      "strikes": {
+        "Afghanistan / Afghan": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Argentina / Argentinian": {
+          "status": "active",
+          "yesAsk": 84,
+          "yesBid": 70
+        },
+        "Australia / Australian": {
+          "status": "active",
+          "yesAsk": 99,
+          "yesBid": 70
+        },
+        "Bahrain / Bahraini": {
+          "status": "active",
+          "yesAsk": 60,
+          "yesBid": 39
+        },
+        "Belgium / Belgian": {
+          "status": "active",
+          "yesAsk": 17,
+          "yesBid": 5
+        },
+        "Brazil / Brazilian": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 81
+        },
+        "Canada / Canadian": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Colombia / Colombian": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 81
+        },
+        "Congo / Congolese": {
+          "status": "active",
+          "yesAsk": 99,
+          "yesBid": 88
+        },
+        "Cuba / Cuban": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 73
+        },
+        "Denmark / Danish": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Egypt / Egyptian": {
+          "status": "active",
+          "yesAsk": 99,
+          "yesBid": 95
+        },
+        "France / French": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Germany / German": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Hungary / Hungarian": {
+          "status": "active",
+          "yesAsk": 35,
+          "yesBid": 24
+        },
+        "Iceland / Icelandic": {
+          "status": "active",
+          "yesAsk": 33,
+          "yesBid": 8
+        },
+        "India / Indian": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 90
+        },
+        "Ireland / Irish": {
+          "status": "active",
+          "yesAsk": 93,
+          "yesBid": 55
+        },
+        "Italy / Italian": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 90
+        },
+        "Jamaica / Jamaican": {
+          "status": "active",
+          "yesAsk": 13,
+          "yesBid": 6
+        },
+        "Japan / Japanese": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Kuwait / Kuwaiti": {
+          "status": "active",
+          "yesAsk": 61,
+          "yesBid": 50
+        },
+        "Mexico / Mexican": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "North Korea / North Korean": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 72
+        },
+        "Norway / Norwegian": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 78
+        },
+        "Palestine / Palestinian": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 71
+        },
+        "Panama / Panamanian": {
+          "status": "active",
+          "yesAsk": 80,
+          "yesBid": 61
+        },
+        "Paraguay / Paraguayan": {
+          "status": "active",
+          "yesAsk": 16,
+          "yesBid": 5
+        },
+        "Poland / Polish": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 80
+        },
+        "Qatar / Qatari": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 76
+        },
+        "Saudi Arabia / Saudi Arabian": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Somalia / Somali": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "South Africa / South African": {
+          "status": "active",
+          "yesAsk": 38,
+          "yesBid": 22
+        },
+        "South Korea / South Korean": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Spain / Spanish": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 95
+        },
+        "Sudan / Sudanese": {
+          "status": "active",
+          "yesAsk": 31,
+          "yesBid": 3
+        },
+        "Switzerland / Swiss": {
+          "status": "active",
+          "yesAsk": 88,
+          "yesBid": 64
+        },
+        "Taiwan / Taiwanese": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 78
+        },
+        "Turkey / Turkish": {
+          "status": "active",
+          "yesAsk": 99,
+          "yesBid": 90
+        },
+        "UAE / United Arab Emirates": {
+          "status": "active",
+          "yesAsk": 82,
+          "yesBid": 65
+        },
+        "United Kingdom / British": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 75
+        },
+        "Yemen / Yemeni": {
+          "status": "active",
+          "yesAsk": 60,
+          "yesBid": 48
+        }
+      }
+    },
+    "nco": {
+      "strikes": {
+        "AMD": {
+          "status": "active",
+          "yesAsk": 35,
+          "yesBid": 22
+        },
+        "Airbnb / ABNB": {
+          "status": "active",
+          "yesAsk": 28,
+          "yesBid": 9
+        },
+        "Amazon / AMZN": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 70
+        },
+        "Anthropic / Claude": {
+          "status": "active",
+          "yesAsk": 65,
+          "yesBid": 52
+        },
+        "Apple / AAPL": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "BBC": {
+          "status": "active",
+          "yesAsk": 65,
+          "yesBid": 45
+        },
+        "BlackRock": {
+          "status": "active",
+          "yesAsk": 20,
+          "yesBid": 8
+        },
+        "Boeing": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "CNN": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Caterpillar": {
+          "status": "active",
+          "yesAsk": 39,
+          "yesBid": 21
+        },
+        "ChatGPT / OpenAI": {
+          "status": "active",
+          "yesAsk": 39,
+          "yesBid": 28
+        },
+        "Chevron / CVX": {
+          "status": "active",
+          "yesAsk": 51,
+          "yesBid": 37
+        },
+        "Deere": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Dell": {
+          "status": "active",
+          "yesAsk": 77,
+          "yesBid": 59
+        },
+        "DoorDash / DASH": {
+          "status": "active",
+          "yesAsk": 31,
+          "yesBid": 13
+        },
+        "Eli Lilly / LLY": {
+          "status": "active",
+          "yesAsk": 99,
+          "yesBid": 80
+        },
+        "ExxonMobil / XOM": {
+          "status": "active",
+          "yesAsk": 44,
+          "yesBid": 31
+        },
+        "Fox News": {
+          "status": "active",
+          "yesAsk": 99,
+          "yesBid": 90
+        },
+        "General Motors / GM": {
+          "status": "active",
+          "yesAsk": 95,
+          "yesBid": 71
+        },
+        "Google / GOOG / GOOGL": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Honda / HMC": {
+          "status": "active",
+          "yesAsk": 75,
+          "yesBid": 65
+        },
+        "Hyundai / HYMTF": {
+          "status": "active",
+          "yesAsk": 49,
+          "yesBid": 35
+        },
+        "IBM": {
+          "status": "active",
+          "yesAsk": 51,
+          "yesBid": 36
+        },
+        "Intel / INTC": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "JPMorgan / JPM": {
+          "status": "active",
+          "yesAsk": 31,
+          "yesBid": 20
+        },
+        "MS NOW / MSNBC": {
+          "status": "active",
+          "yesAsk": 92,
+          "yesBid": 74
+        },
+        "Mastercard": {
+          "status": "active",
+          "yesAsk": 22,
+          "yesBid": 12
+        },
+        "Mercedes / Mercedes-Benz": {
+          "status": "active",
+          "yesAsk": 69,
+          "yesBid": 59
+        },
+        "Merck": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Meta": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 81
+        },
+        "Micron / MU": {
+          "status": "active",
+          "yesAsk": 53,
+          "yesBid": 40
+        },
+        "Microsoft / MSFT": {
+          "status": "active",
+          "yesAsk": 88,
+          "yesBid": 74
+        },
+        "Netflix / NFLX": {
+          "status": "active",
+          "yesAsk": 29,
+          "yesBid": 8
+        },
+        "New York Times / NYT": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Nvidia / NVDA": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 69
+        },
+        "Oracle / ORCL": {
+          "status": "active",
+          "yesAsk": 22,
+          "yesBid": 13
+        },
+        "Paramount / PSKY": {
+          "status": "active",
+          "yesAsk": 37,
+          "yesBid": 25
+        },
+        "Pfizer / PFE": {
+          "status": "active",
+          "yesAsk": 99,
+          "yesBid": 77
+        },
+        "Qualcomm / QCOM": {
+          "status": "active",
+          "yesAsk": 19,
+          "yesBid": 8
+        },
+        "Rigetti / RGTI": {
+          "status": "active",
+          "yesAsk": 11,
+          "yesBid": 3
+        },
+        "Saronic": {
+          "status": "active",
+          "yesAsk": 28,
+          "yesBid": 17
+        },
+        "SpaceX / SPCX": {
+          "status": "active",
+          "yesAsk": 39,
+          "yesBid": 37
+        },
+        "TSMC / TSM": {
+          "status": "active",
+          "yesAsk": 65,
+          "yesBid": 50
+        },
+        "Tesla / TSLA": {
+          "status": "active",
+          "yesAsk": 40,
+          "yesBid": 25
+        },
+        "Texas Instruments": {
+          "status": "active",
+          "yesAsk": 20,
+          "yesBid": 9
+        },
+        "TikTok": {
+          "status": "active",
+          "yesAsk": 80,
+          "yesBid": 68
+        },
+        "Toyota": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 99
+        },
+        "Turning Point": {
+          "status": "active",
+          "yesAsk": 54,
+          "yesBid": 40
+        },
+        "UFC": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 88
+        },
+        "Uber": {
+          "status": "active",
+          "yesAsk": 59,
+          "yesBid": 44
+        },
+        "Verizon": {
+          "status": "active",
+          "yesAsk": 16,
+          "yesBid": 5
+        },
+        "X / Twitter": {
+          "status": "active",
+          "yesAsk": 96,
+          "yesBid": 86
+        },
+        "eBay": {
+          "status": "active",
+          "yesAsk": 33,
+          "yesBid": 16
+        }
+      }
+    },
+    "pn": {
+      "strikes": {
+        "Autism": {
+          "status": "active",
+          "yesAsk": 90,
+          "yesBid": 10
+        },
+        "Clown": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 3
+        },
+        "Cognitive": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Epstein": {
+          "status": "active",
+          "yesAsk": 45,
+          "yesBid": 5
+        },
+        "Front Row Joe": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Gay": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 12
+        },
+        "Golden Age": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Golden Dome": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 11
+        },
+        "Greenland": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Heritage": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 10
+        },
+        "Keep America Great": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 2
+        },
+        "Make Iran Great Again": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 2
+        },
+        "Moon": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Nazi": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 12
+        },
+        "Peace in the Middle East": {
+          "status": "active",
+          "yesAsk": 89,
+          "yesBid": 2
+        },
+        "Prediction": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 20
+        },
+        "Refund": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 4
+        },
+        "Rocket Man": {
+          "status": "active",
+          "yesAsk": 17,
+          "yesBid": 11
+        },
+        "Shark": {
+          "status": "active",
+          "yesAsk": 90,
+          "yesBid": 2
+        },
+        "Shit": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 96
+        },
+        "Shut Up": {
+          "status": "active",
+          "yesAsk": 96,
+          "yesBid": 11
+        },
+        "Six Seven": {
+          "status": "active",
+          "yesAsk": 89,
+          "yesBid": 50
+        },
+        "Space Force": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 66
+        },
+        "Third Term": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 12
+        }
+      }
+    },
+    "kn": {
+      "strikes": {
+        "Biden Crime Family": {
+          "status": "active",
+          "yesAsk": 12,
+          "yesBid": 8
+        },
+        "Comrade Kamala": {
+          "status": "active",
+          "yesAsk": 14,
+          "yesBid": 10
+        },
+        "Crazy Bernie": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Crazy Nancy": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Crooked Hillary": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Crying Chuck / Cryin Chuck": {
+          "status": "active",
+          "yesAsk": 75,
+          "yesBid": 62
+        },
+        "Fake Tapper": {
+          "status": "active",
+          "yesAsk": 14,
+          "yesBid": 7
+        },
+        "Fat Slob": {
+          "status": "active",
+          "yesAsk": 39,
+          "yesBid": 21
+        },
+        "Little Communist": {
+          "status": "active",
+          "yesAsk": 25,
+          "yesBid": 21
+        },
+        "Low Energy": {
+          "status": "active",
+          "yesAsk": 36,
+          "yesBid": 23
+        },
+        "Marjorie Traitor Greene": {
+          "status": "active",
+          "yesAsk": 100,
+          "yesBid": 97
+        },
+        "Piggy": {
+          "status": "active",
+          "yesAsk": 62,
+          "yesBid": 51
+        },
+        "Rocket Man": {
+          "status": "active",
+          "yesAsk": 15,
+          "yesBid": 10
+        }
+      },
+      "unmatched": [
+        "Pocahontas",
+        "Slopadopolous / Slopadopolus",
+        "Barack Hussein Obama",
+        "Sleazebag",
+        "Too Late",
+        "Crooked Joe",
+        "Talafreako / Tala Freako",
+        "Low IQ",
+        "Whack Job / Wack Job",
+        "Newscum"
+      ]
+    },
+    "pw2": {
+      "strikes": {
+        "Apple": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Athlete / Athletic": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Bitcoin / Crypto / Cryptocurrency": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Ceasefire / Uranium": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Death To America": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Easter": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Gays For Palestine": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Genius / Elon / Musk": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Good Looking": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Happy Halloween": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Moon": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Muscle / Muscular": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "No No No": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Pirate": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Radical Left Lunatic": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Ranked Choice": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Six Seven": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Trump Ocean / Trump Strait": {
+          "settled": "YES",
+          "status": "resolved"
+        }
+      }
+    },
+    "pp": {
+      "strikes": {
+        "Allah": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Bitcoin / Crypto / Cryptocurrency": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Ceasefire / Uranium": {
+          "status": "active",
+          "yesAsk": 97,
+          "yesBid": 1
+        },
+        "China": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Flying Car / Roadster": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Genius / Elon / Musk": {
+          "status": "active",
+          "yesAsk": 98,
+          "yesBid": 1
+        },
+        "Greenland": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Israel": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Moon / UFO / UAP": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Russia": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Scam / Scum": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "Trump Ocean / Trump Strait": {
+          "settled": "NO",
+          "status": "resolved"
+        }
+      }
+    },
+    "km": {
+      "strikes": {
+        "Antifa": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Epstein": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Fat shot / Ozempic": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Golden Dome": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Make Iran Great Again": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Peace in the Middle East": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Peptide": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "UFO / UAP": {
+          "settled": "NO",
+          "status": "finalized"
+        }
+      },
+      "missing": [
+        "Autism, Predict / Prediction, Ceasefire, Filibuster"
+      ],
+      "unmatched": [
+        "Autism",
+        "Greenland",
+        "Zohran / Mamdani",
+        "Newscum",
+        "Barack Hussein Obama",
+        "Cognitive",
+        "Filibuster",
+        "UFC",
+        "Moon",
+        "Ceasefire",
+        "Who are you with / Where are you from",
+        "Space Force",
+        "Third Term",
+        "Dividend / Stimulus",
+        "Deal / Settle / Settled",
+        "Aluminum",
+        "Pelosi",
+        "Predict / Prediction"
+      ]
+    },
+    "kc": {
+      "strikes": {
+        "Airbnb / ABNB": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Anthropic / Claude": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "BBC": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "BlackRock": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Caterpillar": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "ChatGPT / OpenAI": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Chevron / CVX": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "DoorDash / DASH": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "ExxonMobil / XOM": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Honda / HMC": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "JPMorgan / JPM": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Mastercard / MA": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Netflix / NFLX": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Oracle / ORCL": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Qualcomm / QCOM": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Rigetti / RGTI": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Turning Point": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Verizon": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "X / Twitter": {
+          "settled": "YES",
+          "status": "finalized"
+        }
+      },
+      "missing": [
+        "Amazon, Paramount, Hyundai, Deere, Tesla, Google and others"
+      ],
+      "unmatched": [
+        "Paramount / PSKY",
+        "Intel / INTC",
+        "Apple / AAPL",
+        "SpaceX / SPCX",
+        "Nvidia / NVDA",
+        "New York Times / NYT",
+        "CNN",
+        "Fox News",
+        "Boeing",
+        "Meta",
+        "TSMC / TSM",
+        "Micron / MU",
+        "Google / GOOG / GOOGL",
+        "Microsoft / MSFT",
+        "Eli Lilly / LLY",
+        "MS NOW / MSNBC",
+        "Mercedes / Mercedes-Benz",
+        "UFC",
+        "eBay",
+        "Tesla / TSLA",
+        "Amazon / AMZN",
+        "General Motors / GM",
+        "Pfizer / PFE",
+        "TikTok",
+        "Toyota",
+        "Hyundai / HYMTF",
+        "IBM",
+        "Uber",
+        "Dell",
+        "Deere",
+        "AMD"
+      ]
+    },
+    "kco": {
+      "strikes": {
+        "Australia / Australian": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Bahrain / Bahraini": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Belgium / Belgian": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Hungary / Hungarian": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Jamaica / Jamaican": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Kuwait / Kuwaiti": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Panama / Panamanian": {
+          "settled": "YES",
+          "status": "finalized"
+        },
+        "Paraguay / Paraguayan": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "South Africa / South African": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "Sudan / Sudanese": {
+          "settled": "NO",
+          "status": "finalized"
+        },
+        "UAE / United Arab Emirates": {
+          "settled": "NO",
+          "status": "finalized"
+        }
+      },
+      "missing": [
+        "Cuba, Argentina, Iceland, Ireland, Somalia"
+      ],
+      "unmatched": [
+        "Iceland / Icelandic",
+        "India / Indian",
+        "France / French",
+        "Saudi Arabia / Saudi Arabian",
+        "Canada / Canadian",
+        "Japan / Japanese",
+        "Brazil / Brazilian",
+        "Mexico / Mexican",
+        "Italy / Italian",
+        "Qatar / Qatari",
+        "United Kingdom / British",
+        "Germany / German",
+        "Yemen / Yemeni",
+        "South Korea / South Korean",
+        "Taiwan / Taiwanese",
+        "Poland / Polish",
+        "Turkey / Turkish",
+        "Spain / Spanish",
+        "Colombia / Colombian",
+        "North Korea / North Korean",
+        "Switzerland / Swiss",
+        "Egypt / Egyptian",
+        "Denmark / Danish",
+        "Norway / Norwegian",
+        "Afghanistan / Afghan",
+        "Somalia / Somali",
+        "Congo / Congolese",
+        "Ireland / Irish",
+        "Palestine / Palestinian",
+        "Argentina / Argentinian",
+        "Cuba / Cuban"
+      ]
+    },
+    "pi": {
+      "strikes": {
+        "Andy Burnham": {
+          "status": "active",
+          "yesAsk": 8,
+          "yesBid": 0
+        },
+        "Benjamin Netanyahu": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Candace Owens": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Dario Amodei": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Elon Musk": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Emmanuel Macron": {
+          "status": "active",
+          "yesAsk": 11,
+          "yesBid": 0
+        },
+        "Friedrich Merz": {
+          "status": "active",
+          "yesAsk": 0
+        },
+        "Hakeem Jeffries": {
+          "status": "active",
+          "yesAsk": 60,
+          "yesBid": 6
+        },
+        "Hillary Clinton": {
+          "settled": "YES",
+          "status": "resolved"
+        },
+        "J.B. Pritzker": {
+          "status": "active",
+          "yesAsk": 71,
+          "yesBid": 5
+        },
+        "J.D. Vance": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Ken Paxton": {
+          "status": "active",
+          "yesAsk": 4,
+          "yesBid": 1
+        },
+        "Kevin Warsh": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Mark Carney": {
+          "status": "active",
+          "yesAsk": 26,
+          "yesBid": 3
+        },
+        "Masoud Pezeshkian": {
+          "status": "active",
+          "yesAsk": 6,
+          "yesBid": 1
+        },
+        "Mike Rogers": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Pope Leo XIV": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Stephen Colbert": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Tucker Carlson": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Vladimir Putin": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Xi Jinping": {
+          "settled": "NO",
+          "status": "resolved"
+        },
+        "Zohran Mamdani": {
+          "status": "active",
+          "yesAsk": 19,
+          "yesBid": 2
+        }
+      },
+      "unmatched": [
+        "Joe Biden",
+        "Barack Obama",
+        "Marjorie Taylor Greene",
+        "Jerome Powell",
+        "Nicolás Maduro",
+        "Jimmy Kimmel",
+        "Kaitlan Collins",
+        "James Talarico",
+        "Abdul El-Sayed",
+        "Kathy Hochul",
+        "Ilhan Omar",
+        "Letitia James",
+        "Jon Ossoff",
+        "Elizabeth Warren",
+        "Gavin Newsom",
+        "Thomas Massie",
+        "Kamala Harris",
+        "Chuck Schumer",
+        "Hasan Piker"
+      ]
+    }
+  },
+  "errors": []
+}
